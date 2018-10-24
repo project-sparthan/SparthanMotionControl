@@ -1,0 +1,20 @@
+OpenDocument="port.c", FilePath="C:\GCC_STM\wrokspace\SparthanV2MotionController\Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F\port.c", Line=279
+OpenDocument="startup_stm32f373xc.s", FilePath="C:\GCC_STM\wrokspace\SparthanV2MotionController\startup_stm32f373xc.s", Line=61
+OpenDocument="main.c", FilePath="C:\GCC_STM\wrokspace\SparthanV2MotionController\Src\main.c", Line=95
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=249, h=524, FilterBarShown=1
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=433, h=1054, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=433, h=1054, FilterBarShown=1
+OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=433, h=1054, FilterBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=249, h=551, FilterBarShown=1
+OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1636, h=371, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME
+OpenWindow="Tasks", DockArea=BOTTOM, x=1, y=0, w=1243, h=371, FilterBarShown=0
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type"], ColWidths=[105;114;114;66;100]
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type"], ColWidths=[114;114;114;66;91;71]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[145;101;66;84;100]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[150;86;66;84;254]
+TableHeader="DataGraphSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    "], ColWidths=[114;71]
+TableHeader="Data Graph", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[114;71;76;63;66;96;115;126;909]
+TableHeader="tableWidgetSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Channel 0"], ColWidths=[108;153;162]
+TableHeader="Tasks", SortCol="None", SortOrder="ASCENDING", VisibleCols=["ID";"Priority";"Name";"Status";"Timeout";"Notify Value";"Notify State";"Stack Info (Free / Size)";"Run Count";"Mutex Count"], ColWidths=[119;86;95;77;77;103;100;180;93;313]

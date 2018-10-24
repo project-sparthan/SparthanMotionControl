@@ -1,0 +1,182 @@
+ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"freertos.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.vApplicationGetIdleTaskMemory,"ax",%progbits
+  18              		.align	1
+  19              		.global	vApplicationGetIdleTaskMemory
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  23              		.fpu fpv4-sp-d16
+  25              	vApplicationGetIdleTaskMemory:
+  26              	.LFB5:
+  27              		.file 1 "Src/freertos.c"
+   1:Src/freertos.c **** /**
+   2:Src/freertos.c ****   ******************************************************************************
+   3:Src/freertos.c ****   * File Name          : freertos.c
+   4:Src/freertos.c ****   * Description        : Code for freertos applications
+   5:Src/freertos.c ****   ******************************************************************************
+   6:Src/freertos.c ****   * This notice applies to any and all portions of this file
+   7:Src/freertos.c ****   * that are not between comment pairs USER CODE BEGIN and
+   8:Src/freertos.c ****   * USER CODE END. Other portions of this file, whether 
+   9:Src/freertos.c ****   * inserted by the user or by software development tools
+  10:Src/freertos.c ****   * are owned by their respective copyright owners.
+  11:Src/freertos.c ****   *
+  12:Src/freertos.c ****   * Copyright (c) 2018 STMicroelectronics International N.V. 
+  13:Src/freertos.c ****   * All rights reserved.
+  14:Src/freertos.c ****   *
+  15:Src/freertos.c ****   * Redistribution and use in source and binary forms, with or without 
+  16:Src/freertos.c ****   * modification, are permitted, provided that the following conditions are met:
+  17:Src/freertos.c ****   *
+  18:Src/freertos.c ****   * 1. Redistribution of source code must retain the above copyright notice, 
+  19:Src/freertos.c ****   *    this list of conditions and the following disclaimer.
+  20:Src/freertos.c ****   * 2. Redistributions in binary form must reproduce the above copyright notice,
+  21:Src/freertos.c ****   *    this list of conditions and the following disclaimer in the documentation
+  22:Src/freertos.c ****   *    and/or other materials provided with the distribution.
+  23:Src/freertos.c ****   * 3. Neither the name of STMicroelectronics nor the names of other 
+  24:Src/freertos.c ****   *    contributors to this software may be used to endorse or promote products 
+  25:Src/freertos.c ****   *    derived from this software without specific written permission.
+  26:Src/freertos.c ****   * 4. This software, including modifications and/or derivative works of this 
+  27:Src/freertos.c ****   *    software, must execute solely and exclusively on microcontroller or
+  28:Src/freertos.c ****   *    microprocessor devices manufactured by or for STMicroelectronics.
+  29:Src/freertos.c ****   * 5. Redistribution and use of this software other than as permitted under 
+  30:Src/freertos.c ****   *    this license is void and will automatically terminate your rights under 
+  31:Src/freertos.c ****   *    this license. 
+ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s 			page 2
+
+
+  32:Src/freertos.c ****   *
+  33:Src/freertos.c ****   * THIS SOFTWARE IS PROVIDED BY STMICROELECTRONICS AND CONTRIBUTORS "AS IS" 
+  34:Src/freertos.c ****   * AND ANY EXPRESS, IMPLIED OR STATUTORY WARRANTIES, INCLUDING, BUT NOT 
+  35:Src/freertos.c ****   * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+  36:Src/freertos.c ****   * PARTICULAR PURPOSE AND NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
+  37:Src/freertos.c ****   * RIGHTS ARE DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. IN NO EVENT 
+  38:Src/freertos.c ****   * SHALL STMICROELECTRONICS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  39:Src/freertos.c ****   * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  40:Src/freertos.c ****   * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+  41:Src/freertos.c ****   * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+  42:Src/freertos.c ****   * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+  43:Src/freertos.c ****   * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+  44:Src/freertos.c ****   * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  45:Src/freertos.c ****   *
+  46:Src/freertos.c ****   ******************************************************************************
+  47:Src/freertos.c ****   */
+  48:Src/freertos.c **** 
+  49:Src/freertos.c **** /* Includes ------------------------------------------------------------------*/
+  50:Src/freertos.c **** #include "FreeRTOS.h"
+  51:Src/freertos.c **** #include "task.h"
+  52:Src/freertos.c **** 
+  53:Src/freertos.c **** /* USER CODE BEGIN Includes */     
+  54:Src/freertos.c **** 
+  55:Src/freertos.c **** /* USER CODE END Includes */
+  56:Src/freertos.c **** 
+  57:Src/freertos.c **** /* Variables -----------------------------------------------------------------*/
+  58:Src/freertos.c **** 
+  59:Src/freertos.c **** /* USER CODE BEGIN Variables */
+  60:Src/freertos.c **** 
+  61:Src/freertos.c **** /* USER CODE END Variables */
+  62:Src/freertos.c **** 
+  63:Src/freertos.c **** /* Function prototypes -------------------------------------------------------*/
+  64:Src/freertos.c **** 
+  65:Src/freertos.c **** /* USER CODE BEGIN FunctionPrototypes */
+  66:Src/freertos.c **** 
+  67:Src/freertos.c **** /* USER CODE END FunctionPrototypes */
+  68:Src/freertos.c **** 
+  69:Src/freertos.c **** /* GetIdleTaskMemory prototype (linked to static allocation support) */
+  70:Src/freertos.c **** void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskS
+  71:Src/freertos.c **** 
+  72:Src/freertos.c **** /* Hook prototypes */
+  73:Src/freertos.c **** 
+  74:Src/freertos.c **** /* USER CODE BEGIN GET_IDLE_TASK_MEMORY */
+  75:Src/freertos.c **** static StaticTask_t xIdleTaskTCBBuffer;
+  76:Src/freertos.c **** static StackType_t xIdleStack[configMINIMAL_STACK_SIZE];
+  77:Src/freertos.c ****   
+  78:Src/freertos.c **** void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskS
+  79:Src/freertos.c **** {
+  28              		.loc 1 79 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              	.LVL0:
+  80:Src/freertos.c ****   *ppxIdleTaskTCBBuffer = &xIdleTaskTCBBuffer;
+  34              		.loc 1 80 0
+  35 0000 034B     		ldr	r3, .L2
+ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s 			page 3
+
+
+  36 0002 0360     		str	r3, [r0]
+  81:Src/freertos.c ****   *ppxIdleTaskStackBuffer = &xIdleStack[0];
+  37              		.loc 1 81 0
+  38 0004 034B     		ldr	r3, .L2+4
+  39 0006 0B60     		str	r3, [r1]
+  82:Src/freertos.c ****   *pulIdleTaskStackSize = configMINIMAL_STACK_SIZE;
+  40              		.loc 1 82 0
+  41 0008 8023     		movs	r3, #128
+  42 000a 1360     		str	r3, [r2]
+  83:Src/freertos.c ****   /* place for user code */
+  84:Src/freertos.c **** }                   
+  43              		.loc 1 84 0
+  44 000c 7047     		bx	lr
+  45              	.L3:
+  46 000e 00BF     		.align	2
+  47              	.L2:
+  48 0010 00000000 		.word	.LANCHOR0
+  49 0014 00000000 		.word	.LANCHOR1
+  50              		.cfi_endproc
+  51              	.LFE5:
+  53              		.section	.bss.xIdleStack,"aw",%nobits
+  54              		.align	2
+  55              		.set	.LANCHOR1,. + 0
+  58              	xIdleStack:
+  59 0000 00000000 		.space	512
+  59      00000000 
+  59      00000000 
+  59      00000000 
+  59      00000000 
+  60              		.section	.bss.xIdleTaskTCBBuffer,"aw",%nobits
+  61              		.align	2
+  62              		.set	.LANCHOR0,. + 0
+  65              	xIdleTaskTCBBuffer:
+  66 0000 00000000 		.space	84
+  66      00000000 
+  66      00000000 
+  66      00000000 
+  66      00000000 
+  67              		.text
+  68              	.Letext0:
+  69              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+  70              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+  71              		.file 4 "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h"
+  72              		.file 5 "Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h"
+  73              		.file 6 "Inc/FreeRTOSConfig.h"
+ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 freertos.c
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:18     .text.vApplicationGetIdleTaskMemory:00000000 $t
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:25     .text.vApplicationGetIdleTaskMemory:00000000 vApplicationGetIdleTaskMemory
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:48     .text.vApplicationGetIdleTaskMemory:00000010 $d
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:54     .bss.xIdleStack:00000000 $d
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:58     .bss.xIdleStack:00000000 xIdleStack
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:61     .bss.xIdleTaskTCBBuffer:00000000 $d
+C:\Users\ALEXWO~1\AppData\Local\Temp\ccSEVHyf.s:65     .bss.xIdleTaskTCBBuffer:00000000 xIdleTaskTCBBuffer
+
+NO UNDEFINED SYMBOLS
