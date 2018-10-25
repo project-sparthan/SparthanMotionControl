@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
   29:Src/stm32f3xx_hal_msp.c ****   *    microprocessor devices manufactured by or for STMicroelectronics.
   30:Src/stm32f3xx_hal_msp.c ****   * 5. Redistribution and use of this software other than as permitted under 
   31:Src/stm32f3xx_hal_msp.c ****   *    this license is void and will automatically terminate your rights under 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 2
 
 
   32:Src/stm32f3xx_hal_msp.c ****   *    this license. 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
   48 0016 009A     		ldr	r2, [sp]
   49              	.LBE2:
   50              	.LBB3:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 3
 
 
   66:Src/stm32f3xx_hal_msp.c ****   __HAL_RCC_PWR_CLK_ENABLE();
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
   90 0062 1146     		mov	r1, r2
   91 0064 6FF00300 		mvn	r0, #3
   92 0068 FFF7FEFF 		bl	HAL_NVIC_SetPriority
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 4
 
 
   93              	.LVL5:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  134              		.loc 1 95 0
  135 0000 0268     		ldr	r2, [r0]
  136 0002 134B     		ldr	r3, .L12
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 5
 
 
  137 0004 9A42     		cmp	r2, r3
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  172 0030 01A9     		add	r1, sp, #4
  173 0032 0848     		ldr	r0, .L12+4
  174              	.LVL9:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 6
 
 
  175 0034 FFF7FEFF 		bl	HAL_GPIO_Init
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  216              		@ args = 0, pretend = 0, frame = 0
  217              		@ frame_needed = 0, uses_anonymous_args = 0
  218              	.LVL12:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 7
 
 
  219 0000 08B5     		push	{r3, lr}
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  245              	.LVL16:
  147:Src/stm32f3xx_hal_msp.c **** 
  246              		.loc 1 147 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 8
 
 
  247 001e 4FF44071 		mov	r1, #768
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  166:Src/stm32f3xx_hal_msp.c ****     __HAL_RCC_TIM2_CLK_ENABLE();
  167:Src/stm32f3xx_hal_msp.c ****   
  168:Src/stm32f3xx_hal_msp.c ****     /**TIM2 GPIO Configuration    
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 9
 
 
  169:Src/stm32f3xx_hal_msp.c ****     PA15     ------> TIM2_CH1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  301              	.L20:
  214:Src/stm32f3xx_hal_msp.c ****   {
  215:Src/stm32f3xx_hal_msp.c ****   /* USER CODE BEGIN TIM19_MspInit 0 */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 10
 
 
  216:Src/stm32f3xx_hal_msp.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  325 0032 4FF40043 		mov	r3, #32768
  326 0036 0393     		str	r3, [sp, #12]
  173:Src/stm32f3xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 11
 
 
  327              		.loc 1 173 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  370 0072 03F00203 		and	r3, r3, #2
  371 0076 0193     		str	r3, [sp, #4]
  372 0078 019B     		ldr	r3, [sp, #4]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 12
 
 
  373              	.LBE6:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  416              		.loc 1 228 0
  417 00b4 0694     		str	r4, [sp, #24]
  229:Src/stm32f3xx_hal_msp.c ****     HAL_GPIO_Init(ENC5P_GPIO_Port, &GPIO_InitStruct);
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 13
 
 
  418              		.loc 1 229 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  247:Src/stm32f3xx_hal_msp.c **** {
  465              		.loc 1 247 0
  466              		.cfi_startproc
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 14
 
 
  467              		@ args = 0, pretend = 0, frame = 32
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  283:Src/stm32f3xx_hal_msp.c ****     PA8     ------> TIM5_CH1 
  284:Src/stm32f3xx_hal_msp.c ****     */
  285:Src/stm32f3xx_hal_msp.c ****     GPIO_InitStruct.Pin = ENC4N_Pin|ENC4P_Pin;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 15
 
 
  286:Src/stm32f3xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  515 0032 4FF4C053 		mov	r3, #6144
  516 0036 0393     		str	r3, [sp, #12]
  263:Src/stm32f3xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 16
 
 
  517              		.loc 1 263 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  290:Src/stm32f3xx_hal_msp.c **** 
  561              		.loc 1 290 0
  562 0078 03A9     		add	r1, sp, #12
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 17
 
 
  563 007a 4FF09040 		mov	r0, #1207959552
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  312:Src/stm32f3xx_hal_msp.c **** 
  313:Src/stm32f3xx_hal_msp.c ****   GPIO_InitTypeDef GPIO_InitStruct;
  314:Src/stm32f3xx_hal_msp.c ****   if(htim->Instance==TIM4)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 18
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 18
 
 
  615              		.loc 1 314 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  629              	.L40:
  355:Src/stm32f3xx_hal_msp.c ****   {
  356:Src/stm32f3xx_hal_msp.c ****   /* USER CODE BEGIN TIM12_MspPostInit 0 */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 19
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 19
 
 
  357:Src/stm32f3xx_hal_msp.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  658 0034 FFF7FEFF 		bl	HAL_GPIO_Init
  659              	.LVL44:
  660 0038 EEE7     		b	.L40
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 20
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 20
 
 
  661              	.LVL45:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  703 006e FFF7FEFF 		bl	HAL_GPIO_Init
  704              	.LVL50:
  705              		.loc 1 376 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 21
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 21
 
 
  706 0072 D1E7     		b	.L40
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  398:Src/stm32f3xx_hal_msp.c **** 
  399:Src/stm32f3xx_hal_msp.c ****   /* USER CODE END TIM2_MspDeInit 1 */
  400:Src/stm32f3xx_hal_msp.c ****   }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 22
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 22
 
 
  401:Src/stm32f3xx_hal_msp.c ****   else if(htim_encoder->Instance==TIM3)
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  387:Src/stm32f3xx_hal_msp.c ****   
  755              		.loc 1 387 0
  756 0018 174A     		ldr	r2, .L58+8
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 23
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 23
 
 
  757 001a D369     		ldr	r3, [r2, #28]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  804              		.loc 1 440 0
  805 006c D3E7     		b	.L50
  806              	.L59:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 24
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 24
 
 
  807 006e 00BF     		.align	2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  463:Src/stm32f3xx_hal_msp.c ****   /* USER CODE BEGIN TIM4_MspDeInit 1 */
  464:Src/stm32f3xx_hal_msp.c **** 
  465:Src/stm32f3xx_hal_msp.c ****   /* USER CODE END TIM4_MspDeInit 1 */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 25
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 25
 
 
  466:Src/stm32f3xx_hal_msp.c ****   }
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  860              		.loc 1 459 0
  861 0024 4FF4C051 		mov	r1, #6144
  862 0028 4FF09040 		mov	r0, #1207959552
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 26
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 26
 
 
  863              	.LVL67:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  499:Src/stm32f3xx_hal_msp.c **** 
  500:Src/stm32f3xx_hal_msp.c **** void HAL_UART_MspInit(UART_HandleTypeDef* huart)
  501:Src/stm32f3xx_hal_msp.c **** {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 27
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 27
 
 
  915              		.loc 1 501 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  518:Src/stm32f3xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
  952              		.loc 1 518 0
  953 002e 0023     		movs	r3, #0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 28
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 28
 
 
  954 0030 0393     		str	r3, [sp, #12]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  997              		.cfi_def_cfa_offset 8
  998              		.cfi_offset 3, -8
  999              		.cfi_offset 14, -4
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 29
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 29
 
 
  532:Src/stm32f3xx_hal_msp.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  1032              		.text
  1033              	.Letext0:
  1034              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 30
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 30
 
 
  1035              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
@@ -1756,41 +1756,41 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 1
  1047              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
  1048              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
  1049              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s 			page 31
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s 			page 31
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_msp.c
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:18     .text.HAL_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:115    .text.HAL_MspInit:0000008c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:120    .text.HAL_SDADC_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:127    .text.HAL_SDADC_MspInit:00000000 HAL_SDADC_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:198    .text.HAL_SDADC_MspInit:00000050 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:205    .text.HAL_SDADC_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:212    .text.HAL_SDADC_MspDeInit:00000000 HAL_SDADC_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:256    .text.HAL_SDADC_MspDeInit:0000002c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:264    .text.HAL_TIM_Encoder_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:271    .text.HAL_TIM_Encoder_MspInit:00000000 HAL_TIM_Encoder_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:448    .text.HAL_TIM_Encoder_MspInit:000000dc $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:456    .text.HAL_TIM_PWM_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:463    .text.HAL_TIM_PWM_MspInit:00000000 HAL_TIM_PWM_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:586    .text.HAL_TIM_PWM_MspInit:0000009c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:594    .text.HAL_TIM_MspPostInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:601    .text.HAL_TIM_MspPostInit:00000000 HAL_TIM_MspPostInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:710    .text.HAL_TIM_MspPostInit:00000074 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:718    .text.HAL_TIM_Encoder_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:725    .text.HAL_TIM_Encoder_MspDeInit:00000000 HAL_TIM_Encoder_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:809    .text.HAL_TIM_Encoder_MspDeInit:00000070 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:817    .text.HAL_TIM_PWM_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:824    .text.HAL_TIM_PWM_MspDeInit:00000000 HAL_TIM_PWM_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:898    .text.HAL_TIM_PWM_MspDeInit:00000064 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:906    .text.HAL_UART_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:913    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:976    .text.HAL_UART_MspInit:0000004c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:981    .text.HAL_UART_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:988    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccWMcGUf.s:1027   .text.HAL_UART_MspDeInit:00000024 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:18     .text.HAL_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:115    .text.HAL_MspInit:0000008c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:120    .text.HAL_SDADC_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:127    .text.HAL_SDADC_MspInit:00000000 HAL_SDADC_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:198    .text.HAL_SDADC_MspInit:00000050 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:205    .text.HAL_SDADC_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:212    .text.HAL_SDADC_MspDeInit:00000000 HAL_SDADC_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:256    .text.HAL_SDADC_MspDeInit:0000002c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:264    .text.HAL_TIM_Encoder_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:271    .text.HAL_TIM_Encoder_MspInit:00000000 HAL_TIM_Encoder_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:448    .text.HAL_TIM_Encoder_MspInit:000000dc $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:456    .text.HAL_TIM_PWM_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:463    .text.HAL_TIM_PWM_MspInit:00000000 HAL_TIM_PWM_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:586    .text.HAL_TIM_PWM_MspInit:0000009c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:594    .text.HAL_TIM_MspPostInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:601    .text.HAL_TIM_MspPostInit:00000000 HAL_TIM_MspPostInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:710    .text.HAL_TIM_MspPostInit:00000074 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:718    .text.HAL_TIM_Encoder_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:725    .text.HAL_TIM_Encoder_MspDeInit:00000000 HAL_TIM_Encoder_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:809    .text.HAL_TIM_Encoder_MspDeInit:00000070 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:817    .text.HAL_TIM_PWM_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:824    .text.HAL_TIM_PWM_MspDeInit:00000000 HAL_TIM_PWM_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:898    .text.HAL_TIM_PWM_MspDeInit:00000064 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:906    .text.HAL_UART_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:913    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:976    .text.HAL_UART_MspInit:0000004c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:981    .text.HAL_UART_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:988    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cca6kVUz.s:1027   .text.HAL_UART_MspDeInit:00000024 $d
 
 UNDEFINED SYMBOLS
 HAL_NVIC_SetPriorityGrouping

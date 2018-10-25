@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   [..]
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     *** Initialization ***
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     ======================
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 2
 
 
   33:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     [..]
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           trigger using HAL_SDADC_SelectInjectedExtTrigger.
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) Select trigger for injected conversion using
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           HAL_SDADC_SelectInjectedTrigger.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 3
 
 
   90:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) Select injected channels and enable/disable continuous mode using
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           the end of injected conversion for SDADC1.
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) In interrupt mode, HAL_SDADC_InjectedConvCpltCallback will be called
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           at the end of injected conversion for SDADC1.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 4
 
 
  147:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) Get value of injected conversions using 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */ 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  203:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /* Private typedef -----------------------------------------------------------*/
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 5
 
 
  204:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /* Private define ------------------------------------------------------------*/
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @{
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 6
 
 
  261:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     SDADC1->CR1 |= hsdadc->Init.ReferenceVoltage;
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Wait at least 2ms before setting ADON */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 7
 
 
  318:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     HAL_Delay(2U);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return HAL_OK;
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
  374:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 8
 
 
  375:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
  431:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows the user to set parameters for a configuration.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 9
 
 
  432:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         Parameters are input mode, common mode, gain and offset.
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
  488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 10
 
 
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Exit init mode */
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       SDADC_ExitInitMode(hsdadc);
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 11
 
 
  546:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  Channel Channels for injected conversion.
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         This parameter can be a values combination of @ref SDADC_Channel_Selection.
  602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  ContinuousMode Enable/disable continuous mode for injected conversion.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 12
 
 
  603:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         This parameter can be a value of @ref SDADC_ContinuousMode.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
  659:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 13
 
 
  660:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_REGULAR_TRIGGER(Trigger));
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else
  716:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 14
 
 
  717:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = HAL_ERROR;    
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
  773:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 15
 
 
  774:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         This parameter can be a value of @ref SDADC_MultimodeType.
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @retval HAL status
  830:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 16
 
 
  831:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** HAL_StatusTypeDef HAL_SDADC_MultiModeConfigChannel(SDADC_HandleTypeDef* hsdadc,
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else if((hsdadc->State == HAL_SDADC_STATE_READY) || \
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_CALIB) || \
  887:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_REG))
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 17
 
 
  888:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** HAL_StatusTypeDef HAL_SDADC_CalibrationStart(SDADC_HandleTypeDef *hsdadc,
  944:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              uint32_t CalibrationSequence)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 18
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 18
 
 
  945:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check SDADC state */
 1001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   if(hsdadc->State != HAL_SDADC_STATE_CALIB)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 19
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 19
 
 
 1002:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Enter init mode */
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(SDADC_EnterInitMode(hsdadc) != HAL_OK)
 1058:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 20
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 20
 
 
 1059:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Set SDADC in error state */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = HAL_ERROR;
 1114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 21
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 21
 
 
 1116:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****        (hsdadc->RegularTrigger == SDADC_SOFTWARE_TRIGGER))
 1171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 1172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->State = (hsdadc->State == HAL_SDADC_STATE_REG) ? \
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 22
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 22
 
 
 1173:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                       HAL_SDADC_STATE_READY : HAL_SDADC_STATE_INJ;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Set REOCIE and ROVRIE bits in SDADC_CR1 register */
 1228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR1 |= (uint32_t) (SDADC_CR1_REOCIE | SDADC_CR1_ROVRIE);
 1229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 23
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 23
 
 
 1230:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Start regular conversion */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
 1285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status = HAL_OK;
 1286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 24
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 24
 
 
 1287:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1341:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
 1342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = HAL_ERROR;
 1343:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 25
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 25
 
 
 1344:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
 1399:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1400:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return regular conversion value */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 26
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 26
 
 
 1401:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return hsdadc->Instance->RDATAR;
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else
 1456:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
 1457:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Get timeout */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 27
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 27
 
 
 1458:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     tickstart = HAL_GetTick();  
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
 1513:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status = HAL_OK;
 1514:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 28
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 28
 
 
 1515:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1569:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  hsdadc SDADC handle.
 1570:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @retval HAL status
 1571:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 29
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 29
 
 
 1572:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** HAL_StatusTypeDef HAL_SDADC_InjectedStop_IT(SDADC_HandleTypeDef *hsdadc)
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (Length > hsdadc->InjectedChannelsNbr))
 1627:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
 1628:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = HAL_ERROR;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 30
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 30
 
 
 1629:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1683:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
 1684:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
 1685:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 31
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 31
 
 
 1686:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check SDADC state */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1740:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   This function should be called only when SDADC instance is in idle state
 1741:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         or if injected conversion is ongoing.
 1742:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  hsdadc SDADC handle.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 32
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 32
 
 
 1743:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  pData The destination buffer address.
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1797:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 1798:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_DMA_Start_IT(hsdadc->hdma, (uint32_t)&hsdadc->Instance->RDATA12R, \
 1799:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                 (uint32_t) pData, Length);
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 33
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 33
 
 
 1800:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1854:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR1 &= ~(SDADC_CR1_RDMAEN);
 1855:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1856:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Stop current DMA transfer */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 34
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 34
 
 
 1857:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(HAL_DMA_Abort(hsdadc->hdma) != HAL_OK)
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1911:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(Length != 0U);
 1912:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1913:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check instance is SDADC1 */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 35
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 35
 
 
 1914:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   if(hsdadc->Instance != SDADC1)
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1968:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     else
 1969:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 1970:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Start injected conversion */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 36
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 36
 
 
 1971:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = SDADC_InjConvStart(hsdadc);
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2025:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
 2026:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
 2027:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 37
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 37
 
 
 2028:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2082:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2083:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Update remaining injected conversions */
 2084:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->InjConvRemaining--;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 38
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 38
 
 
 2085:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(hsdadc->InjConvRemaining ==0U)
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2139:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2140:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Update error code */
 2141:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->ErrorCode = SDADC_ERROR_INJECTED_OVERRUN;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 39
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 39
 
 
 2142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2196:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2197:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****             the HAL_SDADC_ConvCpltCallback could be implemented in the user file.
 2198:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****    */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 40
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 40
 
 
 2199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** static void SDADC_DMARegularHalfConvCplt(DMA_HandleTypeDef *hdma)   
 2254:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
 2255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Get SDADC handle */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 41
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 41
 
 
 2256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   SDADC_HandleTypeDef* hsdadc = (SDADC_HandleTypeDef*) ((DMA_HandleTypeDef*)hdma)->Parent;
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2310:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
 2311:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Get SDADC handle */
 2312:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   SDADC_HandleTypeDef* hsdadc = (SDADC_HandleTypeDef*) ((DMA_HandleTypeDef*)hdma)->Parent;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 42
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 42
 
 
 2313:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
 2369:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to enter in init mode for SDADC instance.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 43
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 43
 
 
 2370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  hsdadc SDADC handle.
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
   48              		.fpu fpv4-sp-d16
   50              	SDADC_GetInjChannelsNbr:
   51              	.LFB181:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 44
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 44
 
 
 2404:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
   82 0014 F8D0     		beq	.L4
 2421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
   83              		.loc 1 2421 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 45
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 45
 
 
   84 0016 0130     		adds	r0, r0, #1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  132              		.loc 1 2384 0
  133 001c FFF7FEFF 		bl	HAL_GetTick
  134              	.LVL12:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 46
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 46
 
 
  135 0020 401B     		subs	r0, r0, r5
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2441:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR2 |= SDADC_CR2_RSWSTART;
  174              		.loc 1 2441 0
  175 0008 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 47
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 47
 
 
  176 000a 5368     		ldr	r3, [r2, #4]
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  200 0028 40B9     		cbnz	r0, .L23
 2455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  201              		.loc 1 2455 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 48
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 48
 
 
  202 002a 2268     		ldr	r2, [r4]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Clear RCONT bit in SDADC_CR2 register */
 2489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR2 &= ~(SDADC_CR2_RCONT);
 2490:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 49
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 49
 
 
 2491:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Wait for the end of regular conversion */
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @retval HAL status.
 2546:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 2547:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** static HAL_StatusTypeDef SDADC_InjConvStart(SDADC_HandleTypeDef* hsdadc)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 50
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 50
 
 
 2548:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2577:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       {
 2578:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         /* Set JEXTEN[1:0] bits in SDADC_CR2 register */
 2579:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         hsdadc->Instance->CR2 |= hsdadc->ExtTriggerEdge;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 51
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 51
 
 
 2580:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       }
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  296 0044 E7E7     		b	.L26
  297              	.L35:
 2566:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 52
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 52
 
 
  298              		.loc 1 2566 0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2492:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   while((hsdadc->Instance->ISR & SDADC_ISR_RCIP) != 0U)
  349              		.loc 1 2492 0
  350 000c FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 53
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 53
 
 
  351              	.LVL32:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  396              		.loc 1 2503 0
  397 0044 A36A     		ldr	r3, [r4, #40]
  398 0046 012B     		cmp	r3, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 54
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 54
 
 
  399 0048 13D0     		beq	.L50
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  442              	.LVL38:
  443 008a DEE7     		b	.L42
  444              	.L53:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 55
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 55
 
 
 2509:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       return HAL_TIMEOUT;
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   uint32_t tickstart;
 2603:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   __IO uint32_t dummy_read_for_register_reset;
 2604:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 56
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 56
 
 
 2605:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check continuous mode */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2631:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 2632:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Set SDADC in error state and return timeout status */
 2633:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->State = HAL_SDADC_STATE_ERROR;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 57
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 57
 
 
 2634:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       return HAL_TIMEOUT;
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  531 0036 0192     		str	r2, [sp, #4]
 2610:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  532              		.loc 1 2610 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 58
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 58
 
 
  533 0038 019A     		ldr	r2, [sp, #4]
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  576              	.LVL45:
  577 0076 58B9     		cbnz	r0, .L72
 2639:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 59
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 59
 
 
  578              		.loc 1 2639 0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  626              		.thumb_func
  627              		.fpu fpv4-sp-d16
  629              	HAL_SDADC_MspInit:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 60
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 60
 
 
  630              	.LFB128:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  289:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->InjectedTrigger     = SDADC_SOFTWARE_TRIGGER;
  677              		.loc 1 289 0
  678 0014 8362     		str	r3, [r0, #40]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 61
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 61
 
 
  290:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->ExtTriggerEdge      = SDADC_EXT_TRIG_RISING_EDGE;
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  720 0054 124B     		ldr	r3, .L85
  721 0056 1B68     		ldr	r3, [r3]
  722 0058 03F44073 		and	r3, r3, #768
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 62
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 62
 
 
  723 005c 2269     		ldr	r2, [r4, #16]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  768              		.loc 1 274 0
  769 009a 0120     		movs	r0, #1
  770              	.LVL53:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 63
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 63
 
 
  334:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  823              		.cfi_offset 4, -12
  824              		.cfi_offset 5, -8
  825              		.cfi_offset 14, -4
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 64
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 64
 
 
  826 0004 0446     		mov	r4, r0
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  867              	.LVL57:
  868              	.L90:
  869              	.LCFI14:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 65
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 65
 
 
  870              		.cfi_def_cfa_offset 0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  920              	.L100:
  921 0010 1746     		mov	r7, r2
  922 0012 0E46     		mov	r6, r1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 66
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 66
 
 
  923 0014 0446     		mov	r4, r0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  964              	.LFE130:
  966              		.section	.text.HAL_SDADC_AssociateChannelConfig,"ax",%progbits
  967              		.align	1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 67
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 67
 
 
  968              		.global	HAL_SDADC_AssociateChannelConfig
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1016              		.loc 1 533 0
  1017 0024 210C     		lsrs	r1, r4, #16
  1018              	.LVL73:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 68
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 68
 
 
  536:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         hsdadc->Instance->CONFCHR1 |= (uint32_t) (ConfIndex << (channelnum << 2U));
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1068              		.thumb_func
  1069              		.fpu fpv4-sp-d16
  1071              	HAL_SDADC_ConfigChannel:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 69
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 69
 
 
  1072              	.LFB132:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1117              		.cfi_restore 5
  1118              		.cfi_restore 4
  1119              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 70
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 70
 
 
  1120 002e 7047     		bx	lr
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1171 000a 18D8     		bhi	.L129
  609:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status = HAL_OK;
  1172              		.loc 1 609 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 71
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 71
 
 
  1173 000c 10B5     		push	{r4, lr}
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1218              		.loc 1 638 0
  1219 003e 0120     		movs	r0, #1
  1220              	.LVL90:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 72
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 72
 
 
  642:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1268 0020 0120     		movs	r0, #1
  1269              	.LVL94:
  1270 0022 7047     		bx	lr
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 73
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 73
 
 
  1271              	.LVL95:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1318 0014 C162     		str	r1, [r0, #44]
  696:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  1319              		.loc 1 696 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 74
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 74
 
 
  1320 0016 0020     		movs	r0, #0
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  746:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  1371              		.loc 1 746 0
  1372 0002 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 75
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 75
 
 
  1373 0006 012B     		cmp	r3, #1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1418              	.LFE136:
  1420              		.section	.text.HAL_SDADC_SelectInjectedDelay,"ax",%progbits
  1421              		.align	1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 76
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 76
 
 
  1422              		.global	HAL_SDADC_SelectInjectedDelay
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1470 0028 5968     		ldr	r1, [r3, #4]
  1471 002a 3143     		orrs	r1, r1, r6
  1472 002c 5960     		str	r1, [r3, #4]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 77
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 77
 
 
  811:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  847:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_INJ))
  1522              		.loc 1 847 0
  1523 0018 042A     		cmp	r2, #4
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 78
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 78
 
 
  1524 001a 01D0     		beq	.L168
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1572              	.L178:
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_CALIB) || \
  1573              		.loc 1 885 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 79
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 79
 
 
  1574 000c 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1623              	.LVL130:
  953:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  1624              		.loc 1 953 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 80
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 80
 
 
  1625 0002 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1670 0048 84F83C30 		strb	r3, [r4, #60]
  1671              	.LVL135:
  960:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 81
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 81
 
 
  1672              		.loc 1 960 0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1721 0018 2368     		ldr	r3, [r4]
  1722 001a 9A68     		ldr	r2, [r3, #8]
  1723 001c 12F0010F 		tst	r2, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 82
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 82
 
 
  1724 0020 0AD1     		bne	.L201
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1770              		.loc 1 1046 0
  1771              		.cfi_startproc
  1772              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 83
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 83
 
 
  1773              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1819 0036 1368     		ldr	r3, [r2]
  1820 0038 43F00103 		orr	r3, r3, #1
  1821 003c 1360     		str	r3, [r2]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 84
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 84
 
 
 1076:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1870              		.loc 1 1113 0 is_stmt 1
  1871 000e 0120     		movs	r0, #1
  1872              	.LVL152:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 85
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 85
 
 
  1873 0010 01E0     		b	.L211
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1922              	.L216:
 1207:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  1923              		.loc 1 1207 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 86
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 86
 
 
  1924 0016 08BD     		pop	{r3, pc}
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  1973              		.cfi_endproc
  1974              	.LFE146:
  1976              		.section	.text.HAL_SDADC_Stop_IT,"ax",%progbits
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 87
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 87
 
 
  1977              		.align	1
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2026              		.global	HAL_SDADC_Start_DMA
  2027              		.syntax unified
  2028              		.thumb
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 88
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 88
 
 
  2029              		.thumb_func
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2073              		.loc 1 1306 0 discriminator 1
  2074 0024 8369     		ldr	r3, [r0, #24]
 1305:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->RegularContMode == SDADC_CONTINUOUS_CONV_OFF) && \
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 89
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 89
 
 
  2075              		.loc 1 1305 0 discriminator 1
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2120 005e 41F40031 		orr	r1, r1, #131072
  2121 0062 0160     		str	r1, [r0]
 1327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                         (uint32_t) pData, Length) != HAL_OK)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 90
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 90
 
 
  2122              		.loc 1 1327 0
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2169              		.cfi_endproc
  2170              	.LFE148:
  2172              		.section	.text.HAL_SDADC_Stop_DMA,"ax",%progbits
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 91
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 91
 
 
  2173              		.align	1
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2219              		.loc 1 1377 0
  2220 0026 FF23     		movs	r3, #255
  2221 0028 84F83C30 		strb	r3, [r4, #60]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 92
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 92
 
 
  2222              	.LVL193:
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status = HAL_OK;
  2274              		.loc 1 1412 0
  2275              		.cfi_startproc
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 93
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 93
 
 
  2276              		@ args = 0, pretend = 0, frame = 0
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2326              		.cfi_offset 14, -4
  2327              	.LVL205:
 1519:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State != HAL_SDADC_STATE_REG_INJ))
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 94
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 94
 
 
  2328              		.loc 1 1519 0
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2377              		.loc 1 1560 0 is_stmt 1
  2378 000e 0120     		movs	r0, #1
  2379              	.LVL211:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 95
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 95
 
 
  2380 0010 06E0     		b	.L265
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2429 0010 08BD     		pop	{r3, pc}
  2430              	.LVL217:
  2431              	.L272:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 96
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 96
 
 
 1589:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1624:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->hdma->Init.Mode == DMA_NORMAL) && \
  2480              		.loc 1 1624 0
  2481 0018 14B9     		cbnz	r4, .L275
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 97
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 97
 
 
 1626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2523 004a 4369     		ldr	r3, [r0, #20]
  2524 004c 9C69     		ldr	r4, [r3, #24]
  2525 004e 202C     		cmp	r4, #32
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 98
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 98
 
 
  2526 0050 12D0     		beq	.L285
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2572              		.loc 1 1671 0
  2573 0088 10BD     		pop	{r4, pc}
  2574              	.LVL233:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 99
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 99
 
 
  2575              	.L281:
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2624 0010 10B5     		push	{r4, lr}
  2625              	.LCFI39:
  2626              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 100
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 100
 
 
  2627              		.cfi_offset 4, -8
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2676              	.LVL246:
 1730:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *Channel = ((value & SDADC_JDATAR_JDATACH) >> SDADC_JDATAR_CH_OFFSET);
  2677              		.loc 1 1730 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 101
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 101
 
 
  2678 0000 0368     		ldr	r3, [r0]
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1763:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  2728              		.loc 1 1763 0
  2729 000e 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 102
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 102
 
 
  2730 0010 13F4803F 		tst	r3, #65536
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2770              		.loc 1 1782 0 is_stmt 0 discriminator 1
  2771 0042 042B     		cmp	r3, #4
  2772 0044 01D0     		beq	.L302
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 103
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 103
 
 
 1820:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2818 0080 84F83C30 		strb	r3, [r4, #60]
  2819              	.LVL262:
 1810:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 104
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 104
 
 
  2820              		.loc 1 1810 0
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2870              		.syntax unified
  2871              		.thumb
  2872              		.thumb_func
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 105
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 105
 
 
  2873              		.fpu fpv4-sp-d16
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2918              		.loc 1 1857 0
  2919 0028 4069     		ldr	r0, [r0, #20]
  2920              	.LVL277:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 106
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 106
 
 
  2921 002a FFF7FEFF 		bl	HAL_DMA_Abort
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  2969 0004 0368     		ldr	r3, [r0]
  2970 0006 D86F     		ldr	r0, [r3, #124]
  2971              	.LVL284:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 107
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 107
 
 
 1892:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3021 000e 2368     		ldr	r3, [r4]
  3022 0010 13F4003F 		tst	r3, #131072
  3023 0014 45D1     		bne	.L343
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 108
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 108
 
 
 1924:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->InjectedContMode == SDADC_CONTINUOUS_CONV_OFF) && \
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3063 0046 0120     		movs	r0, #1
  3064              	.LVL291:
  3065 0048 E0E7     		b	.L334
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 109
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 109
 
 
  3066              	.LVL292:
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3111 0086 C1E7     		b	.L334
  3112              	.LVL298:
  3113              	.L349:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 110
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 110
 
 
 1946:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3163              		.align	1
  3164              		.global	HAL_SDADC_InjectedMultiModeStop_DMA
  3165              		.syntax unified
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 111
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 111
 
 
  3166              		.thumb
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3212              		.loc 1 2013 0
  3213 0028 4069     		ldr	r0, [r0, #20]
  3214              	.LVL314:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 112
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 112
 
 
  3215 002a FFF7FEFF 		bl	HAL_DMA_Abort
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3263 0004 0368     		ldr	r3, [r0]
  3264 0006 986F     		ldr	r0, [r3, #120]
  3265              	.LVL321:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 113
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 113
 
 
 2048:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3318              	.LFE167:
  3320              		.section	.text.SDADC_DMARegularHalfConvCplt,"ax",%progbits
  3321              		.align	1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 114
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 114
 
 
  3322              		.syntax unified
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3375              		.thumb_func
  3376              		.fpu fpv4-sp-d16
  3378              	SDADC_DMARegularConvCplt:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 115
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 115
 
 
  3379              	.LFB173:
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3431              		.loc 1 2282 0
  3432              		.cfi_startproc
  3433              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 116
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 116
 
 
  3434              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3487 0000 08B5     		push	{r3, lr}
  3488              	.LCFI47:
  3489              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 117
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 117
 
 
  3490              		.cfi_offset 3, -8
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3542 0006 03D0     		beq	.L384
 1134:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State != HAL_SDADC_STATE_REG_INJ))
  3543              		.loc 1 1134 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 118
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 118
 
 
  3544 0008 052B     		cmp	r3, #5
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 1159:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  3589              		.loc 1 1159 0
  3590 003c 9B68     		ldr	r3, [r3, #8]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 119
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 119
 
 
  3591 003e 13F0100F 		tst	r3, #16
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3633 0078 0320     		movs	r0, #3
  3634 007a 00E0     		b	.L385
  3635              	.L394:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 120
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 120
 
 
 1176:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3685              		.syntax unified
  3686              		.thumb
  3687              		.thumb_func
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 121
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 121
 
 
  3688              		.fpu fpv4-sp-d16
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3734              		.loc 1 1466 0
  3735 002c 85B3     		cbz	r5, .L414
 1466:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 122
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 122
 
 
  3736              		.loc 1 1466 0 is_stmt 0 discriminator 1
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3778              		.loc 1 1477 0
  3779 0064 0223     		movs	r3, #2
  3780 0066 2364     		str	r3, [r4, #64]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 123
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 123
 
 
 1478:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3824              	.LFE152:
  3826              		.section	.text.HAL_SDADC_IRQHandler,"ax",%progbits
  3827              		.align	1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 124
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 124
 
 
  3828              		.global	HAL_SDADC_IRQHandler
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2105:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           ((hsdadc->Instance->CR1 & SDADC_CR1_EOCALIE) == SDADC_CR1_EOCALIE))
  3874              		.loc 1 2105 0 discriminator 1
  3875 0030 12F0010F 		tst	r2, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 125
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 125
 
 
  3876 0034 49D1     		bne	.L443
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  3918 006c 23F01803 		bic	r3, r3, #24
  3919 0070 1360     		str	r3, [r2]
 2072:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                       HAL_SDADC_STATE_READY : HAL_SDADC_STATE_INJ;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 126
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 126
 
 
  3920              		.loc 1 2072 0
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
 2093:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****        (hsdadc->InjConvRemaining == hsdadc->InjectedChannelsNbr))
  3963              		.loc 1 2093 0
  3964 00a8 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 127
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 127
 
 
  3965 00aa D4D1     		bne	.L429
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  4009 00ec 42F01002 		orr	r2, r2, #16
  4010 00f0 DA60     		str	r2, [r3, #12]
 2128:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 128
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 128
 
 
  4011              		.loc 1 2128 0
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  4060              	.LFE177:
  4062              		.section	.text.HAL_SDADC_GetError,"ax",%progbits
  4063              		.align	1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 129
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 129
 
 
  4064              		.global	HAL_SDADC_GetError
@@ -7718,150 +7718,150 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 1
  4098              		.file 13 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
  4099              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_sdadc.h"
  4100              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 130
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 130
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_sdadc.c
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:18     .text.SDADC_ExitInitMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:24     .text.SDADC_ExitInitMode:00000000 SDADC_ExitInitMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:44     .text.SDADC_GetInjChannelsNbr:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:50     .text.SDADC_GetInjChannelsNbr:00000000 SDADC_GetInjChannelsNbr
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:94     .text.SDADC_EnterInitMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:100    .text.SDADC_EnterInitMode:00000000 SDADC_EnterInitMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:151    .text.SDADC_RegConvStart:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:157    .text.SDADC_RegConvStart:00000000 SDADC_RegConvStart
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:228    .text.SDADC_InjConvStart:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:234    .text.SDADC_InjConvStart:00000000 SDADC_InjConvStart
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:321    .text.SDADC_RegConvStop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:327    .text.SDADC_RegConvStop:00000000 SDADC_RegConvStop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:466    .text.SDADC_InjConvStop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:472    .text.SDADC_InjConvStop:00000000 SDADC_InjConvStop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:622    .text.HAL_SDADC_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:629    .text.HAL_SDADC_MspInit:00000000 HAL_SDADC_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:643    .text.HAL_SDADC_Init:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:650    .text.HAL_SDADC_Init:00000000 HAL_SDADC_Init
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:776    .text.HAL_SDADC_Init:000000a0 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:781    .text.HAL_SDADC_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:788    .text.HAL_SDADC_MspDeInit:00000000 HAL_SDADC_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:802    .text.HAL_SDADC_DeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:809    .text.HAL_SDADC_DeInit:00000000 HAL_SDADC_DeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:884    .text.HAL_SDADC_PrepareChannelConfig:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:891    .text.HAL_SDADC_PrepareChannelConfig:00000000 HAL_SDADC_PrepareChannelConfig
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:967    .text.HAL_SDADC_AssociateChannelConfig:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:974    .text.HAL_SDADC_AssociateChannelConfig:00000000 HAL_SDADC_AssociateChannelConfig
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1059   .text.HAL_SDADC_AssociateChannelConfig:0000005c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1064   .text.HAL_SDADC_ConfigChannel:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1071   .text.HAL_SDADC_ConfigChannel:00000000 HAL_SDADC_ConfigChannel
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1147   .text.HAL_SDADC_ConfigChannel:00000048 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1152   .text.HAL_SDADC_InjectedConfigChannel:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1159   .text.HAL_SDADC_InjectedConfigChannel:00000000 HAL_SDADC_InjectedConfigChannel
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1227   .text.HAL_SDADC_SelectRegularTrigger:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1234   .text.HAL_SDADC_SelectRegularTrigger:00000000 HAL_SDADC_SelectRegularTrigger
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1283   .text.HAL_SDADC_SelectRegularTrigger:0000002c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1288   .text.HAL_SDADC_SelectInjectedTrigger:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1295   .text.HAL_SDADC_SelectInjectedTrigger:00000000 HAL_SDADC_SelectInjectedTrigger
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1342   .text.HAL_SDADC_SelectInjectedTrigger:00000028 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1347   .text.HAL_SDADC_SelectInjectedExtTrigger:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1354   .text.HAL_SDADC_SelectInjectedExtTrigger:00000000 HAL_SDADC_SelectInjectedExtTrigger
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1421   .text.HAL_SDADC_SelectInjectedDelay:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1428   .text.HAL_SDADC_SelectInjectedDelay:00000000 HAL_SDADC_SelectInjectedDelay
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1490   .text.HAL_SDADC_MultiModeConfigChannel:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1497   .text.HAL_SDADC_MultiModeConfigChannel:00000000 HAL_SDADC_MultiModeConfigChannel
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1542   .text.HAL_SDADC_MultiModeConfigChannel:00000028 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1547   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1554   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000000 HAL_SDADC_InjectedMultiModeConfigChannel
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1597   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000024 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1602   .text.HAL_SDADC_CalibrationStart:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1609   .text.HAL_SDADC_CalibrationStart:00000000 HAL_SDADC_CalibrationStart
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1679   .text.HAL_SDADC_PollForCalibEvent:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1686   .text.HAL_SDADC_PollForCalibEvent:00000000 HAL_SDADC_PollForCalibEvent
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1761   .text.HAL_SDADC_CalibrationStart_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1768   .text.HAL_SDADC_CalibrationStart_IT:00000000 HAL_SDADC_CalibrationStart_IT
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 131
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:18     .text.SDADC_ExitInitMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:24     .text.SDADC_ExitInitMode:00000000 SDADC_ExitInitMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:44     .text.SDADC_GetInjChannelsNbr:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:50     .text.SDADC_GetInjChannelsNbr:00000000 SDADC_GetInjChannelsNbr
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:94     .text.SDADC_EnterInitMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:100    .text.SDADC_EnterInitMode:00000000 SDADC_EnterInitMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:151    .text.SDADC_RegConvStart:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:157    .text.SDADC_RegConvStart:00000000 SDADC_RegConvStart
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:228    .text.SDADC_InjConvStart:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:234    .text.SDADC_InjConvStart:00000000 SDADC_InjConvStart
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:321    .text.SDADC_RegConvStop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:327    .text.SDADC_RegConvStop:00000000 SDADC_RegConvStop
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:466    .text.SDADC_InjConvStop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:472    .text.SDADC_InjConvStop:00000000 SDADC_InjConvStop
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:622    .text.HAL_SDADC_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:629    .text.HAL_SDADC_MspInit:00000000 HAL_SDADC_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:643    .text.HAL_SDADC_Init:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:650    .text.HAL_SDADC_Init:00000000 HAL_SDADC_Init
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:776    .text.HAL_SDADC_Init:000000a0 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:781    .text.HAL_SDADC_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:788    .text.HAL_SDADC_MspDeInit:00000000 HAL_SDADC_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:802    .text.HAL_SDADC_DeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:809    .text.HAL_SDADC_DeInit:00000000 HAL_SDADC_DeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:884    .text.HAL_SDADC_PrepareChannelConfig:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:891    .text.HAL_SDADC_PrepareChannelConfig:00000000 HAL_SDADC_PrepareChannelConfig
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:967    .text.HAL_SDADC_AssociateChannelConfig:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:974    .text.HAL_SDADC_AssociateChannelConfig:00000000 HAL_SDADC_AssociateChannelConfig
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1059   .text.HAL_SDADC_AssociateChannelConfig:0000005c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1064   .text.HAL_SDADC_ConfigChannel:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1071   .text.HAL_SDADC_ConfigChannel:00000000 HAL_SDADC_ConfigChannel
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1147   .text.HAL_SDADC_ConfigChannel:00000048 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1152   .text.HAL_SDADC_InjectedConfigChannel:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1159   .text.HAL_SDADC_InjectedConfigChannel:00000000 HAL_SDADC_InjectedConfigChannel
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1227   .text.HAL_SDADC_SelectRegularTrigger:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1234   .text.HAL_SDADC_SelectRegularTrigger:00000000 HAL_SDADC_SelectRegularTrigger
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1283   .text.HAL_SDADC_SelectRegularTrigger:0000002c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1288   .text.HAL_SDADC_SelectInjectedTrigger:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1295   .text.HAL_SDADC_SelectInjectedTrigger:00000000 HAL_SDADC_SelectInjectedTrigger
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1342   .text.HAL_SDADC_SelectInjectedTrigger:00000028 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1347   .text.HAL_SDADC_SelectInjectedExtTrigger:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1354   .text.HAL_SDADC_SelectInjectedExtTrigger:00000000 HAL_SDADC_SelectInjectedExtTrigger
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1421   .text.HAL_SDADC_SelectInjectedDelay:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1428   .text.HAL_SDADC_SelectInjectedDelay:00000000 HAL_SDADC_SelectInjectedDelay
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1490   .text.HAL_SDADC_MultiModeConfigChannel:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1497   .text.HAL_SDADC_MultiModeConfigChannel:00000000 HAL_SDADC_MultiModeConfigChannel
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1542   .text.HAL_SDADC_MultiModeConfigChannel:00000028 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1547   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1554   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000000 HAL_SDADC_InjectedMultiModeConfigChannel
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1597   .text.HAL_SDADC_InjectedMultiModeConfigChannel:00000024 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1602   .text.HAL_SDADC_CalibrationStart:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1609   .text.HAL_SDADC_CalibrationStart:00000000 HAL_SDADC_CalibrationStart
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1679   .text.HAL_SDADC_PollForCalibEvent:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1686   .text.HAL_SDADC_PollForCalibEvent:00000000 HAL_SDADC_PollForCalibEvent
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1761   .text.HAL_SDADC_CalibrationStart_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1768   .text.HAL_SDADC_CalibrationStart_IT:00000000 HAL_SDADC_CalibrationStart_IT
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 131
 
 
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1843   .text.HAL_SDADC_Start:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1850   .text.HAL_SDADC_Start:00000000 HAL_SDADC_Start
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1886   .text.HAL_SDADC_Stop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1893   .text.HAL_SDADC_Stop:00000000 HAL_SDADC_Stop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1929   .text.HAL_SDADC_Start_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1936   .text.HAL_SDADC_Start_IT:00000000 HAL_SDADC_Start_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1977   .text.HAL_SDADC_Stop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:1984   .text.HAL_SDADC_Stop_IT:00000000 HAL_SDADC_Stop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2025   .text.HAL_SDADC_Start_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2032   .text.HAL_SDADC_Start_DMA:00000000 HAL_SDADC_Start_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2166   .text.HAL_SDADC_Start_DMA:00000090 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3378   .text.SDADC_DMARegularConvCplt:00000000 SDADC_DMARegularConvCplt
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3656   .text.SDADC_DMAError:00000000 SDADC_DMAError
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3327   .text.SDADC_DMARegularHalfConvCplt:00000000 SDADC_DMARegularHalfConvCplt
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2173   .text.HAL_SDADC_Stop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2180   .text.HAL_SDADC_Stop_DMA:00000000 HAL_SDADC_Stop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2240   .text.HAL_SDADC_GetValue:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2247   .text.HAL_SDADC_GetValue:00000000 HAL_SDADC_GetValue
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2265   .text.HAL_SDADC_InjectedStart:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2272   .text.HAL_SDADC_InjectedStart:00000000 HAL_SDADC_InjectedStart
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2308   .text.HAL_SDADC_InjectedStop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2315   .text.HAL_SDADC_InjectedStop:00000000 HAL_SDADC_InjectedStop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2350   .text.HAL_SDADC_InjectedStart_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2357   .text.HAL_SDADC_InjectedStart_IT:00000000 HAL_SDADC_InjectedStart_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2398   .text.HAL_SDADC_InjectedStop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2405   .text.HAL_SDADC_InjectedStop_IT:00000000 HAL_SDADC_InjectedStop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2445   .text.HAL_SDADC_InjectedStart_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2452   .text.HAL_SDADC_InjectedStart_DMA:00000000 HAL_SDADC_InjectedStart_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2589   .text.HAL_SDADC_InjectedStart_DMA:00000094 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3480   .text.SDADC_DMAInjectedConvCplt:00000000 SDADC_DMAInjectedConvCplt
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3429   .text.SDADC_DMAInjectedHalfConvCplt:00000000 SDADC_DMAInjectedHalfConvCplt
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2596   .text.HAL_SDADC_InjectedStop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2603   .text.HAL_SDADC_InjectedStop_DMA:00000000 HAL_SDADC_InjectedStop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2662   .text.HAL_SDADC_InjectedGetValue:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2669   .text.HAL_SDADC_InjectedGetValue:00000000 HAL_SDADC_InjectedGetValue
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2693   .text.HAL_SDADC_MultiModeStart_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2700   .text.HAL_SDADC_MultiModeStart_DMA:00000000 HAL_SDADC_MultiModeStart_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2860   .text.HAL_SDADC_MultiModeStart_DMA:000000ac $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2868   .text.HAL_SDADC_MultiModeStop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2875   .text.HAL_SDADC_MultiModeStop_DMA:00000000 HAL_SDADC_MultiModeStop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2944   .text.HAL_SDADC_MultiModeStop_DMA:00000044 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2949   .text.HAL_SDADC_MultiModeGetValue:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2956   .text.HAL_SDADC_MultiModeGetValue:00000000 HAL_SDADC_MultiModeGetValue
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2985   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:2992   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000 HAL_SDADC_InjectedMultiModeStart_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3155   .text.HAL_SDADC_InjectedMultiModeStart_DMA:000000b0 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3163   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3170   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000000 HAL_SDADC_InjectedMultiModeStop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3238   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000044 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3243   .text.HAL_SDADC_InjectedMultiModeGetValue:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3250   .text.HAL_SDADC_InjectedMultiModeGetValue:00000000 HAL_SDADC_InjectedMultiModeGetValue
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3279   .text.HAL_SDADC_CalibrationCpltCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3286   .text.HAL_SDADC_CalibrationCpltCallback:00000000 HAL_SDADC_CalibrationCpltCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3300   .text.HAL_SDADC_ConvHalfCpltCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3307   .text.HAL_SDADC_ConvHalfCpltCallback:00000000 HAL_SDADC_ConvHalfCpltCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3321   .text.SDADC_DMARegularHalfConvCplt:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3351   .text.HAL_SDADC_ConvCpltCallback:00000000 $t
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s 			page 132
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1843   .text.HAL_SDADC_Start:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1850   .text.HAL_SDADC_Start:00000000 HAL_SDADC_Start
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1886   .text.HAL_SDADC_Stop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1893   .text.HAL_SDADC_Stop:00000000 HAL_SDADC_Stop
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1929   .text.HAL_SDADC_Start_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1936   .text.HAL_SDADC_Start_IT:00000000 HAL_SDADC_Start_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1977   .text.HAL_SDADC_Stop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:1984   .text.HAL_SDADC_Stop_IT:00000000 HAL_SDADC_Stop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2025   .text.HAL_SDADC_Start_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2032   .text.HAL_SDADC_Start_DMA:00000000 HAL_SDADC_Start_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2166   .text.HAL_SDADC_Start_DMA:00000090 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3378   .text.SDADC_DMARegularConvCplt:00000000 SDADC_DMARegularConvCplt
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3656   .text.SDADC_DMAError:00000000 SDADC_DMAError
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3327   .text.SDADC_DMARegularHalfConvCplt:00000000 SDADC_DMARegularHalfConvCplt
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2173   .text.HAL_SDADC_Stop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2180   .text.HAL_SDADC_Stop_DMA:00000000 HAL_SDADC_Stop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2240   .text.HAL_SDADC_GetValue:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2247   .text.HAL_SDADC_GetValue:00000000 HAL_SDADC_GetValue
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2265   .text.HAL_SDADC_InjectedStart:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2272   .text.HAL_SDADC_InjectedStart:00000000 HAL_SDADC_InjectedStart
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2308   .text.HAL_SDADC_InjectedStop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2315   .text.HAL_SDADC_InjectedStop:00000000 HAL_SDADC_InjectedStop
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2350   .text.HAL_SDADC_InjectedStart_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2357   .text.HAL_SDADC_InjectedStart_IT:00000000 HAL_SDADC_InjectedStart_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2398   .text.HAL_SDADC_InjectedStop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2405   .text.HAL_SDADC_InjectedStop_IT:00000000 HAL_SDADC_InjectedStop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2445   .text.HAL_SDADC_InjectedStart_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2452   .text.HAL_SDADC_InjectedStart_DMA:00000000 HAL_SDADC_InjectedStart_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2589   .text.HAL_SDADC_InjectedStart_DMA:00000094 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3480   .text.SDADC_DMAInjectedConvCplt:00000000 SDADC_DMAInjectedConvCplt
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3429   .text.SDADC_DMAInjectedHalfConvCplt:00000000 SDADC_DMAInjectedHalfConvCplt
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2596   .text.HAL_SDADC_InjectedStop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2603   .text.HAL_SDADC_InjectedStop_DMA:00000000 HAL_SDADC_InjectedStop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2662   .text.HAL_SDADC_InjectedGetValue:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2669   .text.HAL_SDADC_InjectedGetValue:00000000 HAL_SDADC_InjectedGetValue
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2693   .text.HAL_SDADC_MultiModeStart_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2700   .text.HAL_SDADC_MultiModeStart_DMA:00000000 HAL_SDADC_MultiModeStart_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2860   .text.HAL_SDADC_MultiModeStart_DMA:000000ac $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2868   .text.HAL_SDADC_MultiModeStop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2875   .text.HAL_SDADC_MultiModeStop_DMA:00000000 HAL_SDADC_MultiModeStop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2944   .text.HAL_SDADC_MultiModeStop_DMA:00000044 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2949   .text.HAL_SDADC_MultiModeGetValue:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2956   .text.HAL_SDADC_MultiModeGetValue:00000000 HAL_SDADC_MultiModeGetValue
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2985   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:2992   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000 HAL_SDADC_InjectedMultiModeStart_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3155   .text.HAL_SDADC_InjectedMultiModeStart_DMA:000000b0 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3163   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3170   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000000 HAL_SDADC_InjectedMultiModeStop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3238   .text.HAL_SDADC_InjectedMultiModeStop_DMA:00000044 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3243   .text.HAL_SDADC_InjectedMultiModeGetValue:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3250   .text.HAL_SDADC_InjectedMultiModeGetValue:00000000 HAL_SDADC_InjectedMultiModeGetValue
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3279   .text.HAL_SDADC_CalibrationCpltCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3286   .text.HAL_SDADC_CalibrationCpltCallback:00000000 HAL_SDADC_CalibrationCpltCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3300   .text.HAL_SDADC_ConvHalfCpltCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3307   .text.HAL_SDADC_ConvHalfCpltCallback:00000000 HAL_SDADC_ConvHalfCpltCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3321   .text.SDADC_DMARegularHalfConvCplt:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3351   .text.HAL_SDADC_ConvCpltCallback:00000000 $t
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s 			page 132
 
 
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3358   .text.HAL_SDADC_ConvCpltCallback:00000000 HAL_SDADC_ConvCpltCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3372   .text.SDADC_DMARegularConvCplt:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3402   .text.HAL_SDADC_InjectedConvHalfCpltCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3409   .text.HAL_SDADC_InjectedConvHalfCpltCallback:00000000 HAL_SDADC_InjectedConvHalfCpltCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3423   .text.SDADC_DMAInjectedHalfConvCplt:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3453   .text.HAL_SDADC_InjectedConvCpltCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3460   .text.HAL_SDADC_InjectedConvCpltCallback:00000000 HAL_SDADC_InjectedConvCpltCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3474   .text.SDADC_DMAInjectedConvCplt:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3504   .text.HAL_SDADC_ErrorCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3511   .text.HAL_SDADC_ErrorCallback:00000000 HAL_SDADC_ErrorCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3525   .text.HAL_SDADC_PollForConversion:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3532   .text.HAL_SDADC_PollForConversion:00000000 HAL_SDADC_PollForConversion
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3650   .text.SDADC_DMAError:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3683   .text.HAL_SDADC_PollForInjectedConversion:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3690   .text.HAL_SDADC_PollForInjectedConversion:00000000 HAL_SDADC_PollForInjectedConversion
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3827   .text.HAL_SDADC_IRQHandler:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:3834   .text.HAL_SDADC_IRQHandler:00000000 HAL_SDADC_IRQHandler
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:4040   .text.HAL_SDADC_GetState:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:4047   .text.HAL_SDADC_GetState:00000000 HAL_SDADC_GetState
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:4063   .text.HAL_SDADC_GetError:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccHEHivO.s:4070   .text.HAL_SDADC_GetError:00000000 HAL_SDADC_GetError
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3358   .text.HAL_SDADC_ConvCpltCallback:00000000 HAL_SDADC_ConvCpltCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3372   .text.SDADC_DMARegularConvCplt:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3402   .text.HAL_SDADC_InjectedConvHalfCpltCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3409   .text.HAL_SDADC_InjectedConvHalfCpltCallback:00000000 HAL_SDADC_InjectedConvHalfCpltCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3423   .text.SDADC_DMAInjectedHalfConvCplt:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3453   .text.HAL_SDADC_InjectedConvCpltCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3460   .text.HAL_SDADC_InjectedConvCpltCallback:00000000 HAL_SDADC_InjectedConvCpltCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3474   .text.SDADC_DMAInjectedConvCplt:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3504   .text.HAL_SDADC_ErrorCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3511   .text.HAL_SDADC_ErrorCallback:00000000 HAL_SDADC_ErrorCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3525   .text.HAL_SDADC_PollForConversion:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3532   .text.HAL_SDADC_PollForConversion:00000000 HAL_SDADC_PollForConversion
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3650   .text.SDADC_DMAError:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3683   .text.HAL_SDADC_PollForInjectedConversion:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3690   .text.HAL_SDADC_PollForInjectedConversion:00000000 HAL_SDADC_PollForInjectedConversion
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3827   .text.HAL_SDADC_IRQHandler:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:3834   .text.HAL_SDADC_IRQHandler:00000000 HAL_SDADC_IRQHandler
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:4040   .text.HAL_SDADC_GetState:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:4047   .text.HAL_SDADC_GetState:00000000 HAL_SDADC_GetState
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:4063   .text.HAL_SDADC_GetError:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccikHkvA.s:4070   .text.HAL_SDADC_GetError:00000000 HAL_SDADC_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick

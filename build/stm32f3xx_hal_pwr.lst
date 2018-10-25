@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** /**
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @brief Deinitializes the PWR peripheral registers to their default reset values.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @retval None
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
   66              		.loc 1 106 0
   67 0000 024A     		ldr	r2, .L5
   68 0002 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 4
 
 
   69 0004 43F48073 		orr	r3, r3, #256
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  113              		.thumb
  114              		.thumb_func
  115              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 5
 
 
  117              	HAL_PWR_EnableWakeUpPin:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****     [..]
  173:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       (+) Entry:
  174:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****           The Sleep mode is entered by using the HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_S
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 6
 
 
  175:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****               functions with
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****     (+) RTC auto-wakeup (AWU) from the Stop and Standby modes
  230:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
  231:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       (++) To wake up from the Stop mode with an RTC alarm event, it is necessary to
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 7
 
 
  232:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****             configure the RTC to generate the RTC alarm using the HAL_RTC_SetAlarm_IT() function.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  140              		.section	.text.HAL_PWR_DisableWakeUpPin,"ax",%progbits
  141              		.align	1
  142              		.global	HAL_PWR_DisableWakeUpPin
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 8
 
 
  143              		.syntax unified
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @param Regulator Specifies the regulator state in SLEEP mode.
  286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *          This parameter can be one of the following values:
  287:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *            @arg PWR_MAINREGULATOR_ON: SLEEP mode with regulator ON
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 9
 
 
  288:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *            @arg PWR_LOWPOWERREGULATOR_ON: SLEEP mode with low power regulator ON
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
   17:Drivers/CMSIS/Include/cmsis_gcc.h ****    - Neither the name of ARM nor the names of its contributors may be used
   18:Drivers/CMSIS/Include/cmsis_gcc.h ****      to endorse or promote products derived from this software without
   19:Drivers/CMSIS/Include/cmsis_gcc.h ****      specific prior written permission.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 10
 
 
   20:Drivers/CMSIS/Include/cmsis_gcc.h ****    *
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
   74:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   75:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
   76:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Control Register
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 11
 
 
   77:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the Control Register.
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  131:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  132:Drivers/CMSIS/Include/cmsis_gcc.h ****     \return               xPSR Register value
  133:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 12
 
 
  134:Drivers/CMSIS/Include/cmsis_gcc.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_xPSR(void)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  188:Drivers/CMSIS/Include/cmsis_gcc.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE void __set_MSP(uint32_t topOfMainStack)
  189:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  190:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR msp, %0\n" : : "r" (topOfMainStack) : "sp");
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 13
 
 
  191:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  245:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Base Priority register.
  246:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
  247:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 14
 
 
  248:Drivers/CMSIS/Include/cmsis_gcc.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_BASEPRI(void)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  302:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  303:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  304:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif /* (__CORTEX_M >= 0x03U) */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 15
 
 
  305:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  359:Drivers/CMSIS/Include/cmsis_gcc.h ****  * For thumb1, use low register (r0-r7), specified by constraint "l"
  360:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Otherwise, use general registers, specified by constraint "r" */
  361:Drivers/CMSIS/Include/cmsis_gcc.h **** #if defined (__thumb__) && !defined (__thumb2__)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 16
 
 
  362:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_OUT_REG(r) "=l" (r)
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  207              	.LBB22:
  208              	.LBB23:
  396:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 17
 
 
  209              		.loc 2 396 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  251              		.align	1
  252              		.global	HAL_PWR_EnterSTOPMode
  253              		.syntax unified
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 18
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 18
 
 
  254              		.thumb
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  273              		.loc 1 356 0
  274 0008 1843     		orrs	r0, r0, r3
  275              	.LVL8:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 19
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 19
 
 
  357:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****     /* Request Wait For Interrupt */
  368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****     __WFI();
  369:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 20
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 20
 
 
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   else
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  387:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *            Alarm out, or RTC clock calibration out, 
  388:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *          - WKUP pins if enabled.
  389:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @retval None
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 21
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 21
 
 
  390:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  395              		.global	HAL_PWR_EnableSleepOnExit
  396              		.syntax unified
  397              		.thumb
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 22
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 22
 
 
  398              		.thumb_func
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** {
  432              		.loc 1 429 0
  433              		.cfi_startproc
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 23
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 23
 
 
  434              		@ args = 0, pretend = 0, frame = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  473              	.L39:
  474              		.align	2
  475              	.L38:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 24
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 24
 
 
  476 000c 00ED00E0 		.word	-536810240
@@ -1435,46 +1435,46 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 1
  517              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
  518              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\lib\\gcc\\arm-none-ea
  519              		.file 11 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s 			page 25
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_pwr.c
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:18     .text.HAL_PWR_DeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:47     .text.HAL_PWR_DeInit:00000014 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:52     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:59     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:76     .text.HAL_PWR_EnableBkUpAccess:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:81     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:88     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:105    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:110    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:117    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:136    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:141    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:148    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:167    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:172    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:179    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:244    .text.HAL_PWR_EnterSLEEPMode:0000001c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:251    .text.HAL_PWR_EnterSTOPMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:258    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:340    .text.HAL_PWR_EnterSTOPMode:00000030 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:348    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:355    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:388    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:394    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:401    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:418    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:423    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:430    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:447    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:452    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:459    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:476    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:481    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:488    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccCEHtKu.s:505    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:18     .text.HAL_PWR_DeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:47     .text.HAL_PWR_DeInit:00000014 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:52     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:59     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:76     .text.HAL_PWR_EnableBkUpAccess:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:81     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:88     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:105    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:110    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:117    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:136    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:141    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:148    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:167    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:172    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:179    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:244    .text.HAL_PWR_EnterSLEEPMode:0000001c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:251    .text.HAL_PWR_EnterSTOPMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:258    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:340    .text.HAL_PWR_EnterSTOPMode:00000030 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:348    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:355    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:388    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:394    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:401    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:418    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:423    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:430    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:447    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:452    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:459    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:476    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:481    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:488    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccAVnB2S.s:505    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
 
 NO UNDEFINED SYMBOLS

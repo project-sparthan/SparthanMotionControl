@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * Redistribution and use in source and binary forms, with or without modification,
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * are permitted provided that the following conditions are met:
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *   1. Redistributions of source code must retain the above copyright notice,
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *      this list of conditions and the following disclaimer.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     [..]
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     This subsection provides a set of functions allowing to initialize the USARTx or the UARTy
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     in asynchronous mode.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       (+) For the asynchronous mode the parameters below can be configured:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |---------|---------|-----------|---------------------------------------|
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |    1    |    0    |     0     |    | SB |    7 bit data   | STB |     |
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |---------|---------|-----------|---------------------------------------|
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 4
 
 
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |    1    |    0    |     1     |    | SB | 6 bit data | PB | STB |     |
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  177:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     return HAL_ERROR;
  178:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
  179:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Check the Driver Enable UART instance */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 5
 
 
  180:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   assert_param(IS_UART_DRIVER_ENABLE_INSTANCE(huart->Instance));
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
   72 0030 1BBB     		cbnz	r3, .L11
   73              	.L4:
  212:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 6
 
 
  213:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     UART_AdvFeatureConfig(huart);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  108              		.loc 1 232 0
  109 006e F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  110              	.LVL8:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 7
 
 
  111              	.L10:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  244:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****                       ##### IO operation function #####
  245:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****  ===============================================================================
  246:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     [..]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 8
 
 
  247:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     This subsection provides functions allowing to manage the UART interrupts
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  282:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****  ===============================================================================
  283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****                       ##### Peripheral Control functions #####
  284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****  ===============================================================================
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 9
 
 
  285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     [..]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  193 0012 0446     		mov	r4, r0
  194              		.loc 1 318 0 is_stmt 0 discriminator 2
  195 0014 0123     		movs	r3, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 10
 
 
  196 0016 80F86830 		strb	r3, [r0, #104]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  228 0050 0022     		movs	r2, #0
  229 0052 4FF48001 		mov	r1, #4194304
  230 0056 2046     		mov	r0, r4
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 11
 
 
  231              	.LVL18:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  269              	.LCFI5:
  270              		.cfi_restore_state
  318:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 12
 
 
  271              		.loc 1 318 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  307 001c 1360     		str	r3, [r2]
  375:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  376:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   huart->gState = HAL_UART_STATE_READY;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 13
 
 
  308              		.loc 1 376 0 discriminator 2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  344              		.loc 1 395 0
  345 0000 90F86830 		ldrb	r3, [r0, #104]	@ zero_extendqisi2
  346 0004 012B     		cmp	r3, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 14
 
 
  347 0006 12D0     		beq	.L26
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  409:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  410:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** /**
  411:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @brief By default in multiprocessor mode, when the wake up method is set
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 15
 
 
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *        to address mark, the UART handles only 4-bit long addresses detection;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  413 0018 23F01003 		bic	r3, r3, #16
  414 001c 1943     		orrs	r1, r1, r3
  415              	.LVL35:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 16
 
 
  416 001e 5160     		str	r1, [r2, #4]
@@ -949,23 +949,23 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 1
  454              		.file 13 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
  455              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
  456              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_uart_ex.c
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:18     .text.HAL_RS485Ex_Init:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:25     .text.HAL_RS485Ex_Init:00000000 HAL_RS485Ex_Init
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:143    .text.HAL_UARTEx_WakeupCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:150    .text.HAL_UARTEx_WakeupCallback:00000000 HAL_UARTEx_WakeupCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:164    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:171    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 HAL_UARTEx_StopModeWakeUpSourceConfig
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:278    .text.HAL_UARTEx_EnableStopMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:285    .text.HAL_UARTEx_EnableStopMode:00000000 HAL_UARTEx_EnableStopMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:329    .text.HAL_UARTEx_DisableStopMode:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:336    .text.HAL_UARTEx_DisableStopMode:00000000 HAL_UARTEx_DisableStopMode
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:380    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\cclwGVqk.s:387    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 HAL_MultiProcessorEx_AddressLength_Set
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:18     .text.HAL_RS485Ex_Init:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:25     .text.HAL_RS485Ex_Init:00000000 HAL_RS485Ex_Init
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:143    .text.HAL_UARTEx_WakeupCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:150    .text.HAL_UARTEx_WakeupCallback:00000000 HAL_UARTEx_WakeupCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:164    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:171    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 HAL_UARTEx_StopModeWakeUpSourceConfig
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:278    .text.HAL_UARTEx_EnableStopMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:285    .text.HAL_UARTEx_EnableStopMode:00000000 HAL_UARTEx_EnableStopMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:329    .text.HAL_UARTEx_DisableStopMode:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:336    .text.HAL_UARTEx_DisableStopMode:00000000 HAL_UARTEx_DisableStopMode
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:380    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc42LQpI.s:387    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 HAL_MultiProcessorEx_AddressLength_Set
 
 UNDEFINED SYMBOLS
 UART_SetConfig
