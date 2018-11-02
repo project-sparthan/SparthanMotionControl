@@ -51,12 +51,14 @@
 #include "sdadc.h"
 
 #include "gpio.h"
+#include "dma.h"
 
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
 
 SDADC_HandleTypeDef hsdadc1;
+DMA_HandleTypeDef hdma_sdadc1;
 
 /* SDADC1 init function */
 void MX_SDADC1_Init(void)
@@ -70,7 +72,7 @@ void MX_SDADC1_Init(void)
   hsdadc1.Init.IdleLowPowerMode = SDADC_LOWPOWER_NONE;
   hsdadc1.Init.FastConversionMode = SDADC_FAST_CONV_DISABLE;
   hsdadc1.Init.SlowClockMode = SDADC_SLOW_CLOCK_DISABLE;
-  hsdadc1.Init.ReferenceVoltage = SDADC_VREF_VREFINT1;
+  hsdadc1.Init.ReferenceVoltage = SDADC_VREF_VREFINT2;
   if (HAL_SDADC_Init(&hsdadc1) != HAL_OK)
   {
     _Error_Handler(__FILE__, __LINE__);
@@ -125,6 +127,23 @@ void HAL_SDADC_MspInit(SDADC_HandleTypeDef* sdadcHandle)
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
+    /* SDADC1 DMA Init */
+    /* SDADC1 Init */
+    hdma_sdadc1.Instance = DMA2_Channel3;
+    hdma_sdadc1.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_sdadc1.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_sdadc1.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_sdadc1.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
+    hdma_sdadc1.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
+    hdma_sdadc1.Init.Mode = DMA_NORMAL;
+    hdma_sdadc1.Init.Priority = DMA_PRIORITY_LOW;
+    if (HAL_DMA_Init(&hdma_sdadc1) != HAL_OK)
+    {
+      _Error_Handler(__FILE__, __LINE__);
+    }
+
+    __HAL_LINKDMA(sdadcHandle,hdma,hdma_sdadc1);
+
   /* USER CODE BEGIN SDADC1_MspInit 1 */
 
   /* USER CODE END SDADC1_MspInit 1 */
@@ -153,6 +172,8 @@ void HAL_SDADC_MspDeInit(SDADC_HandleTypeDef* sdadcHandle)
 
     HAL_GPIO_DeInit(GPIOE, ISEN5_Pin|ISEN4_Pin);
 
+    /* SDADC1 DMA DeInit */
+    HAL_DMA_DeInit(sdadcHandle->hdma);
   /* USER CODE BEGIN SDADC1_MspDeInit 1 */
 
   /* USER CODE END SDADC1_MspDeInit 1 */

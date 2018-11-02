@@ -42,8 +42,8 @@ build/main.o: Src/main.c Inc/main.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Inc/sdadc.h \
- Inc/tim.h Inc/usart.h Inc/gpio.h
+ Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Inc/dma.h \
+ Inc/sdadc.h Inc/tim.h Inc/usart.h Inc/gpio.h
 
 Inc/main.h:
 
@@ -140,6 +140,8 @@ Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 
 Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+
+Inc/dma.h:
 
 Inc/sdadc.h:
 

@@ -76,7 +76,10 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+extern TIM_HandleTypeDef htim19;
 
+uint32_t encoderCount;
+uint8_t encoderDirection;
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 
@@ -136,11 +139,15 @@ void StartDefaultTask(void const * argument)
 {
 
   /* USER CODE BEGIN StartDefaultTask */
+
+  HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_ALL);
+
   /* Infinite loop */
   for(;;)
   {
-    HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-    osDelay(100);
+    //HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+    encoderCount = __HAL_TIM_GET_COUNTER(&htim19);
+    osDelay(1);
   }
   /* USER CODE END StartDefaultTask */
 }

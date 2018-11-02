@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     (#) Supports incremental (quadrature) encoder and hall-sensor circuitry for 
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****         positioning purposes                
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****             ##### How to use this driver #####
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** static void TIM_OC6_SetConfig(TIM_TypeDef *TIMx, 
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                               TIM_OC_InitTypeDef *OC_Config);
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** #endif /* STM32F302xE || STM32F303xE || STM32F398xx || */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_CLOCKDIVISION_DIV(htim->Init.ClockDivision));
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_AUTORELOAD_PRELOAD(htim->Init.AutoReloadPreload));
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_IC_POLARITY(sConfig->IC1Polarity));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 5
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_IC_PRESCALER(sConfig->IC1Prescaler));
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->State= HAL_TIM_STATE_READY;
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 6
 
 
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
   41              		.align	1
   42              		.p2align 2,,3
   43              		.global	HAL_TIMEx_HallSensor_Init
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 7
 
 
   44              		.syntax unified
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
   91 002a C621     		movs	r1, #198
   92 002c 4448     		ldr	r0, .L46
   93 002e FFF7FEFF 		bl	assert_failed
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 8
 
 
   94              	.LVL5:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  138 0076 3248     		ldr	r0, .L46
  139 0078 FFF7FEFF 		bl	assert_failed
  140              	.LVL9:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 9
 
 
  141              	.L9:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  183 00bc 4368     		ldr	r3, [r0, #4]
  184 00be 43F08003 		orr	r3, r3, #128
  185 00c2 4360     		str	r3, [r0, #4]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 10
 
 
  232:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_TS_TI1F_ED;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  225 00fe 5A68     		ldr	r2, [r3, #4]
  226 0100 22F07002 		bic	r2, r2, #112
  227 0104 5A60     		str	r2, [r3, #4]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 11
 
 
  253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  271 0124 FFF7FEFF 		bl	HAL_TIMEx_HallSensor_MspInit
  272              	.LVL17:
  273 0128 B1E7     		b	.L11
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 12
 
 
  274              	.L44:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  328              		.loc 1 269 0
  329 0000 0368     		ldr	r3, [r0]
  330 0002 B3F1804F 		cmp	r3, #1073741824
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 13
 
 
  267:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  373              		.loc 1 269 0 discriminator 9
  374 004a 02F59032 		add	r2, r2, #73728
  375 004e 9342     		cmp	r3, r2
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 14
 
 
  376 0050 15D0     		beq	.L50
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  420 00a0 2046     		mov	r0, r4
  421 00a2 FFF7FEFF 		bl	HAL_TIMEx_HallSensor_MspDeInit
  422              	.LVL22:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 15
 
 
  280:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  453              		@ frame_needed = 0, uses_anonymous_args = 0
  454              	.LVL24:
  455 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 16
 
 
  456              	.LCFI6:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  499              	HAL_TIMEx_HallSensor_Stop:
  500              	.LFB131:
  338:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 17
 
 
  339:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  538 002e 1A68     		ldr	r2, [r3]
  539 0030 22F00102 		bic	r2, r2, #1
  540 0034 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 18
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 18
 
 
  541              	.L63:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the capture compare Interrupts 1 event */
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE_IT(htim, TIM_IT_CC1);
  582              		.loc 1 371 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 19
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 19
 
 
  583 000e 2068     		ldr	r0, [r4]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  620              		.cfi_startproc
  621              		@ args = 0, pretend = 0, frame = 0
  622              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 20
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 20
 
 
  623              	.LVL39:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  403:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  404:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Return function status */
  405:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 21
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 21
 
 
  406:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  707              	.LVL46:
  416:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
  708              		.loc 1 416 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 22
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 22
 
 
  709 000c 1646     		mov	r6, r2
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  738              	.LVL48:
  443:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  444:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the DMA channel for Capture 1U*/
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 23
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 23
 
 
  445:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   HAL_DMA_Start_IT(htim->hdma[TIM_DMA_ID_CC1], (uint32_t)&htim->Instance->CCR1, (uint32_t)pData, Le
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  779 006c 00000000 		.word	.LC0
  780 0070 00000000 		.word	TIM_DMAError
  781 0074 00000000 		.word	TIM_DMACaptureCplt
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 24
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 24
 
 
  782              		.cfi_endproc
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  472:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Disable the capture compare Interrupts 1 event */
  473:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_CC1);
  821              		.loc 1 473 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 25
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 25
 
 
  822 0018 2368     		ldr	r3, [r4]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** @verbatim   
  490:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   ==============================================================================
  491:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****               ##### Timer Complementary Output Compare functions #####
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 26
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 26
 
 
  492:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   ==============================================================================  
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  887 0014 1CD0     		beq	.L93
  888              		.loc 1 520 0 discriminator 3
  889 0016 02F58062 		add	r2, r2, #1024
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 27
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 27
 
 
  890 001a 9342     		cmp	r3, r2
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  560:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Return function status */
  561:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
  562:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** } 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 28
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 28
 
 
  563:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  617:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE(htim);
  618:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  619:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Return function status */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 29
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 29
 
 
  620:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  674:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   {
  675:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     __HAL_TIM_DISABLE_IT(htim, TIM_IT_BREAK);
  676:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 30
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 30
 
 
  677:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  731:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Enable the DMA channel */
  732:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       HAL_DMA_Start_IT(htim->hdma[TIM_DMA_ID_CC1], (uint32_t)pData, (uint32_t)&htim->Instance->CCR1
  733:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 31
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 31
 
 
  734:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Enable the TIM Output Compare DMA request */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  788:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
  789:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @brief  Stops the TIM Output Compare signal generation in DMA mode 
  790:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         on the complementary output.
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 32
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 32
 
 
  791:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  htim TIM Output Compare handle
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  845:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
  846:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  847:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 33
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 33
 
 
  848:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @}
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  902:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the Peripheral */
  903:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE(htim);
  904:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 34
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 34
 
 
  905:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Return function status */
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  959:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
  960:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
  961:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 35
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 35
 
 
  962:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     case TIM_CHANNEL_2:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1016:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
 1017:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     {       
 1018:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Disable the TIM Capture/Compare 1 interrupt */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 36
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 36
 
 
 1019:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_IT(htim, TIM_IT_CC1);
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1073:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
 1074:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pDa
 1075:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 37
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 37
 
 
 1076:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1130:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Set the DMA Period elapsed callback */
 1131:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC3]->XferCpltCallback = TIM_DMADelayPulseCplt;
 1132:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 38
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 38
 
 
 1133:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Set the DMA error callback */
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1187:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     {
 1188:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Disable the TIM Capture/Compare 2 DMA request */
 1189:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_CC2);
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 39
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 39
 
 
 1190:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1244:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         output.
 1245:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  htim TIM One Pulse handle
 1246:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  OutputChannel TIM Channel to be enabled
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 40
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 40
 
 
 1247:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1301:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1302:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
 1303:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 41
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 41
 
 
 1304:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @retval HAL status
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1358:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
 1359:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
 1360:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 42
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 42
 
 
 1361:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1415:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
 1416:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
 1417:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 43
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 43
 
 
 1418:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   if ((InputTrigger == TIM_TS_ITR0) || (InputTrigger == TIM_TS_ITR1) ||
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1472:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
 1473:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
 1474:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 44
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 44
 
 
 1475:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Select the Capture Compare preload feature */
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1529:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->Instance->CR2 |= TIM_CR2_CCPC;
 1530:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Select the Commutation event source */
 1531:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->Instance->CR2 &= ~TIM_CR2_CCUS;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 45
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 45
 
 
 1532:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->Instance->CR2 |= CommutationSource;
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1586:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      /* Configure the TIM Channel 1 in Output Compare */
 1587:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       TIM_OC1_SetConfig(htim->Instance, sConfig);
 1588:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 46
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 46
 
 
 1589:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1643:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
 1644:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
 1645:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->State = HAL_TIM_STATE_READY;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 47
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 47
 
 
 1646:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1700:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
 1701:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
 1702:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 48
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 48
 
 
 1703:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     case TIM_CHANNEL_2:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1757:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       assert_param(IS_TIM_CC5_INSTANCE(htim->Instance)); 
 1758:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
 1759:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      /* Configure the Channel 5 in PWM mode */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 49
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 49
 
 
 1760:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       TIM_OC5_SetConfig(htim->Instance, sConfig);
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1814:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
 1815:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_SYNCHRO_INSTANCE(htim->Instance));
 1816:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_TRGO_SOURCE(sMasterConfig->MasterOutputTrigger));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 50
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 50
 
 
 1817:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_MSM_STATE(sMasterConfig->MasterSlaveMode));
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1871:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         mode. 
 1872:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @retval HAL status
 1873:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 51
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 51
 
 
 1874:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_MasterConfigSynchronization(TIM_HandleTypeDef *htim, TIM_MasterConfigTy
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1928:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_DEADTIME(sBreakDeadTimeConfig->DeadTime));
 1929:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_STATE(sBreakDeadTimeConfig->BreakState));
 1930:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_POLARITY(sBreakDeadTimeConfig->BreakPolarity));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 52
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 52
 
 
 1931:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_FILTER(sBreakDeadTimeConfig->BreakFilter));
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1985:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                                                 TIM_BreakDeadTimeConfigTypeDef *sBreakDeadTimeConfi
 1986:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
 1987:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   uint32_t tmpbdtr = 0U;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 53
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 53
 
 
 1988:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2042:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM8_ADC2_AWD1: TIM8_ETR is connected to ADC2 AWD1
 2043:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM8_ADC2_AWD2: TIM8_ETR is connected to ADC2 AWD2
 2044:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM8_ADC2_AWD3: TIM8_ETR is connected to ADC2 AWD3
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 54
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 54
 
 
 2045:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM16_GPIO: TIM16 TI1 is connected to GPIO
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2099:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
 2100:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** #else /* STM32F334x8 */
 2101:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 55
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 55
 
 
 2102:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @brief  Configures the TIM1, TIM8 and TIM16 Remapping input capabilities.
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2156:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  htim TIM handle.
 2157:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Remap specifies the TIM remapping source.
 2158:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 56
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 56
 
 
 2159:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM1_ADC1_NONE: TIM1_ETR is not connected to any AWD (analog watchdog)
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2213:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
 2214:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** #if defined(STM32F302xE) || defined(STM32F303xE) || defined(STM32F398xx) || \
 2215:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     defined(STM32F302xC) || defined(STM32F303xC) || defined(STM32F358xx) || \
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 57
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 57
 
 
 2216:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     defined(STM32F303x8) || defined(STM32F334x8) || defined(STM32F328xx) || \
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  htim TIM handle
 2271:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  sClearInputConfig pointer to a TIM_ClearInputConfigTypeDef structure that
 2272:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         contains the OCREF clear feature and parameters for the TIM peripheral. 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 58
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 58
 
 
 2273:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Channel specifies the TIM Channel
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Check the parameters */ 
 2328:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       assert_param(IS_TIM_CLEARINPUT_POLARITY(sClearInputConfig->ClearInputPolarity));
 2329:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       assert_param(IS_TIM_CLEARINPUT_PRESCALER(sClearInputConfig->ClearInputPrescaler));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 59
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 59
 
 
 2330:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       assert_param(IS_TIM_CLEARINPUT_FILTER(sClearInputConfig->ClearInputFilter));
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2384:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****           /* Disable the Ocref clear feature for Channel 3U */
 2385:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****           htim->Instance->CCMR2 &= ~TIM_CCMR2_OC3CE;      
 2386:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****         }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 60
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 60
 
 
 2387:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       }    
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2441:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** #endif /* STM32F302xE || STM32F303xE || STM32F398xx || */
 2442:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****        /* STM32F302xC || STM32F303xC || STM32F358xx || */
 2443:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****        /* STM32F303x8 || STM32F334x8 || STM32F328xx || */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 61
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 61
 
 
 2444:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****        /* STM32F301x8 || STM32F302x8 || STM32F318xx    */
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2498:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @retval None
 2499:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
 2500:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** __weak void HAL_TIMEx_Break2Callback(TIM_HandleTypeDef *htim)
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 62
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 62
 
 
 2501:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2555:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** void TIMEx_DMACommutationCplt(DMA_HandleTypeDef *hdma)
 2556:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
 2557:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_HandleTypeDef* htim = ( TIM_HandleTypeDef* )((DMA_HandleTypeDef* )hdma)->Parent;
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 63
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 63
 
 
 2558:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  927 0044 1A68     		ldr	r2, [r3]
  928 0046 42F00102 		orr	r2, r2, #1
  929 004a 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 64
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 64
 
 
  533:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  979              		.loc 1 549 0 is_stmt 0 discriminator 1
  980 000e 02F58062 		add	r2, r2, #1024
  981 0012 9342     		cmp	r3, r2
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 65
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 65
 
 
  982 0014 2BD0     		beq	.L103
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1028 0050 41F21112 		movw	r2, #4369
  1029 0054 1142     		tst	r1, r2
  1030 0056 08D1     		bne	.L107
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 66
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 66
 
 
  558:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1081              	HAL_TIMEx_OCN_Start_IT:
  1082              	.LFB138:
  576:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 67
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 67
 
 
  1083              		.loc 1 576 0
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1128 0032 C4B1     		cbz	r4, .L118
  1129              	.L123:
  608:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 68
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 68
 
 
  1130              		.loc 1 608 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  587:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
  1176              		.loc 1 587 0
  1177 006e E1E7     		b	.L123
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 69
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 69
 
 
  1178              	.L120:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1227              		.loc 1 635 0
  1228 0008 0546     		mov	r5, r0
  1229 000a 0C46     		mov	r4, r1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 70
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 70
 
 
  639:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1274 0044 1A62     		str	r2, [r3, #32]
  1275              	.LVL95:
  1276              	.LBE41:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 71
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 71
 
 
  1277              	.LBE40:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1321              		.loc 1 686 0 is_stmt 1
  1322 0090 0020     		movs	r0, #0
  1323 0092 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 72
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 72
 
 
  1324              	.LVL98:
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1372              		@ args = 0, pretend = 0, frame = 0
  1373              		@ frame_needed = 0, uses_anonymous_args = 0
  1374              	.LVL100:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 73
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 73
 
 
  1375 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1419              		.loc 1 710 0
  1420 0036 94F83D00 		ldrb	r0, [r4, #61]	@ zero_extendqisi2
  1421 003a C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 74
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 74
 
 
  1422 003c 0128     		cmp	r0, #1
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1465 0078 1362     		str	r3, [r2, #32]
  1466              		.loc 1 2586 0
  1467 007a 136A     		ldr	r3, [r2, #32]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 75
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 75
 
 
  1468 007c 1943     		orrs	r1, r1, r3
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1511 00b0 C9D1     		bne	.L167
  1512              	.L156:
  742:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 76
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 76
 
 
  1513              		.loc 1 742 0
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1553              		.loc 1 767 0
  1554 00ee 2268     		ldr	r2, [r4]
  1555 00f0 D368     		ldr	r3, [r2, #12]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 77
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 77
 
 
  1556 00f2 43F40063 		orr	r3, r3, #2048
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1606              		.loc 1 802 0
  1607 000c 3BD0     		beq	.L171
  802:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 78
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 78
 
 
  1608              		.loc 1 802 0 is_stmt 0 discriminator 1
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1653              		.loc 1 835 0
  1654 0044 196A     		ldr	r1, [r3, #32]
  1655 0046 41F21112 		movw	r2, #4369
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 79
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 79
 
 
  1656 004a 1142     		tst	r1, r2
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1700              		.loc 1 811 0
  1701 0092 CFE7     		b	.L178
  1702              	.L175:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 80
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 80
 
 
  816:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1752 0008 0446     		mov	r4, r0
  1753 000a 0D46     		mov	r5, r1
  894:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 81
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 81
 
 
  1754              		.loc 1 894 0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1800 0046 42F00102 		orr	r2, r2, #1
  1801 004a 1A60     		str	r2, [r3]
  907:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 82
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 82
 
 
  1802              		.loc 1 907 0
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1852 000e 02F58062 		add	r2, r2, #1024
  1853 0012 9342     		cmp	r3, r2
  1854 0014 2BD0     		beq	.L198
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 83
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 83
 
 
  922:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1901 0054 1142     		tst	r1, r2
  1902 0056 08D1     		bne	.L202
  931:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 84
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 84
 
 
  1903              		.loc 1 931 0 is_stmt 0 discriminator 1
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  1954              	.LFB144:
  949:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
  1955              		.loc 1 949 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 85
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 85
 
 
  1956              		.cfi_startproc
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2001              	.L218:
  981:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  2002              		.loc 1 981 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 86
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 86
 
 
  2003 0034 DA68     		ldr	r2, [r3, #12]
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2048              		.loc 1 960 0
  2049 006e E1E7     		b	.L218
  2050              	.L215:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 87
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 87
 
 
  965:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2100 0008 0546     		mov	r5, r0
  2101 000a 0C46     		mov	r4, r1
 1012:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 88
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 88
 
 
  2102              		.loc 1 1012 0
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2147              	.LVL163:
  2148              	.LBE53:
  2149              	.LBE52:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 89
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 89
 
 
 1045:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   if ((tmpccer & (TIM_CCER_CC1NE | TIM_CCER_CC2NE | TIM_CCER_CC3NE)) == RESET)
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2194 0090 0020     		movs	r0, #0
  2195 0092 38BD     		pop	{r3, r4, r5, pc}
  2196              	.LVL166:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 90
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 90
 
 
  2197              	.L226:
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2245              		@ frame_needed = 0, uses_anonymous_args = 0
  2246              	.LVL168:
  2247 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 91
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 91
 
 
  2248              	.LCFI22:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2292 0036 94F83D00 		ldrb	r0, [r4, #61]	@ zero_extendqisi2
  2293 003a C0B2     		uxtb	r0, r0
  2294 003c 0128     		cmp	r0, #1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 92
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 92
 
 
  2295 003e 31D0     		beq	.L260
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2338              		.loc 1 2586 0
  2339 007a 136A     		ldr	r3, [r2, #32]
  2340 007c 1943     		orrs	r1, r1, r3
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 93
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 93
 
 
  2341              	.LVL176:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2384              	.L251:
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      
  2385              		.loc 1 1115 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 94
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 94
 
 
  2386 00b2 A06A     		ldr	r0, [r4, #40]
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2426 00ee 2268     		ldr	r2, [r4]
  2427 00f0 D368     		ldr	r3, [r2, #12]
  2428 00f2 43F40063 		orr	r3, r3, #2048
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 95
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 95
 
 
  2429 00f6 D360     		str	r3, [r2, #12]
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2479 000c 3BD0     		beq	.L266
 1175:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  2480              		.loc 1 1175 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 96
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 96
 
 
  2481 000e 02F58062 		add	r2, r2, #1024
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2526 0044 196A     		ldr	r1, [r3, #32]
  2527 0046 41F21112 		movw	r2, #4369
  2528 004a 1142     		tst	r1, r2
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 97
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 97
 
 
  2529 004c 08D1     		bne	.L274
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2573 0092 CFE7     		b	.L273
  2574              	.L270:
 1189:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 98
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 98
 
 
  2575              		.loc 1 1189 0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2625 000a 0D46     		mov	r5, r1
 1255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  2626              		.loc 1 1255 0
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 99
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 99
 
 
  2627 000c 1CD0     		beq	.L283
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2673              	.LVL201:
  2674              	.L283:
 1255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 100
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 100
 
 
  2675              		.loc 1 1255 0 discriminator 6
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2725 001a 9342     		cmp	r3, r2
  2726 001c 27D0     		beq	.L293
 1281:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 101
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 101
 
 
  2727              		.loc 1 1281 0 discriminator 7
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2774 005e 1142     		tst	r1, r2
  2775 0060 03D1     		bne	.L297
 1290:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****    
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 102
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 102
 
 
  2776              		.loc 1 1290 0 discriminator 2
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2827              	.LVL214:
  2828 0000 38B5     		push	{r3, r4, r5, lr}
  2829              	.LCFI26:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 103
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 103
 
 
  2830              		.cfi_def_cfa_offset 16
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2580:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  2875              		.loc 1 2580 0
  2876 003c 0421     		movs	r1, #4
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 104
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 104
 
 
  2877 003e A940     		lsls	r1, r1, r5
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2928              	.LCFI27:
  2929              		.cfi_def_cfa_offset 16
  2930              		.cfi_offset 3, -16
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 105
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 105
 
 
  2931              		.cfi_offset 4, -12
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  2975 003e AA40     		lsls	r2, r2, r5
  2976              	.LVL228:
 2583:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 106
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 106
 
 
  2977              		.loc 1 2583 0
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3023              	.LVL232:
  3024 0086 0648     		ldr	r0, .L326+4
  3025              	.LVL233:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 107
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 107
 
 
  3026 0088 FFF7FEFF 		bl	assert_failed
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 1877:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_TRGO_SOURCE(sMasterConfig->MasterOutputTrigger));
  3076              		.loc 1 1877 0 is_stmt 0 discriminator 1
  3077 000e 2F4A     		ldr	r2, .L349
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 108
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 108
 
 
  3078 0010 9342     		cmp	r3, r2
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3122 0060 04D0     		beq	.L330
 1878:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_MSM_STATE(sMasterConfig->MasterSlaveMode));
  3123              		.loc 1 1878 0 discriminator 8
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 109
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 109
 
 
  3124 0062 40F25671 		movw	r1, #1878
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3165              		.loc 1 1893 0 discriminator 2
  3166 00a4 3243     		orrs	r2, r2, r6
  3167 00a6 9A60     		str	r2, [r3, #8]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 110
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 110
 
 
 1899:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3215              		@ frame_needed = 0, uses_anonymous_args = 0
  3216              	.LVL244:
 1990:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_OSSR_STATE(sBreakDeadTimeConfig->OffStateRunMode));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 111
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 111
 
 
  3217              		.loc 1 1990 0
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3262 003a 33F44073 		bics	r3, r3, #768
  3263 003e 04D0     		beq	.L355
 1993:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_DEADTIME(sBreakDeadTimeConfig->DeadTime));
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 112
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 112
 
 
  3264              		.loc 1 1993 0 is_stmt 0 discriminator 4
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2013:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
  3308              		.loc 1 2013 0 discriminator 2
  3309 008e D5E90460 		ldrd	r6, r0, [r5, #16]
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 113
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 113
 
 
 2011:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKE, sBreakDeadTimeConfig->BreakState);
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3348              	.L383:
 1994:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_STATE(sBreakDeadTimeConfig->BreakState));
  3349              		.loc 1 1994 0 discriminator 1
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 114
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 114
 
 
  3350 00c6 40F2CA71 		movw	r1, #1994
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3396 0112 00BF     		.align	2
  3397              	.L387:
  3398 0114 00400140 		.word	1073823744
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 115
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 115
 
 
  3399 0118 00000000 		.word	.LC0
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
 2196:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  3449              		.loc 1 2196 0 is_stmt 1
  3450 0028 032D     		cmp	r5, #3
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 116
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 116
 
 
  3451 002a 0CD9     		bls	.L392
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3492 0064 00000000 		.word	.LC0
  3493              		.cfi_endproc
  3494              	.LFE154:
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 117
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 117
 
 
  3496              		.section	.text.HAL_TIMEx_CommutationCallback,"ax",%progbits
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3556              		.global	HAL_TIMEx_HallSensor_GetState
  3557              		.syntax unified
  3558              		.thumb
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 118
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 118
 
 
  3559              		.thumb_func
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3608              		.loc 1 2562 0
  3609 000e 08BD     		pop	{r3, pc}
  3610              		.cfi_endproc
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 119
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 119
 
 
  3611              	.LFE159:
@@ -7110,110 +7110,110 @@ ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 1
  3633              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h"
  3634              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
  3635              		.file 17 "Inc/stm32f3xx_hal_conf.h"
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 120
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 120
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_tim_ex.c
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:18     .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:26     .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:41     .text.HAL_TIMEx_HallSensor_Init:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:49     .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:289    .text.HAL_TIMEx_HallSensor_Init:00000140 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:294    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:302    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:313    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:321    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:434    .text.HAL_TIMEx_HallSensor_DeInit:000000b4 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:440    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:448    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:486    .text.HAL_TIMEx_HallSensor_Start:00000028 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:491    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:499    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:549    .text.HAL_TIMEx_HallSensor_Stop:0000003c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:554    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:562    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:604    .text.HAL_TIMEx_HallSensor_Start_IT:00000030 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:609    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:617    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:671    .text.HAL_TIMEx_HallSensor_Stop_IT:00000044 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:676    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:684    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:779    .text.HAL_TIMEx_HallSensor_Start_DMA:0000006c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:786    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:794    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:848    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000044 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:853    .text.HAL_TIMEx_OCN_Start:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:861    .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:942    .text.HAL_TIMEx_OCN_Start:00000058 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:948    .text.HAL_TIMEx_OCN_Stop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:956    .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1067   .text.HAL_TIMEx_OCN_Stop:0000008c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1073   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1081   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1195   .text.HAL_TIMEx_OCN_Start_IT:00000084 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1201   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1209   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1354   .text.HAL_TIMEx_OCN_Stop_IT:000000b8 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1360   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1368   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1568   .text.HAL_TIMEx_OCN_Start_DMA:00000100 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1577   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1585   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1719   .text.HAL_TIMEx_OCN_Stop_DMA:000000a8 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1725   .text.HAL_TIMEx_PWMN_Start:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1733   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1814   .text.HAL_TIMEx_PWMN_Start:00000058 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1820   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1828   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1939   .text.HAL_TIMEx_PWMN_Stop:0000008c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1945   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:1953   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2067   .text.HAL_TIMEx_PWMN_Start_IT:00000084 $d
-ARM GAS  C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s 			page 121
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:18     .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:26     .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:41     .text.HAL_TIMEx_HallSensor_Init:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:49     .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:289    .text.HAL_TIMEx_HallSensor_Init:00000140 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:294    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:302    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:313    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:321    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:434    .text.HAL_TIMEx_HallSensor_DeInit:000000b4 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:440    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:448    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:486    .text.HAL_TIMEx_HallSensor_Start:00000028 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:491    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:499    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:549    .text.HAL_TIMEx_HallSensor_Stop:0000003c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:554    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:562    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:604    .text.HAL_TIMEx_HallSensor_Start_IT:00000030 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:609    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:617    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:671    .text.HAL_TIMEx_HallSensor_Stop_IT:00000044 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:676    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:684    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:779    .text.HAL_TIMEx_HallSensor_Start_DMA:0000006c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:786    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:794    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:848    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000044 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:853    .text.HAL_TIMEx_OCN_Start:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:861    .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:942    .text.HAL_TIMEx_OCN_Start:00000058 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:948    .text.HAL_TIMEx_OCN_Stop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:956    .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1067   .text.HAL_TIMEx_OCN_Stop:0000008c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1073   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1081   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1195   .text.HAL_TIMEx_OCN_Start_IT:00000084 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1201   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1209   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1354   .text.HAL_TIMEx_OCN_Stop_IT:000000b8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1360   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1368   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1568   .text.HAL_TIMEx_OCN_Start_DMA:00000100 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1577   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1585   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1719   .text.HAL_TIMEx_OCN_Stop_DMA:000000a8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1725   .text.HAL_TIMEx_PWMN_Start:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1733   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1814   .text.HAL_TIMEx_PWMN_Start:00000058 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1820   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1828   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1939   .text.HAL_TIMEx_PWMN_Stop:0000008c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1945   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:1953   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2067   .text.HAL_TIMEx_PWMN_Start_IT:00000084 $d
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s 			page 121
 
 
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2073   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2081   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2226   .text.HAL_TIMEx_PWMN_Stop_IT:000000b8 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2232   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2240   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2440   .text.HAL_TIMEx_PWMN_Start_DMA:00000100 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2449   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2457   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2591   .text.HAL_TIMEx_PWMN_Stop_DMA:000000a8 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2597   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2605   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2682   .text.HAL_TIMEx_OnePulseN_Start:00000050 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2688   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2696   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2807   .text.HAL_TIMEx_OnePulseN_Stop:0000008c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2813   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2821   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2906   .text.HAL_TIMEx_OnePulseN_Start_IT:00000060 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2912   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:2920   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3039   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000009c $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3045   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3053   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3196   .text.HAL_TIMEx_MasterConfigSynchronization:000000cc $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3202   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3210   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3398   .text.HAL_TIMEx_ConfigBreakDeadTime:00000114 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3404   .text.HAL_TIMEx_RemapConfig:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3412   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3491   .text.HAL_TIMEx_RemapConfig:00000060 $d
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3497   .text.HAL_TIMEx_CommutationCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3505   .text.HAL_TIMEx_CommutationCallback:00000000 HAL_TIMEx_CommutationCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3516   .text.HAL_TIMEx_BreakCallback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3524   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3535   .text.HAL_TIMEx_Break2Callback:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3543   .text.HAL_TIMEx_Break2Callback:00000000 HAL_TIMEx_Break2Callback
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3554   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3562   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3579   .text.TIMEx_DMACommutationCplt:00000000 $t
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3587   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
-C:\Users\ALEXWO~1\AppData\Local\Temp\ccmDofoL.s:3614   .rodata.HAL_TIMEx_HallSensor_Init.str1.4:00000000 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2073   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2081   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2226   .text.HAL_TIMEx_PWMN_Stop_IT:000000b8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2232   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2240   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2440   .text.HAL_TIMEx_PWMN_Start_DMA:00000100 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2449   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2457   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2591   .text.HAL_TIMEx_PWMN_Stop_DMA:000000a8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2597   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2605   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2682   .text.HAL_TIMEx_OnePulseN_Start:00000050 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2688   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2696   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2807   .text.HAL_TIMEx_OnePulseN_Stop:0000008c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2813   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2821   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2906   .text.HAL_TIMEx_OnePulseN_Start_IT:00000060 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2912   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:2920   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3039   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000009c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3045   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3053   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3196   .text.HAL_TIMEx_MasterConfigSynchronization:000000cc $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3202   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3210   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3398   .text.HAL_TIMEx_ConfigBreakDeadTime:00000114 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3404   .text.HAL_TIMEx_RemapConfig:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3412   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3491   .text.HAL_TIMEx_RemapConfig:00000060 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3497   .text.HAL_TIMEx_CommutationCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3505   .text.HAL_TIMEx_CommutationCallback:00000000 HAL_TIMEx_CommutationCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3516   .text.HAL_TIMEx_BreakCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3524   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3535   .text.HAL_TIMEx_Break2Callback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3543   .text.HAL_TIMEx_Break2Callback:00000000 HAL_TIMEx_Break2Callback
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3554   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3562   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3579   .text.TIMEx_DMACommutationCplt:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3587   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
+C:\Users\ALEX'S~1\AppData\Local\Temp\cclcIHjM.s:3614   .rodata.HAL_TIMEx_HallSensor_Init.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 assert_failed
