@@ -76,10 +76,17 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim4;
+extern TIM_HandleTypeDef htim5;
+extern TIM_HandleTypeDef htim12;
+extern TIM_HandleTypeDef htim15;
+extern TIM_HandleTypeDef htim16;
+extern TIM_HandleTypeDef htim17;
 extern TIM_HandleTypeDef htim19;
 
-uint32_t encoderCount;
-uint8_t encoderDirection;
+uint16_t encoderCount[5];
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 
@@ -139,14 +146,43 @@ void StartDefaultTask(void const * argument)
 {
 
   /* USER CODE BEGIN StartDefaultTask */
+  HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_1);
+  HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_1);
+  HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim5, TIM_CHANNEL_1);
+  HAL_TIM_Encoder_Start(&htim5, TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_1);
+  HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
+  HAL_GPIO_WritePin(DIR1_GPIO_Port, DIR1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DIR2_GPIO_Port, DIR2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DIR3_GPIO_Port, DIR3_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DIR4_GPIO_Port, DIR4_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DIR5_GPIO_Port, DIR5_Pin, GPIO_PIN_SET);
 
-  HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_ALL);
+  uint16_t dutyCycle = 0;
 
   /* Infinite loop */
   for(;;)
   {
-    //HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-    encoderCount = __HAL_TIM_GET_COUNTER(&htim19);
+    HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+    __HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, ++dutyCycle);   //Motor 1
+    __HAL_TIM_SET_COMPARE(&htim17, TIM_CHANNEL_1, ++dutyCycle);   //Motor 2
+    __HAL_TIM_SET_COMPARE(&htim15, TIM_CHANNEL_2, ++dutyCycle);   //Motor 3
+    __HAL_TIM_SET_COMPARE(&htim12, TIM_CHANNEL_1, ++dutyCycle);   //Motor 4
+    __HAL_TIM_SET_COMPARE(&htim12, TIM_CHANNEL_2, ++dutyCycle);   //Motor 5
+    encoderCount[0] = __HAL_TIM_GET_COUNTER(&htim2);              //Motor 1
+    encoderCount[1] = __HAL_TIM_GET_COUNTER(&htim3);              //Motor 2
+    encoderCount[2] = __HAL_TIM_GET_COUNTER(&htim4);              //Motor 3
+    encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);              //Motor 4
+    encoderCount[4] = __HAL_TIM_GET_COUNTER(&htim19);             //Motor 5
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */

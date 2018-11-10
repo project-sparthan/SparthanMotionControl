@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
   28:Src/main.c    ****   *    software, must execute solely and exclusively on microcontroller or
   29:Src/main.c    ****   *    microprocessor devices manufactured by or for STMicroelectronics.
   30:Src/main.c    ****   * 5. Redistribution and use of this software other than as permitted under 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 2
 
 
   31:Src/main.c    ****   *    this license is void and will automatically terminate your rights under 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
   85:Src/main.c    ****   *
   86:Src/main.c    ****   * @retval None
   87:Src/main.c    ****   */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 3
 
 
   88:Src/main.c    **** int main(void)
@@ -154,42 +154,45 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
  118:Src/main.c    ****   MX_TIM12_Init();
  119:Src/main.c    ****   MX_TIM19_Init();
  120:Src/main.c    ****   MX_USART1_UART_Init();
- 121:Src/main.c    ****   /* USER CODE BEGIN 2 */
- 122:Src/main.c    **** 
- 123:Src/main.c    ****   /* USER CODE END 2 */
- 124:Src/main.c    **** 
- 125:Src/main.c    ****   /* Call init function for freertos objects (in freertos.c) */
- 126:Src/main.c    ****   MX_FREERTOS_Init();
+ 121:Src/main.c    ****   MX_TIM17_Init();
+ 122:Src/main.c    ****   MX_TIM16_Init();
+ 123:Src/main.c    ****   MX_TIM15_Init();
+ 124:Src/main.c    ****   /* USER CODE BEGIN 2 */
+ 125:Src/main.c    **** 
+ 126:Src/main.c    ****   /* USER CODE END 2 */
  127:Src/main.c    **** 
- 128:Src/main.c    ****   /* Start scheduler */
- 129:Src/main.c    ****   osKernelStart();
- 130:Src/main.c    ****   
- 131:Src/main.c    ****   /* We should never get here as control is now taken by the scheduler */
- 132:Src/main.c    **** 
- 133:Src/main.c    ****   /* Infinite loop */
- 134:Src/main.c    ****   /* USER CODE BEGIN WHILE */
- 135:Src/main.c    ****   while (1)
- 136:Src/main.c    ****   {
- 137:Src/main.c    **** 
- 138:Src/main.c    ****   /* USER CODE END WHILE */
- 139:Src/main.c    **** 
- 140:Src/main.c    ****   /* USER CODE BEGIN 3 */
- 141:Src/main.c    **** 
- 142:Src/main.c    ****   }
- 143:Src/main.c    ****   /* USER CODE END 3 */
+ 128:Src/main.c    ****   /* Call init function for freertos objects (in freertos.c) */
+ 129:Src/main.c    ****   MX_FREERTOS_Init();
+ 130:Src/main.c    **** 
+ 131:Src/main.c    ****   /* Start scheduler */
+ 132:Src/main.c    ****   osKernelStart();
+ 133:Src/main.c    ****   
+ 134:Src/main.c    ****   /* We should never get here as control is now taken by the scheduler */
+ 135:Src/main.c    **** 
+ 136:Src/main.c    ****   /* Infinite loop */
+ 137:Src/main.c    ****   /* USER CODE BEGIN WHILE */
+ 138:Src/main.c    ****   while (1)
+ 139:Src/main.c    ****   {
+ 140:Src/main.c    **** 
+ 141:Src/main.c    ****   /* USER CODE END WHILE */
+ 142:Src/main.c    **** 
+ 143:Src/main.c    ****   /* USER CODE BEGIN 3 */
  144:Src/main.c    **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 4
 
 
- 145:Src/main.c    **** }
- 146:Src/main.c    **** 
- 147:Src/main.c    **** /**
- 148:Src/main.c    ****   * @brief System Clock Configuration
- 149:Src/main.c    ****   * @retval None
- 150:Src/main.c    ****   */
- 151:Src/main.c    **** void SystemClock_Config(void)
- 152:Src/main.c    **** {
-  29              		.loc 1 152 0
+ 145:Src/main.c    ****   }
+ 146:Src/main.c    ****   /* USER CODE END 3 */
+ 147:Src/main.c    **** 
+ 148:Src/main.c    **** }
+ 149:Src/main.c    **** 
+ 150:Src/main.c    **** /**
+ 151:Src/main.c    ****   * @brief System Clock Configuration
+ 152:Src/main.c    ****   * @retval None
+ 153:Src/main.c    ****   */
+ 154:Src/main.c    **** void SystemClock_Config(void)
+ 155:Src/main.c    **** {
+  29              		.loc 1 155 0
   30              		.cfi_startproc
   31              		@ args = 0, pretend = 0, frame = 104
   32              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -202,58 +205,58 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
   39 0002 9BB0     		sub	sp, sp, #108
   40              	.LCFI1:
   41              		.cfi_def_cfa_offset 120
- 153:Src/main.c    **** 
- 154:Src/main.c    ****   RCC_OscInitTypeDef RCC_OscInitStruct;
- 155:Src/main.c    ****   RCC_ClkInitTypeDef RCC_ClkInitStruct;
- 156:Src/main.c    ****   RCC_PeriphCLKInitTypeDef PeriphClkInit;
- 157:Src/main.c    **** 
- 158:Src/main.c    ****     /**Initializes the CPU, AHB and APB busses clocks 
- 159:Src/main.c    ****     */
- 160:Src/main.c    ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  42              		.loc 1 160 0
+ 156:Src/main.c    **** 
+ 157:Src/main.c    ****   RCC_OscInitTypeDef RCC_OscInitStruct;
+ 158:Src/main.c    ****   RCC_ClkInitTypeDef RCC_ClkInitStruct;
+ 159:Src/main.c    ****   RCC_PeriphCLKInitTypeDef PeriphClkInit;
+ 160:Src/main.c    **** 
+ 161:Src/main.c    ****     /**Initializes the CPU, AHB and APB busses clocks 
+ 162:Src/main.c    ****     */
+ 163:Src/main.c    ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  42              		.loc 1 163 0
   43 0004 0122     		movs	r2, #1
- 161:Src/main.c    ****   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  44              		.loc 1 161 0
+ 164:Src/main.c    ****   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  44              		.loc 1 164 0
   45 0006 4FF48033 		mov	r3, #65536
- 162:Src/main.c    ****   RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
-  46              		.loc 1 162 0
+ 165:Src/main.c    ****   RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
+  46              		.loc 1 165 0
   47 000a 0025     		movs	r5, #0
- 163:Src/main.c    ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
- 164:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  48              		.loc 1 164 0
+ 166:Src/main.c    ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+ 167:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  48              		.loc 1 167 0
   49 000c 0224     		movs	r4, #2
- 165:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
- 166:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
-  50              		.loc 1 166 0
+ 168:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+ 169:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
+  50              		.loc 1 169 0
   51 000e 4FF48011 		mov	r1, #1048576
- 167:Src/main.c    ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  52              		.loc 1 167 0
+ 170:Src/main.c    ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  52              		.loc 1 170 0
   53 0012 05A8     		add	r0, sp, #20
- 160:Src/main.c    ****   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  54              		.loc 1 160 0
+ 163:Src/main.c    ****   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  54              		.loc 1 163 0
   55 0014 0592     		str	r2, [sp, #20]
- 163:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  56              		.loc 1 163 0
+ 166:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  56              		.loc 1 166 0
   57 0016 0992     		str	r2, [sp, #36]
- 161:Src/main.c    ****   RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
-  58              		.loc 1 161 0
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 5
+
+
+ 164:Src/main.c    ****   RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
+  58              		.loc 1 164 0
   59 0018 0693     		str	r3, [sp, #24]
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 5
-
-
- 165:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
-  60              		.loc 1 165 0
+ 168:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
+  60              		.loc 1 168 0
   61 001a 0D93     		str	r3, [sp, #52]
- 162:Src/main.c    ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  62              		.loc 1 162 0
+ 165:Src/main.c    ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  62              		.loc 1 165 0
   63 001c 0795     		str	r5, [sp, #28]
- 164:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  64              		.loc 1 164 0
+ 167:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  64              		.loc 1 167 0
   65 001e 0C94     		str	r4, [sp, #48]
- 166:Src/main.c    ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  66              		.loc 1 166 0
+ 169:Src/main.c    ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  66              		.loc 1 169 0
   67 0020 0E91     		str	r1, [sp, #56]
-  68              		.loc 1 167 0
+  68              		.loc 1 170 0
   69 0022 FFF7FEFF 		bl	HAL_RCC_OscConfig
   70              	.LVL0:
   71 0026 00B1     		cbz	r0, .L2
@@ -261,76 +264,76 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
   73 0028 FEE7     		b	.L3
   74              	.L2:
   75 002a 0346     		mov	r3, r0
- 168:Src/main.c    ****   {
- 169:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
- 170:Src/main.c    ****   }
- 171:Src/main.c    **** 
- 172:Src/main.c    ****     /**Initializes the CPU, AHB and APB busses clocks 
- 173:Src/main.c    ****     */
- 174:Src/main.c    ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
- 175:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
- 176:Src/main.c    ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
- 177:Src/main.c    ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
- 178:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
-  76              		.loc 1 178 0
+ 171:Src/main.c    ****   {
+ 172:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
+ 173:Src/main.c    ****   }
+ 174:Src/main.c    **** 
+ 175:Src/main.c    ****     /**Initializes the CPU, AHB and APB busses clocks 
+ 176:Src/main.c    ****     */
+ 177:Src/main.c    ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+ 178:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+ 179:Src/main.c    ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+ 180:Src/main.c    ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+ 181:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  76              		.loc 1 181 0
   77 002c 4FF48062 		mov	r2, #1024
- 179:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
- 180:Src/main.c    **** 
- 181:Src/main.c    ****   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
-  78              		.loc 1 181 0
+ 182:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+ 183:Src/main.c    **** 
+ 184:Src/main.c    ****   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  78              		.loc 1 184 0
   79 0030 2146     		mov	r1, r4
- 174:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  80              		.loc 1 174 0
+ 177:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  80              		.loc 1 177 0
   81 0032 0F25     		movs	r5, #15
-  82              		.loc 1 181 0
+  82              		.loc 1 184 0
   83 0034 6846     		mov	r0, sp
- 177:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
-  84              		.loc 1 177 0
+ 180:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  84              		.loc 1 180 0
   85 0036 CDE90143 		strd	r4, r3, [sp, #4]
- 179:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-  86              		.loc 1 179 0
+ 182:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  86              		.loc 1 182 0
   87 003a 0493     		str	r3, [sp, #16]
- 174:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  88              		.loc 1 174 0
+ 177:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  88              		.loc 1 177 0
   89 003c 0095     		str	r5, [sp]
- 178:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-  90              		.loc 1 178 0
+ 181:Src/main.c    ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  90              		.loc 1 181 0
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 6
+
+
   91 003e 0392     		str	r2, [sp, #12]
-  92              		.loc 1 181 0
+  92              		.loc 1 184 0
   93 0040 FFF7FEFF 		bl	HAL_RCC_ClockConfig
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 6
-
-
   94              	.LVL1:
   95 0044 0346     		mov	r3, r0
   96 0046 00B1     		cbz	r0, .L4
   97              	.L5:
   98 0048 FEE7     		b	.L5
   99              	.L4:
- 182:Src/main.c    ****   {
- 183:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
- 184:Src/main.c    ****   }
- 185:Src/main.c    **** 
- 186:Src/main.c    ****   PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1|RCC_PERIPHCLK_SDADC;
- 100              		.loc 1 186 0
+ 185:Src/main.c    ****   {
+ 186:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
+ 187:Src/main.c    ****   }
+ 188:Src/main.c    **** 
+ 189:Src/main.c    ****   PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1|RCC_PERIPHCLK_SDADC;
+ 100              		.loc 1 189 0
  101 004a 40F60101 		movw	r1, #2049
- 187:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
- 188:Src/main.c    ****   PeriphClkInit.SdadcClockSelection = RCC_SDADCSYSCLK_DIV12;
- 102              		.loc 1 188 0
+ 190:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 191:Src/main.c    ****   PeriphClkInit.SdadcClockSelection = RCC_SDADCSYSCLK_DIV12;
+ 102              		.loc 1 191 0
  103 004e 4FF02842 		mov	r2, #-1476395008
- 189:Src/main.c    ****   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
- 104              		.loc 1 189 0
+ 192:Src/main.c    ****   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+ 104              		.loc 1 192 0
  105 0052 0FA8     		add	r0, sp, #60
- 187:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
- 106              		.loc 1 187 0
+ 190:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 106              		.loc 1 190 0
  107 0054 1193     		str	r3, [sp, #68]
- 186:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
- 108              		.loc 1 186 0
+ 189:Src/main.c    ****   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 108              		.loc 1 189 0
  109 0056 0F91     		str	r1, [sp, #60]
- 188:Src/main.c    ****   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
- 110              		.loc 1 188 0
+ 191:Src/main.c    ****   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+ 110              		.loc 1 191 0
  111 0058 1792     		str	r2, [sp, #92]
- 112              		.loc 1 189 0
+ 112              		.loc 1 192 0
  113 005a FFF7FEFF 		bl	HAL_RCCEx_PeriphCLKConfig
  114              	.LVL2:
  115 005e 0446     		mov	r4, r0
@@ -338,48 +341,48 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
  117              	.L7:
  118 0062 FEE7     		b	.L7
  119              	.L6:
- 190:Src/main.c    ****   {
- 191:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
- 192:Src/main.c    ****   }
- 193:Src/main.c    **** 
- 194:Src/main.c    ****   HAL_PWREx_EnableSDADC(PWR_SDADC_ANALOG1);
- 120              		.loc 1 194 0
+ 193:Src/main.c    ****   {
+ 194:Src/main.c    ****     _Error_Handler(__FILE__, __LINE__);
+ 195:Src/main.c    ****   }
+ 196:Src/main.c    **** 
+ 197:Src/main.c    ****   HAL_PWREx_EnableSDADC(PWR_SDADC_ANALOG1);
+ 120              		.loc 1 197 0
  121 0064 4FF40070 		mov	r0, #512
  122 0068 FFF7FEFF 		bl	HAL_PWREx_EnableSDADC
  123              	.LVL3:
- 195:Src/main.c    **** 
- 196:Src/main.c    ****     /**Configure the Systick interrupt time 
- 197:Src/main.c    ****     */
- 198:Src/main.c    ****   HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
- 124              		.loc 1 198 0
+ 198:Src/main.c    **** 
+ 199:Src/main.c    ****     /**Configure the Systick interrupt time 
+ 200:Src/main.c    ****     */
+ 201:Src/main.c    ****   HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
+ 124              		.loc 1 201 0
  125 006c FFF7FEFF 		bl	HAL_RCC_GetHCLKFreq
  126              	.LVL4:
  127 0070 4FF47A73 		mov	r3, #1000
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 7
+
+
  128 0074 B0FBF3F0 		udiv	r0, r0, r3
  129 0078 FFF7FEFF 		bl	HAL_SYSTICK_Config
  130              	.LVL5:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 7
-
-
- 199:Src/main.c    **** 
- 200:Src/main.c    ****     /**Configure the Systick 
- 201:Src/main.c    ****     */
- 202:Src/main.c    ****   HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
- 131              		.loc 1 202 0
+ 202:Src/main.c    **** 
+ 203:Src/main.c    ****     /**Configure the Systick 
+ 204:Src/main.c    ****     */
+ 205:Src/main.c    ****   HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
+ 131              		.loc 1 205 0
  132 007c 0420     		movs	r0, #4
  133 007e FFF7FEFF 		bl	HAL_SYSTICK_CLKSourceConfig
  134              	.LVL6:
- 203:Src/main.c    **** 
- 204:Src/main.c    ****   /* SysTick_IRQn interrupt configuration */
- 205:Src/main.c    ****   HAL_NVIC_SetPriority(SysTick_IRQn, 15, 0);
- 135              		.loc 1 205 0
+ 206:Src/main.c    **** 
+ 207:Src/main.c    ****   /* SysTick_IRQn interrupt configuration */
+ 208:Src/main.c    ****   HAL_NVIC_SetPriority(SysTick_IRQn, 15, 0);
+ 135              		.loc 1 208 0
  136 0082 2246     		mov	r2, r4
  137 0084 2946     		mov	r1, r5
  138 0086 4FF0FF30 		mov	r0, #-1
  139 008a FFF7FEFF 		bl	HAL_NVIC_SetPriority
  140              	.LVL7:
- 206:Src/main.c    **** }
- 141              		.loc 1 206 0
+ 209:Src/main.c    **** }
+ 141              		.loc 1 209 0
  142 008e 1BB0     		add	sp, sp, #108
  143              	.LCFI2:
  144              		.cfi_def_cfa_offset 12
@@ -415,12 +418,12 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
  104:Src/main.c    **** 
  174              		.loc 1 104 0
  175 0006 FFF7FEFF 		bl	SystemClock_Config
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 8
+
+
  176              	.LVL9:
  111:Src/main.c    ****   MX_DMA_Init();
  177              		.loc 1 111 0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 8
-
-
  178 000a FFF7FEFF 		bl	MX_GPIO_Init
  179              	.LVL10:
  112:Src/main.c    ****   MX_SDADC1_Init();
@@ -455,206 +458,218 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 1
  201              		.loc 1 119 0
  202 002a FFF7FEFF 		bl	MX_TIM19_Init
  203              	.LVL18:
- 120:Src/main.c    ****   /* USER CODE BEGIN 2 */
+ 120:Src/main.c    ****   MX_TIM17_Init();
  204              		.loc 1 120 0
  205 002e FFF7FEFF 		bl	MX_USART1_UART_Init
  206              	.LVL19:
- 126:Src/main.c    **** 
- 207              		.loc 1 126 0
- 208 0032 FFF7FEFF 		bl	MX_FREERTOS_Init
+ 121:Src/main.c    ****   MX_TIM16_Init();
+ 207              		.loc 1 121 0
+ 208 0032 FFF7FEFF 		bl	MX_TIM17_Init
  209              	.LVL20:
- 129:Src/main.c    ****   
- 210              		.loc 1 129 0
- 211 0036 FFF7FEFF 		bl	osKernelStart
+ 122:Src/main.c    ****   MX_TIM15_Init();
+ 210              		.loc 1 122 0
+ 211 0036 FFF7FEFF 		bl	MX_TIM16_Init
  212              	.LVL21:
- 213              	.L11:
- 214 003a FEE7     		b	.L11
- 215              		.cfi_endproc
- 216              	.LFE131:
- 218              		.section	.text.HAL_TIM_PeriodElapsedCallback,"ax",%progbits
- 219              		.align	1
- 220              		.p2align 2,,3
- 221              		.global	HAL_TIM_PeriodElapsedCallback
- 222              		.syntax unified
- 223              		.thumb
- 224              		.thumb_func
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 9
+ 123:Src/main.c    ****   /* USER CODE BEGIN 2 */
+ 213              		.loc 1 123 0
+ 214 003a FFF7FEFF 		bl	MX_TIM15_Init
+ 215              	.LVL22:
+ 129:Src/main.c    **** 
+ 216              		.loc 1 129 0
+ 217 003e FFF7FEFF 		bl	MX_FREERTOS_Init
+ 218              	.LVL23:
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 9
 
 
- 225              		.fpu fpv4-sp-d16
- 227              	HAL_TIM_PeriodElapsedCallback:
- 228              	.LFB133:
- 207:Src/main.c    **** 
- 208:Src/main.c    **** /* USER CODE BEGIN 4 */
- 209:Src/main.c    **** 
- 210:Src/main.c    **** /* USER CODE END 4 */
- 211:Src/main.c    **** 
- 212:Src/main.c    **** /**
- 213:Src/main.c    ****   * @brief  Period elapsed callback in non blocking mode
- 214:Src/main.c    ****   * @note   This function is called  when TIM6 interrupt took place, inside
- 215:Src/main.c    ****   * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
- 216:Src/main.c    ****   * a global variable "uwTick" used as application time base.
- 217:Src/main.c    ****   * @param  htim : TIM handle
- 218:Src/main.c    ****   * @retval None
- 219:Src/main.c    ****   */
- 220:Src/main.c    **** void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
- 221:Src/main.c    **** {
- 229              		.loc 1 221 0
- 230              		.cfi_startproc
- 231              		@ args = 0, pretend = 0, frame = 0
- 232              		@ frame_needed = 0, uses_anonymous_args = 0
- 233              		@ link register save eliminated.
- 234              	.LVL22:
- 222:Src/main.c    ****   /* USER CODE BEGIN Callback 0 */
- 223:Src/main.c    **** 
- 224:Src/main.c    ****   /* USER CODE END Callback 0 */
- 225:Src/main.c    ****   if (htim->Instance == TIM6) {
- 235              		.loc 1 225 0
- 236 0000 0268     		ldr	r2, [r0]
- 237 0002 034B     		ldr	r3, .L16
- 238 0004 9A42     		cmp	r2, r3
- 239 0006 00D0     		beq	.L15
- 226:Src/main.c    ****     HAL_IncTick();
- 227:Src/main.c    ****   }
- 228:Src/main.c    ****   /* USER CODE BEGIN Callback 1 */
- 229:Src/main.c    **** 
- 230:Src/main.c    ****   /* USER CODE END Callback 1 */
- 231:Src/main.c    **** }
- 240              		.loc 1 231 0
- 241 0008 7047     		bx	lr
- 242              	.L15:
- 226:Src/main.c    ****     HAL_IncTick();
- 243              		.loc 1 226 0
- 244 000a FFF7FEBF 		b	HAL_IncTick
- 245              	.LVL23:
- 246              	.L17:
- 247 000e 00BF     		.align	2
- 248              	.L16:
- 249 0010 00100040 		.word	1073745920
- 250              		.cfi_endproc
- 251              	.LFE133:
- 253              		.section	.text._Error_Handler,"ax",%progbits
- 254              		.align	1
- 255              		.p2align 2,,3
- 256              		.global	_Error_Handler
- 257              		.syntax unified
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 10
-
-
- 258              		.thumb
- 259              		.thumb_func
- 260              		.fpu fpv4-sp-d16
- 262              	_Error_Handler:
- 263              	.LFB134:
+ 132:Src/main.c    ****   
+ 219              		.loc 1 132 0
+ 220 0042 FFF7FEFF 		bl	osKernelStart
+ 221              	.LVL24:
+ 222              	.L11:
+ 223 0046 FEE7     		b	.L11
+ 224              		.cfi_endproc
+ 225              	.LFE131:
+ 227              		.section	.text.HAL_TIM_PeriodElapsedCallback,"ax",%progbits
+ 228              		.align	1
+ 229              		.p2align 2,,3
+ 230              		.global	HAL_TIM_PeriodElapsedCallback
+ 231              		.syntax unified
+ 232              		.thumb
+ 233              		.thumb_func
+ 234              		.fpu fpv4-sp-d16
+ 236              	HAL_TIM_PeriodElapsedCallback:
+ 237              	.LFB133:
+ 210:Src/main.c    **** 
+ 211:Src/main.c    **** /* USER CODE BEGIN 4 */
+ 212:Src/main.c    **** 
+ 213:Src/main.c    **** /* USER CODE END 4 */
+ 214:Src/main.c    **** 
+ 215:Src/main.c    **** /**
+ 216:Src/main.c    ****   * @brief  Period elapsed callback in non blocking mode
+ 217:Src/main.c    ****   * @note   This function is called  when TIM6 interrupt took place, inside
+ 218:Src/main.c    ****   * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+ 219:Src/main.c    ****   * a global variable "uwTick" used as application time base.
+ 220:Src/main.c    ****   * @param  htim : TIM handle
+ 221:Src/main.c    ****   * @retval None
+ 222:Src/main.c    ****   */
+ 223:Src/main.c    **** void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+ 224:Src/main.c    **** {
+ 238              		.loc 1 224 0
+ 239              		.cfi_startproc
+ 240              		@ args = 0, pretend = 0, frame = 0
+ 241              		@ frame_needed = 0, uses_anonymous_args = 0
+ 242              		@ link register save eliminated.
+ 243              	.LVL25:
+ 225:Src/main.c    ****   /* USER CODE BEGIN Callback 0 */
+ 226:Src/main.c    **** 
+ 227:Src/main.c    ****   /* USER CODE END Callback 0 */
+ 228:Src/main.c    ****   if (htim->Instance == TIM6) {
+ 244              		.loc 1 228 0
+ 245 0000 0268     		ldr	r2, [r0]
+ 246 0002 034B     		ldr	r3, .L16
+ 247 0004 9A42     		cmp	r2, r3
+ 248 0006 00D0     		beq	.L15
+ 229:Src/main.c    ****     HAL_IncTick();
+ 230:Src/main.c    ****   }
+ 231:Src/main.c    ****   /* USER CODE BEGIN Callback 1 */
  232:Src/main.c    **** 
- 233:Src/main.c    **** /**
- 234:Src/main.c    ****   * @brief  This function is executed in case of error occurrence.
- 235:Src/main.c    ****   * @param  file: The file name as string.
- 236:Src/main.c    ****   * @param  line: The line in file as a number.
- 237:Src/main.c    ****   * @retval None
- 238:Src/main.c    ****   */
- 239:Src/main.c    **** void _Error_Handler(char *file, int line)
- 240:Src/main.c    **** {
- 264              		.loc 1 240 0
- 265              		.cfi_startproc
- 266              		@ Volatile: function does not return.
- 267              		@ args = 0, pretend = 0, frame = 0
- 268              		@ frame_needed = 0, uses_anonymous_args = 0
- 269              		@ link register save eliminated.
- 270              	.LVL24:
- 271              	.L19:
- 272 0000 FEE7     		b	.L19
- 273              		.cfi_endproc
- 274              	.LFE134:
- 276 0002 00BF     		.section	.text.assert_failed,"ax",%progbits
- 277              		.align	1
- 278              		.p2align 2,,3
- 279              		.global	assert_failed
- 280              		.syntax unified
- 281              		.thumb
- 282              		.thumb_func
- 283              		.fpu fpv4-sp-d16
- 285              	assert_failed:
- 286              	.LFB135:
- 241:Src/main.c    ****   /* USER CODE BEGIN Error_Handler_Debug */
- 242:Src/main.c    ****   /* User can add his own implementation to report the HAL error return state */
- 243:Src/main.c    ****   while(1)
- 244:Src/main.c    ****   {
- 245:Src/main.c    ****   }
- 246:Src/main.c    ****   /* USER CODE END Error_Handler_Debug */
- 247:Src/main.c    **** }
- 248:Src/main.c    **** 
- 249:Src/main.c    **** #ifdef  USE_FULL_ASSERT
- 250:Src/main.c    **** /**
- 251:Src/main.c    ****   * @brief  Reports the name of the source file and the source line number
- 252:Src/main.c    ****   *         where the assert_param error has occurred.
- 253:Src/main.c    ****   * @param  file: pointer to the source file name
- 254:Src/main.c    ****   * @param  line: assert_param error line source number
- 255:Src/main.c    ****   * @retval None
- 256:Src/main.c    ****   */
- 257:Src/main.c    **** void assert_failed(uint8_t* file, uint32_t line)
- 258:Src/main.c    **** { 
- 287              		.loc 1 258 0
- 288              		.cfi_startproc
- 289              		@ args = 0, pretend = 0, frame = 0
- 290              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 11
+ 233:Src/main.c    ****   /* USER CODE END Callback 1 */
+ 234:Src/main.c    **** }
+ 249              		.loc 1 234 0
+ 250 0008 7047     		bx	lr
+ 251              	.L15:
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 10
 
 
- 291              		@ link register save eliminated.
- 292              	.LVL25:
- 259:Src/main.c    ****   /* USER CODE BEGIN 6 */
- 260:Src/main.c    ****   /* User can add his own implementation to report the file name and line number,
- 261:Src/main.c    ****      tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
- 262:Src/main.c    ****   /* USER CODE END 6 */
- 263:Src/main.c    **** }
- 293              		.loc 1 263 0
- 294 0000 7047     		bx	lr
- 295              		.cfi_endproc
- 296              	.LFE135:
- 298 0002 00BF     		.text
- 299              	.Letext0:
- 300              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 301              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 302              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 303              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
- 304              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
- 305              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 306              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 307              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\lib\\gcc\\arm-none-eab
- 308              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
- 309              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
- 310              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h"
- 311              		.file 13 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h"
- 312              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
- 313              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_sdadc.h"
- 314              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
- 315              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
- 316              		.file 18 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
- 317              		.file 19 "Inc/sdadc.h"
- 318              		.file 20 "Inc/tim.h"
- 319              		.file 21 "Inc/usart.h"
- 320              		.file 22 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h"
- 321              		.file 23 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
- 322              		.file 24 "Inc/gpio.h"
- 323              		.file 25 "Inc/dma.h"
- 324              		.file 26 "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s 			page 12
+ 229:Src/main.c    ****     HAL_IncTick();
+ 252              		.loc 1 229 0
+ 253 000a FFF7FEBF 		b	HAL_IncTick
+ 254              	.LVL26:
+ 255              	.L17:
+ 256 000e 00BF     		.align	2
+ 257              	.L16:
+ 258 0010 00100040 		.word	1073745920
+ 259              		.cfi_endproc
+ 260              	.LFE133:
+ 262              		.section	.text._Error_Handler,"ax",%progbits
+ 263              		.align	1
+ 264              		.p2align 2,,3
+ 265              		.global	_Error_Handler
+ 266              		.syntax unified
+ 267              		.thumb
+ 268              		.thumb_func
+ 269              		.fpu fpv4-sp-d16
+ 271              	_Error_Handler:
+ 272              	.LFB134:
+ 235:Src/main.c    **** 
+ 236:Src/main.c    **** /**
+ 237:Src/main.c    ****   * @brief  This function is executed in case of error occurrence.
+ 238:Src/main.c    ****   * @param  file: The file name as string.
+ 239:Src/main.c    ****   * @param  line: The line in file as a number.
+ 240:Src/main.c    ****   * @retval None
+ 241:Src/main.c    ****   */
+ 242:Src/main.c    **** void _Error_Handler(char *file, int line)
+ 243:Src/main.c    **** {
+ 273              		.loc 1 243 0
+ 274              		.cfi_startproc
+ 275              		@ Volatile: function does not return.
+ 276              		@ args = 0, pretend = 0, frame = 0
+ 277              		@ frame_needed = 0, uses_anonymous_args = 0
+ 278              		@ link register save eliminated.
+ 279              	.LVL27:
+ 280              	.L19:
+ 281 0000 FEE7     		b	.L19
+ 282              		.cfi_endproc
+ 283              	.LFE134:
+ 285 0002 00BF     		.section	.text.assert_failed,"ax",%progbits
+ 286              		.align	1
+ 287              		.p2align 2,,3
+ 288              		.global	assert_failed
+ 289              		.syntax unified
+ 290              		.thumb
+ 291              		.thumb_func
+ 292              		.fpu fpv4-sp-d16
+ 294              	assert_failed:
+ 295              	.LFB135:
+ 244:Src/main.c    ****   /* USER CODE BEGIN Error_Handler_Debug */
+ 245:Src/main.c    ****   /* User can add his own implementation to report the HAL error return state */
+ 246:Src/main.c    ****   while(1)
+ 247:Src/main.c    ****   {
+ 248:Src/main.c    ****   }
+ 249:Src/main.c    ****   /* USER CODE END Error_Handler_Debug */
+ 250:Src/main.c    **** }
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 11
+
+
+ 251:Src/main.c    **** 
+ 252:Src/main.c    **** #ifdef  USE_FULL_ASSERT
+ 253:Src/main.c    **** /**
+ 254:Src/main.c    ****   * @brief  Reports the name of the source file and the source line number
+ 255:Src/main.c    ****   *         where the assert_param error has occurred.
+ 256:Src/main.c    ****   * @param  file: pointer to the source file name
+ 257:Src/main.c    ****   * @param  line: assert_param error line source number
+ 258:Src/main.c    ****   * @retval None
+ 259:Src/main.c    ****   */
+ 260:Src/main.c    **** void assert_failed(uint8_t* file, uint32_t line)
+ 261:Src/main.c    **** { 
+ 296              		.loc 1 261 0
+ 297              		.cfi_startproc
+ 298              		@ args = 0, pretend = 0, frame = 0
+ 299              		@ frame_needed = 0, uses_anonymous_args = 0
+ 300              		@ link register save eliminated.
+ 301              	.LVL28:
+ 262:Src/main.c    ****   /* USER CODE BEGIN 6 */
+ 263:Src/main.c    ****   /* User can add his own implementation to report the file name and line number,
+ 264:Src/main.c    ****      tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+ 265:Src/main.c    ****   /* USER CODE END 6 */
+ 266:Src/main.c    **** }
+ 302              		.loc 1 266 0
+ 303 0000 7047     		bx	lr
+ 304              		.cfi_endproc
+ 305              	.LFE135:
+ 307 0002 00BF     		.text
+ 308              	.Letext0:
+ 309              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 310              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 311              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 312              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
+ 313              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
+ 314              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 315              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 316              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\lib\\gcc\\arm-none-eab
+ 317              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
+ 318              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 319              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h"
+ 320              		.file 13 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h"
+ 321              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+ 322              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_sdadc.h"
+ 323              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
+ 324              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
+ 325              		.file 18 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 326              		.file 19 "Inc/sdadc.h"
+ 327              		.file 20 "Inc/tim.h"
+ 328              		.file 21 "Inc/usart.h"
+ 329              		.file 22 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h"
+ 330              		.file 23 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
+ 331              		.file 24 "Inc/gpio.h"
+ 332              		.file 25 "Inc/dma.h"
+ 333              		.file 26 "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:18     .text.SystemClock_Config:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:26     .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:151    .text.startup.main:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:159    .text.startup.main:00000000 main
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:219    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:227    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:249    .text.HAL_TIM_PeriodElapsedCallback:00000010 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:254    .text._Error_Handler:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:262    .text._Error_Handler:00000000 _Error_Handler
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:277    .text.assert_failed:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccrPg1uv.s:285    .text.assert_failed:00000000 assert_failed
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:18     .text.SystemClock_Config:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:26     .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:151    .text.startup.main:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:159    .text.startup.main:00000000 main
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:228    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:236    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:258    .text.HAL_TIM_PeriodElapsedCallback:00000010 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:263    .text._Error_Handler:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:271    .text._Error_Handler:00000000 _Error_Handler
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:286    .text.assert_failed:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cc7UQ8xa.s:294    .text.assert_failed:00000000 assert_failed
 
 UNDEFINED SYMBOLS
 HAL_RCC_OscConfig
@@ -676,6 +691,9 @@ MX_TIM5_Init
 MX_TIM12_Init
 MX_TIM19_Init
 MX_USART1_UART_Init
+MX_TIM17_Init
+MX_TIM16_Init
+MX_TIM15_Init
 MX_FREERTOS_Init
 osKernelStart
 HAL_IncTick

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   ******************************************************************************
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   * @attention
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   *
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   */
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** /* Private typedef -----------------------------------------------------------*/
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 3
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** /* Private define ------------------------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     [..] The FLASH Memory Erasing functions, includes the following functions:
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     (+) @ref HAL_FLASHEx_Erase: return only when erase has been done
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     (+) @ref HAL_FLASHEx_Erase_IT: end of erase is done when @ref HAL_FLASH_EndOfOperationCallback 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
   46 0004 534F     		ldr	r7, .L28
   47 0006 3B7E     		ldrb	r3, [r7, #24]	@ zero_extendqisi2
   48 0008 012B     		cmp	r3, #1
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 5
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 5
 
 
   49 000a 00F0A080 		beq	.L18
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
   76              		.loc 1 206 0 discriminator 4
   77 0032 802A     		cmp	r2, #128
   78 0034 00F08480 		beq	.L26
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 6
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 6
 
 
   79              		.loc 1 206 0 discriminator 7
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  121 0080 D5E90163 		ldrd	r6, r3, [r5, #4]
  122 0084 06EBC323 		add	r3, r6, r3, lsl #11
  217:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****             address < ((pEraseInit->NbPages * FLASH_PAGE_SIZE) + pEraseInit->PageAddress);
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 7
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 7
 
 
  123              		.loc 1 217 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  268:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   
  269:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   /* Check the parameters */
  270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   assert_param(IS_FLASH_TYPEERASE(pEraseInit->TypeErase));
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 8
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 8
 
 
  271:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  325:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   *         (system reset will occur)
  326:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   * @retval HAL status
  327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 9
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 9
 
 
  328:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  382:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   /* Process Locked */
  383:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   __HAL_LOCK(&pFlash);
  384:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 10
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 10
 
 
  385:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   /* Check the parameters */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  439:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     {
  440:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       /* Process Unlocked */
  441:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       __HAL_UNLOCK(&pFlash);
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 11
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 11
 
 
  442:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       return status;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  496:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   return value;
  497:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** }
  498:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 12
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 12
 
 
  499:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** /**
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  553:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   /* Get current write protected pages and the new pages to be protected ******/
  555:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   WriteProtectPage = (uint32_t)(~((~FLASH_OB_GetWRP()) | WriteProtectPage));
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 13
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 13
 
 
  556:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  610:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** #if defined(OB_WRP2_WRP2)
  611:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       if((status == HAL_OK) && (WRP2_Data != 0xFFU))
  612:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       {
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 14
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 14
 
 
  613:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****         OB->WRP2 &= WRP2_Data;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  667:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   WriteProtectPage = (FLASH_OB_GetWRP() | WriteProtectPage);
  668:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  669:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** #if defined(OB_WRP_PAGES0TO15MASK)
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 15
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 15
 
 
  670:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   WRP0_Data = (uint16_t)(WriteProtectPage & OB_WRP_PAGES0TO15MASK);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  724:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       {
  725:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****         OB->WRP2 |= WRP2_Data;
  726:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****         
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 16
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 16
 
 
  727:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****         /* Wait for last operation to be completed */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  781:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     /* If the erase operation is completed, disable the OPTER Bit */
  782:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     CLEAR_BIT(FLASH->CR, FLASH_CR_OPTER);
  783:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 17
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 17
 
 
  784:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     if(status == HAL_OK)
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  838:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** #else
  839:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     OB->USER = (UserConfig | 0x88U);
  840:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** #endif
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 18
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 18
 
 
  841:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  895:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   * @retval The FLASH Write Protection Option Bytes value
  896:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   */
  897:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** static uint32_t FLASH_OB_GetWRP(void)
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 19
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 19
 
 
  898:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  952:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** static uint8_t FLASH_OB_GetUser(void)
  953:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** {
  954:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   /* Return the User Option Byte */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 20
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 20
 
 
  955:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   return (uint8_t)((READ_REG(FLASH->OBR) & FLASH_OBR_USER) >> FLASH_POSITION_IWDGSW_BIT);
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  144              		.loc 1 217 0
  145 009e B342     		cmp	r3, r6
  146 00a0 16D9     		bls	.L6
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 21
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 21
 
 
  147              	.LVL6:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  191 00da 2148     		ldr	r0, .L28+12
  192              	.LVL12:
  193 00dc FFF7FEFF 		bl	assert_failed
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 22
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 22
 
 
  194              	.LVL13:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  238 011c 9342     		cmp	r3, r2
  239 011e 8ED8     		bhi	.L7
  240              	.L9:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 23
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 23
 
 
  207:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  288              		.cfi_endproc
  289              	.LFE126:
  291              		.section	.text.HAL_FLASHEx_Erase_IT,"ax",%progbits
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 24
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 24
 
 
  292              		.align	1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  273:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  340              		.loc 1 273 0 is_stmt 1
  341 0028 324B     		ldr	r3, .L51+8
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 25
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 25
 
 
  342 002a 1A69     		ldr	r2, [r3, #16]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  385              	.L46:
  386 0070 03EBC122 		add	r2, r3, r1, lsl #11
  387 0074 013A     		subs	r2, r2, #1
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 26
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 26
 
 
  388 0076 8242     		cmp	r2, r0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  298:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  433              		.loc 1 298 0
  434 00a0 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 27
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 27
 
 
  435              	.LVL27:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  478 00c0 42F00402 		orr	r2, r2, #4
  479 00c4 1A61     		str	r2, [r3, #16]
  523:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** }
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 28
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 28
 
 
  480              		.loc 1 523 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  531              		.loc 1 330 0
  532              		.cfi_startproc
  533              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 29
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 29
 
 
  534              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  364:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  580              		.loc 1 364 0
  581 0024 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 30
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 30
 
 
  582              	.LVL40:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  624              	.LVL43:
  625 0058 FFF7FEFF 		bl	FLASH_WaitForLastOperation
  626              	.LVL44:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 31
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 31
 
 
  353:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  670 009c 23F02003 		bic	r3, r3, #32
  671 00a0 2B61     		str	r3, [r5, #16]
  784:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     {
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 32
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 32
 
 
  672              		.loc 1 784 0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  717              	.LBB67:
  718              	.LBB65:
  764:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****   
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 33
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 33
 
 
  719              		.loc 1 764 0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  383:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  772              		.loc 1 383 0 discriminator 2
  773 0010 0122     		movs	r2, #1
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 34
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 34
 
 
  386:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  391:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     if (pOBInit->WRPState == OB_WRPSTATE_ENABLE)
  817              		.loc 1 391 0 is_stmt 0 discriminator 1
  818 0040 40F28711 		movw	r1, #391
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 35
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 35
 
 
  819 0044 A548     		ldr	r0, .L149+4
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  863 0076 0546     		mov	r5, r0
  864 0078 0028     		cmp	r0, #0
  865 007a D9D1     		bne	.L98
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 36
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 36
 
 
  700:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  905              		.loc 1 725 0
  906 00b8 894A     		ldr	r2, .L149+8
  907 00ba 9189     		ldrh	r1, [r2, #12]
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 37
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 37
 
 
  908 00bc 0B43     		orrs	r3, r3, r1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  955 00f8 07D0     		beq	.L94
  956 00fa B8F1BB0F 		cmp	r8, #187
  957 00fe 04D0     		beq	.L94
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 38
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 38
 
 
  958 0100 4FF43F71 		mov	r1, #764
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  789:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       
  1002              		.loc 1 789 0
  1003 0146 664A     		ldr	r2, .L149+8
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 39
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 39
 
 
  787:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  664:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
  1048              		.loc 1 664 0
  1049 0172 4FF42671 		mov	r1, #664
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 40
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 40
 
 
  1050 0176 5948     		ldr	r0, .L149+4
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1093              		.loc 1 834 0
  1094 01a4 43F01003 		orr	r3, r3, #16
  837:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** #else
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 41
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 41
 
 
  1095              		.loc 1 837 0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1139 01de 04D0     		beq	.L99
  1140 01e0 40F26531 		movw	r1, #869
  1141 01e4 3D48     		ldr	r0, .L149+4
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 42
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 42
 
 
  1142 01e6 FFF7FEFF 		bl	assert_failed
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1184              	.LVL113:
  1185              	.L146:
  1186              	.LBB110:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 43
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 43
 
 
  1187              	.LBB111:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1229              		.loc 1 558 0
  1230 025a FAB2     		uxtb	r2, r7
  588:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 44
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 44
 
 
  1231              		.loc 1 588 0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       {
  1276              		.loc 1 713 0
  1277 029a 0028     		cmp	r0, #0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 45
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 45
 
 
  1278 029c 3FF4FAAE 		beq	.L90
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1326              	.L150:
  1327 02d6 00BF     		.align	2
  1328              	.L149:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 46
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 46
 
 
  1329 02d8 00000000 		.word	pFlash
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  621:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****       {
  1374              		.loc 1 621 0
  1375 0320 0028     		cmp	r0, #0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 47
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 47
 
 
  1376 0322 ABD1     		bne	.L83
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1425 0002 0E4B     		ldr	r3, .L157
  1426              	.LBE123:
  1427              	.LBE122:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 48
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 48
 
 
  461:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
    1:Drivers/CMSIS/Include/cmsis_gcc.h **** /**************************************************************************//**
    2:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @file     cmsis_gcc.h
    3:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @brief    CMSIS Cortex-M Core Function/Instruction Header File
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 49
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 49
 
 
    4:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @version  V4.30
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
   58:Drivers/CMSIS/Include/cmsis_gcc.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE void __enable_irq(void)
   59:Drivers/CMSIS/Include/cmsis_gcc.h **** {
   60:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsie i" : : : "memory");
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 50
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 50
 
 
   61:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  115:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get APSR Register
  116:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the APSR Register.
  117:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               APSR Register value
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 51
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 51
 
 
  118:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  172:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  173:Drivers/CMSIS/Include/cmsis_gcc.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_MSP(void)
  174:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 52
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 52
 
 
  175:Drivers/CMSIS/Include/cmsis_gcc.h ****   register uint32_t result;
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  229:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  230:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  231:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 53
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 53
 
 
  232:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  286:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  287:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  288:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 54
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 54
 
 
  289:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask" : "=r" (result) );
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  343:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  344:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  345:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif /* (__CORTEX_M == 0x04U) || (__CORTEX_M == 0x07U) */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 55
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 55
 
 
  346:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  400:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  401:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Send Event
  402:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Send Event is a hint instruction. It causes an event to be signaled to the CPU.
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 56
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 56
 
 
  403:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  457:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("rev %0, %1" : __CMSIS_GCC_OUT_REG (result) : __CMSIS_GCC_USE_REG (value) );
  458:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  459:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 57
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 57
 
 
  460:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  514:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  is ignored by the processor.
  515:Drivers/CMSIS/Include/cmsis_gcc.h ****                  If required, a debugger can use it to store additional information about the break
  516:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 58
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 58
 
 
  517:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __BKPT(value)                       __ASM volatile ("bkpt "#value)
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1510              		.align	1
  1511              		.p2align 2,,3
  1512              		.global	HAL_FLASHEx_OBGetUserData
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 59
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 59
 
 
  1513              		.syntax unified
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1561              	.LVL150:
  1562              	.L162:
  1563              	.LBB140:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 60
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 60
 
 
  1564              	.LBB141:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1616 0000 064A     		ldr	r2, .L166
  987:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c ****     WRITE_REG(FLASH->AR, PageAddress);
  1617              		.loc 1 987 0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 61
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 61
 
 
  1618 0002 074B     		ldr	r3, .L166+4
@@ -3654,35 +3654,35 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 1
  1660              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h"
  1661              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
  1662              		.file 16 "Inc/stm32f3xx_hal_conf.h"
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s 			page 62
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s 			page 62
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_flash_ex.c
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:18     .text.HAL_FLASHEx_Erase:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:26     .text.HAL_FLASHEx_Erase:00000000 HAL_FLASHEx_Erase
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:281    .text.HAL_FLASHEx_Erase:00000154 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:292    .text.HAL_FLASHEx_Erase_IT:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:300    .text.HAL_FLASHEx_Erase_IT:00000000 HAL_FLASHEx_Erase_IT
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:510    .text.HAL_FLASHEx_Erase_IT:000000ec $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:521    .text.HAL_FLASHEx_OBErase:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:529    .text.HAL_FLASHEx_OBErase:00000000 HAL_FLASHEx_OBErase
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:729    .text.HAL_FLASHEx_OBErase:000000d8 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:739    .text.HAL_FLASHEx_OBProgram:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:747    .text.HAL_FLASHEx_OBProgram:00000000 HAL_FLASHEx_OBProgram
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1329   .text.HAL_FLASHEx_OBProgram:000002d8 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1341   .text.HAL_FLASHEx_OBProgram:000002ec $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1397   .text.HAL_FLASHEx_OBProgram:0000033c $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1404   .text.HAL_FLASHEx_OBGetConfig:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1412   .text.HAL_FLASHEx_OBGetConfig:00000000 HAL_FLASHEx_OBGetConfig
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1503   .text.HAL_FLASHEx_OBGetConfig:0000003c $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1510   .text.HAL_FLASHEx_OBGetUserData:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1518   .text.HAL_FLASHEx_OBGetUserData:00000000 HAL_FLASHEx_OBGetUserData
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1593   .text.HAL_FLASHEx_OBGetUserData:00000034 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1599   .text.FLASH_PageErase:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1607   .text.FLASH_PageErase:00000000 FLASH_PageErase
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1637   .text.FLASH_PageErase:0000001c $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccS8PcPb.s:1643   .rodata.HAL_FLASHEx_Erase.str1.4:00000000 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:18     .text.HAL_FLASHEx_Erase:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:26     .text.HAL_FLASHEx_Erase:00000000 HAL_FLASHEx_Erase
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:281    .text.HAL_FLASHEx_Erase:00000154 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:292    .text.HAL_FLASHEx_Erase_IT:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:300    .text.HAL_FLASHEx_Erase_IT:00000000 HAL_FLASHEx_Erase_IT
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:510    .text.HAL_FLASHEx_Erase_IT:000000ec $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:521    .text.HAL_FLASHEx_OBErase:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:529    .text.HAL_FLASHEx_OBErase:00000000 HAL_FLASHEx_OBErase
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:729    .text.HAL_FLASHEx_OBErase:000000d8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:739    .text.HAL_FLASHEx_OBProgram:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:747    .text.HAL_FLASHEx_OBProgram:00000000 HAL_FLASHEx_OBProgram
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1329   .text.HAL_FLASHEx_OBProgram:000002d8 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1341   .text.HAL_FLASHEx_OBProgram:000002ec $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1397   .text.HAL_FLASHEx_OBProgram:0000033c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1404   .text.HAL_FLASHEx_OBGetConfig:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1412   .text.HAL_FLASHEx_OBGetConfig:00000000 HAL_FLASHEx_OBGetConfig
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1503   .text.HAL_FLASHEx_OBGetConfig:0000003c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1510   .text.HAL_FLASHEx_OBGetUserData:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1518   .text.HAL_FLASHEx_OBGetUserData:00000000 HAL_FLASHEx_OBGetUserData
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1593   .text.HAL_FLASHEx_OBGetUserData:00000034 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1599   .text.FLASH_PageErase:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1607   .text.FLASH_PageErase:00000000 FLASH_PageErase
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1637   .text.FLASH_PageErase:0000001c $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\cciYVGpD.s:1643   .rodata.HAL_FLASHEx_Erase.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 assert_failed

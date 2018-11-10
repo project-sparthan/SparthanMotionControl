@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 1
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 1
   28:Src/freertos.c ****   *    software, must execute solely and exclusively on microcontroller or
   29:Src/freertos.c ****   *    microprocessor devices manufactured by or for STMicroelectronics.
   30:Src/freertos.c ****   * 5. Redistribution and use of this software other than as permitted under 
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 2
 
 
   31:Src/freertos.c ****   *    this license is void and will automatically terminate your rights under 
@@ -109,246 +109,519 @@ ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 1
   76:Src/freertos.c **** 
   77:Src/freertos.c **** /* Private variables ---------------------------------------------------------*/
   78:Src/freertos.c **** /* USER CODE BEGIN Variables */
-  79:Src/freertos.c **** extern TIM_HandleTypeDef htim19;
-  80:Src/freertos.c **** 
-  81:Src/freertos.c **** uint32_t encoderCount;
-  82:Src/freertos.c **** uint8_t encoderDirection;
-  83:Src/freertos.c **** /* USER CODE END Variables */
-  84:Src/freertos.c **** osThreadId defaultTaskHandle;
-  85:Src/freertos.c **** 
-  86:Src/freertos.c **** /* Private function prototypes -----------------------------------------------*/
-  87:Src/freertos.c **** /* USER CODE BEGIN FunctionPrototypes */
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 3
+  79:Src/freertos.c **** extern TIM_HandleTypeDef htim2;
+  80:Src/freertos.c **** extern TIM_HandleTypeDef htim3;
+  81:Src/freertos.c **** extern TIM_HandleTypeDef htim4;
+  82:Src/freertos.c **** extern TIM_HandleTypeDef htim5;
+  83:Src/freertos.c **** extern TIM_HandleTypeDef htim12;
+  84:Src/freertos.c **** extern TIM_HandleTypeDef htim15;
+  85:Src/freertos.c **** extern TIM_HandleTypeDef htim16;
+  86:Src/freertos.c **** extern TIM_HandleTypeDef htim17;
+  87:Src/freertos.c **** extern TIM_HandleTypeDef htim19;
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 3
 
 
   88:Src/freertos.c **** 
-  89:Src/freertos.c **** /* USER CODE END FunctionPrototypes */
-  90:Src/freertos.c **** 
-  91:Src/freertos.c **** void StartDefaultTask(void const * argument);
+  89:Src/freertos.c **** uint16_t encoderCount[5];
+  90:Src/freertos.c **** /* USER CODE END Variables */
+  91:Src/freertos.c **** osThreadId defaultTaskHandle;
   92:Src/freertos.c **** 
-  93:Src/freertos.c **** void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
-  94:Src/freertos.c **** 
-  95:Src/freertos.c **** /**
-  96:Src/freertos.c ****   * @brief  FreeRTOS initialization
-  97:Src/freertos.c ****   * @param  None
-  98:Src/freertos.c ****   * @retval None
-  99:Src/freertos.c ****   */
- 100:Src/freertos.c **** void MX_FREERTOS_Init(void) {
- 101:Src/freertos.c ****   /* USER CODE BEGIN Init */
- 102:Src/freertos.c ****        
- 103:Src/freertos.c ****   /* USER CODE END Init */
- 104:Src/freertos.c **** 
- 105:Src/freertos.c ****   /* USER CODE BEGIN RTOS_MUTEX */
- 106:Src/freertos.c ****   /* add mutexes, ... */
- 107:Src/freertos.c ****   /* USER CODE END RTOS_MUTEX */
- 108:Src/freertos.c **** 
- 109:Src/freertos.c ****   /* USER CODE BEGIN RTOS_SEMAPHORES */
- 110:Src/freertos.c ****   /* add semaphores, ... */
- 111:Src/freertos.c ****   /* USER CODE END RTOS_SEMAPHORES */
- 112:Src/freertos.c **** 
- 113:Src/freertos.c ****   /* USER CODE BEGIN RTOS_TIMERS */
- 114:Src/freertos.c ****   /* start timers, add new ones, ... */
- 115:Src/freertos.c ****   /* USER CODE END RTOS_TIMERS */
- 116:Src/freertos.c **** 
- 117:Src/freertos.c ****   /* Create the thread(s) */
- 118:Src/freertos.c ****   /* definition and creation of defaultTask */
- 119:Src/freertos.c ****   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
- 120:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
- 121:Src/freertos.c **** 
- 122:Src/freertos.c ****   /* USER CODE BEGIN RTOS_THREADS */
- 123:Src/freertos.c ****   /* add threads, ... */
- 124:Src/freertos.c ****   /* USER CODE END RTOS_THREADS */
- 125:Src/freertos.c **** 
- 126:Src/freertos.c ****   /* USER CODE BEGIN RTOS_QUEUES */
- 127:Src/freertos.c ****   /* add queues, ... */
- 128:Src/freertos.c ****   /* USER CODE END RTOS_QUEUES */
- 129:Src/freertos.c **** }
- 130:Src/freertos.c **** 
- 131:Src/freertos.c **** /* USER CODE BEGIN Header_StartDefaultTask */
- 132:Src/freertos.c **** /**
- 133:Src/freertos.c ****   * @brief  Function implementing the defaultTask thread.
- 134:Src/freertos.c ****   * @param  argument: Not used 
- 135:Src/freertos.c ****   * @retval None
- 136:Src/freertos.c ****   */
- 137:Src/freertos.c **** /* USER CODE END Header_StartDefaultTask */
- 138:Src/freertos.c **** void StartDefaultTask(void const * argument)
- 139:Src/freertos.c **** {
-  29              		.loc 1 139 0
+  93:Src/freertos.c **** /* Private function prototypes -----------------------------------------------*/
+  94:Src/freertos.c **** /* USER CODE BEGIN FunctionPrototypes */
+  95:Src/freertos.c **** 
+  96:Src/freertos.c **** /* USER CODE END FunctionPrototypes */
+  97:Src/freertos.c **** 
+  98:Src/freertos.c **** void StartDefaultTask(void const * argument);
+  99:Src/freertos.c **** 
+ 100:Src/freertos.c **** void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
+ 101:Src/freertos.c **** 
+ 102:Src/freertos.c **** /**
+ 103:Src/freertos.c ****   * @brief  FreeRTOS initialization
+ 104:Src/freertos.c ****   * @param  None
+ 105:Src/freertos.c ****   * @retval None
+ 106:Src/freertos.c ****   */
+ 107:Src/freertos.c **** void MX_FREERTOS_Init(void) {
+ 108:Src/freertos.c ****   /* USER CODE BEGIN Init */
+ 109:Src/freertos.c ****        
+ 110:Src/freertos.c ****   /* USER CODE END Init */
+ 111:Src/freertos.c **** 
+ 112:Src/freertos.c ****   /* USER CODE BEGIN RTOS_MUTEX */
+ 113:Src/freertos.c ****   /* add mutexes, ... */
+ 114:Src/freertos.c ****   /* USER CODE END RTOS_MUTEX */
+ 115:Src/freertos.c **** 
+ 116:Src/freertos.c ****   /* USER CODE BEGIN RTOS_SEMAPHORES */
+ 117:Src/freertos.c ****   /* add semaphores, ... */
+ 118:Src/freertos.c ****   /* USER CODE END RTOS_SEMAPHORES */
+ 119:Src/freertos.c **** 
+ 120:Src/freertos.c ****   /* USER CODE BEGIN RTOS_TIMERS */
+ 121:Src/freertos.c ****   /* start timers, add new ones, ... */
+ 122:Src/freertos.c ****   /* USER CODE END RTOS_TIMERS */
+ 123:Src/freertos.c **** 
+ 124:Src/freertos.c ****   /* Create the thread(s) */
+ 125:Src/freertos.c ****   /* definition and creation of defaultTask */
+ 126:Src/freertos.c ****   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
+ 127:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+ 128:Src/freertos.c **** 
+ 129:Src/freertos.c ****   /* USER CODE BEGIN RTOS_THREADS */
+ 130:Src/freertos.c ****   /* add threads, ... */
+ 131:Src/freertos.c ****   /* USER CODE END RTOS_THREADS */
+ 132:Src/freertos.c **** 
+ 133:Src/freertos.c ****   /* USER CODE BEGIN RTOS_QUEUES */
+ 134:Src/freertos.c ****   /* add queues, ... */
+ 135:Src/freertos.c ****   /* USER CODE END RTOS_QUEUES */
+ 136:Src/freertos.c **** }
+ 137:Src/freertos.c **** 
+ 138:Src/freertos.c **** /* USER CODE BEGIN Header_StartDefaultTask */
+ 139:Src/freertos.c **** /**
+ 140:Src/freertos.c ****   * @brief  Function implementing the defaultTask thread.
+ 141:Src/freertos.c ****   * @param  argument: Not used 
+ 142:Src/freertos.c ****   * @retval None
+ 143:Src/freertos.c ****   */
+ 144:Src/freertos.c **** /* USER CODE END Header_StartDefaultTask */
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 4
+
+
+ 145:Src/freertos.c **** void StartDefaultTask(void const * argument)
+ 146:Src/freertos.c **** {
+  29              		.loc 1 146 0
   30              		.cfi_startproc
-  31              		@ Volatile: function does not return.
-  32              		@ args = 0, pretend = 0, frame = 0
-  33              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 4
+  31              		@ args = 0, pretend = 0, frame = 8
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              	.LVL0:
+  34 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 36
+  37              		.cfi_offset 4, -36
+  38              		.cfi_offset 5, -32
+  39              		.cfi_offset 6, -28
+  40              		.cfi_offset 7, -24
+  41              		.cfi_offset 8, -20
+  42              		.cfi_offset 9, -16
+  43              		.cfi_offset 10, -12
+  44              		.cfi_offset 11, -8
+  45              		.cfi_offset 14, -4
+ 147:Src/freertos.c **** 
+ 148:Src/freertos.c ****   /* USER CODE BEGIN StartDefaultTask */
+ 149:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_1);
+  46              		.loc 1 149 0
+  47 0004 5048     		ldr	r0, .L5
+  48              	.LVL1:
+  49 0006 DFF868B1 		ldr	fp, .L5+40
+  50 000a 504E     		ldr	r6, .L5+4
+  51 000c 504F     		ldr	r7, .L5+8
+  52 000e DFF86491 		ldr	r9, .L5+44
+  53 0012 DFF86481 		ldr	r8, .L5+48
+  54 0016 4F4C     		ldr	r4, .L5+12
+ 146:Src/freertos.c **** 
+  55              		.loc 1 146 0
+  56 0018 83B0     		sub	sp, sp, #12
+  57              	.LCFI1:
+  58              		.cfi_def_cfa_offset 48
+  59              		.loc 1 149 0
+  60 001a 0021     		movs	r1, #0
+  61 001c 0546     		mov	r5, r0
+  62 001e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  63              	.LVL2:
+ 150:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_2);
+  64              		.loc 1 150 0
+  65 0022 0421     		movs	r1, #4
+  66 0024 2846     		mov	r0, r5
+  67 0026 FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  68              	.LVL3:
+ 151:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_1);
+  69              		.loc 1 151 0
+  70 002a 0021     		movs	r1, #0
+  71 002c 5846     		mov	r0, fp
+  72 002e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  73              	.LVL4:
+ 152:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_2);
+  74              		.loc 1 152 0
+  75 0032 0421     		movs	r1, #4
+  76 0034 5846     		mov	r0, fp
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 5
 
 
-  34              	.LVL0:
- 140:Src/freertos.c **** 
- 141:Src/freertos.c ****   /* USER CODE BEGIN StartDefaultTask */
- 142:Src/freertos.c **** 
- 143:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_ALL);
-  35              		.loc 1 143 0
-  36 0000 0648     		ldr	r0, .L5
-  37              	.LVL1:
-  38 0002 074C     		ldr	r4, .L5+4
- 139:Src/freertos.c **** 
-  39              		.loc 1 139 0
-  40 0004 08B5     		push	{r3, lr}
-  41              	.LCFI0:
-  42              		.cfi_def_cfa_offset 8
-  43              		.cfi_offset 3, -8
-  44              		.cfi_offset 14, -4
-  45              		.loc 1 143 0
-  46 0006 1821     		movs	r1, #24
-  47 0008 0546     		mov	r5, r0
-  48 000a FFF7FEFF 		bl	HAL_TIM_Encoder_Start
-  49              	.LVL2:
-  50              	.L2:
- 144:Src/freertos.c **** 
- 145:Src/freertos.c ****   /* Infinite loop */
- 146:Src/freertos.c ****   for(;;)
- 147:Src/freertos.c ****   {
- 148:Src/freertos.c ****     //HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
- 149:Src/freertos.c ****     encoderCount = __HAL_TIM_GET_COUNTER(&htim19);
-  51              		.loc 1 149 0 discriminator 1
-  52 000e 2B68     		ldr	r3, [r5]
- 150:Src/freertos.c ****     osDelay(1);
-  53              		.loc 1 150 0 discriminator 1
-  54 0010 0120     		movs	r0, #1
- 149:Src/freertos.c ****     osDelay(1);
-  55              		.loc 1 149 0 discriminator 1
-  56 0012 5B6A     		ldr	r3, [r3, #36]
-  57 0014 2360     		str	r3, [r4]
-  58              		.loc 1 150 0 discriminator 1
-  59 0016 FFF7FEFF 		bl	osDelay
-  60              	.LVL3:
-  61 001a F8E7     		b	.L2
-  62              	.L6:
-  63              		.align	2
-  64              	.L5:
-  65 001c 00000000 		.word	htim19
-  66 0020 00000000 		.word	encoderCount
-  67              		.cfi_endproc
-  68              	.LFE132:
-  70              		.section	.text.MX_FREERTOS_Init,"ax",%progbits
-  71              		.align	1
-  72              		.p2align 2,,3
-  73              		.global	MX_FREERTOS_Init
-  74              		.syntax unified
-  75              		.thumb
-  76              		.thumb_func
-  77              		.fpu fpv4-sp-d16
-  79              	MX_FREERTOS_Init:
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 5
+  77 0036 FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  78              	.LVL5:
+ 153:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_1);
+  79              		.loc 1 153 0
+  80 003a 0021     		movs	r1, #0
+  81 003c 4648     		ldr	r0, .L5+16
+  82 003e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  83              	.LVL6:
+ 154:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_2);
+  84              		.loc 1 154 0
+  85 0042 0421     		movs	r1, #4
+  86 0044 4448     		ldr	r0, .L5+16
+  87 0046 FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  88              	.LVL7:
+ 155:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim5, TIM_CHANNEL_1);
+  89              		.loc 1 155 0
+  90 004a 0021     		movs	r1, #0
+  91 004c 4348     		ldr	r0, .L5+20
+  92 004e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  93              	.LVL8:
+ 156:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim5, TIM_CHANNEL_2);
+  94              		.loc 1 156 0
+  95 0052 0421     		movs	r1, #4
+  96 0054 4148     		ldr	r0, .L5+20
+  97 0056 FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+  98              	.LVL9:
+ 157:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_1);
+  99              		.loc 1 157 0
+ 100 005a 0021     		movs	r1, #0
+ 101 005c 4048     		ldr	r0, .L5+24
+ 102 005e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+ 103              	.LVL10:
+ 158:Src/freertos.c ****   HAL_TIM_Encoder_Start(&htim19, TIM_CHANNEL_2);
+ 104              		.loc 1 158 0
+ 105 0062 0421     		movs	r1, #4
+ 106 0064 3E48     		ldr	r0, .L5+24
+ 107 0066 FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+ 108              	.LVL11:
+ 159:Src/freertos.c ****   HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_1);
+ 109              		.loc 1 159 0
+ 110 006a 0021     		movs	r1, #0
+ 111 006c 3046     		mov	r0, r6
+ 112 006e FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ 113              	.LVL12:
+ 160:Src/freertos.c ****   HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
+ 114              		.loc 1 160 0
+ 115 0072 0421     		movs	r1, #4
+ 116 0074 3046     		mov	r0, r6
+ 117 0076 FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ 118              	.LVL13:
+ 161:Src/freertos.c ****   HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_2);
+ 119              		.loc 1 161 0
+ 120 007a 0421     		movs	r1, #4
+ 121 007c 3846     		mov	r0, r7
+ 122 007e FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ 123              	.LVL14:
+ 162:Src/freertos.c ****   HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 6
 
 
-  80              	.LFB131:
- 100:Src/freertos.c ****   /* USER CODE BEGIN Init */
-  81              		.loc 1 100 0
-  82              		.cfi_startproc
-  83              		@ args = 0, pretend = 0, frame = 24
-  84              		@ frame_needed = 0, uses_anonymous_args = 0
-  85 0000 30B5     		push	{r4, r5, lr}
-  86              	.LCFI1:
-  87              		.cfi_def_cfa_offset 12
-  88              		.cfi_offset 4, -12
-  89              		.cfi_offset 5, -8
-  90              		.cfi_offset 14, -4
- 119:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
-  91              		.loc 1 119 0
-  92 0002 074D     		ldr	r5, .L9
-  93 0004 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
- 100:Src/freertos.c ****   /* USER CODE BEGIN Init */
-  94              		.loc 1 100 0
-  95 0006 87B0     		sub	sp, sp, #28
-  96              	.LCFI2:
-  97              		.cfi_def_cfa_offset 40
- 119:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
-  98              		.loc 1 119 0
-  99 0008 01AC     		add	r4, sp, #4
- 100 000a 0FC4     		stmia	r4!, {r0, r1, r2, r3}
- 101 000c 2B68     		ldr	r3, [r5]
- 102 000e 2360     		str	r3, [r4]
- 120:Src/freertos.c **** 
- 103              		.loc 1 120 0
- 104 0010 0021     		movs	r1, #0
- 105 0012 01A8     		add	r0, sp, #4
- 106 0014 FFF7FEFF 		bl	osThreadCreate
- 107              	.LVL4:
- 108 0018 024B     		ldr	r3, .L9+4
- 109 001a 1860     		str	r0, [r3]
- 129:Src/freertos.c **** 
- 110              		.loc 1 129 0
- 111 001c 07B0     		add	sp, sp, #28
- 112              	.LCFI3:
- 113              		.cfi_def_cfa_offset 12
- 114              		@ sp needed
- 115 001e 30BD     		pop	{r4, r5, pc}
- 116              	.L10:
- 117              		.align	2
- 118              	.L9:
- 119 0020 00000000 		.word	.LANCHOR0
- 120 0024 00000000 		.word	defaultTaskHandle
- 121              		.cfi_endproc
- 122              	.LFE131:
- 124              		.comm	defaultTaskHandle,4,4
- 125              		.comm	encoderDirection,1,1
- 126              		.comm	encoderCount,4,4
- 127              		.section	.rodata
- 128              		.align	2
- 129              		.set	.LANCHOR0,. + 0
- 130              	.LC2:
- 131 0000 00000000 		.word	.LC0
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 6
+ 124              		.loc 1 162 0
+ 125 0082 0021     		movs	r1, #0
+ 126 0084 4846     		mov	r0, r9
+ 127 0086 FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ 128              	.LVL15:
+ 163:Src/freertos.c ****   HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
+ 129              		.loc 1 163 0
+ 130 008a 0021     		movs	r1, #0
+ 131 008c 4046     		mov	r0, r8
+ 132 008e FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ 133              	.LVL16:
+ 164:Src/freertos.c ****   HAL_GPIO_WritePin(DIR1_GPIO_Port, DIR1_Pin, GPIO_PIN_SET);
+ 134              		.loc 1 164 0
+ 135 0092 0122     		movs	r2, #1
+ 136 0094 0421     		movs	r1, #4
+ 137 0096 4FF09040 		mov	r0, #1207959552
+ 138 009a FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 139              	.LVL17:
+ 165:Src/freertos.c ****   HAL_GPIO_WritePin(DIR2_GPIO_Port, DIR2_Pin, GPIO_PIN_SET);
+ 140              		.loc 1 165 0
+ 141 009e 0122     		movs	r2, #1
+ 142 00a0 4FF40051 		mov	r1, #8192
+ 143 00a4 2F48     		ldr	r0, .L5+28
+ 144 00a6 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 145              	.LVL18:
+ 166:Src/freertos.c ****   HAL_GPIO_WritePin(DIR3_GPIO_Port, DIR3_Pin, GPIO_PIN_SET);
+ 146              		.loc 1 166 0
+ 147 00aa 0122     		movs	r2, #1
+ 148 00ac 4FF48041 		mov	r1, #16384
+ 149 00b0 2C48     		ldr	r0, .L5+28
+ 150 00b2 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 151              	.LVL19:
+ 167:Src/freertos.c ****   HAL_GPIO_WritePin(DIR4_GPIO_Port, DIR4_Pin, GPIO_PIN_SET);
+ 152              		.loc 1 167 0
+ 153 00b6 0122     		movs	r2, #1
+ 154 00b8 4FF40041 		mov	r1, #32768
+ 155 00bc 2948     		ldr	r0, .L5+28
+ 156 00be FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 157              	.LVL20:
+ 168:Src/freertos.c ****   HAL_GPIO_WritePin(DIR5_GPIO_Port, DIR5_Pin, GPIO_PIN_SET);
+ 158              		.loc 1 168 0
+ 159 00c2 0122     		movs	r2, #1
+ 160 00c4 4021     		movs	r1, #64
+ 161 00c6 2848     		ldr	r0, .L5+32
+ 162 00c8 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 163              	.LVL21:
+ 169:Src/freertos.c **** 
+ 170:Src/freertos.c ****   uint16_t dutyCycle = 0;
+ 164              		.loc 1 170 0
+ 165 00cc 4FF0000A 		mov	r10, #0
+ 166              	.LVL22:
+ 167              	.L2:
+ 171:Src/freertos.c **** 
+ 172:Src/freertos.c ****   /* Infinite loop */
+ 173:Src/freertos.c ****   for(;;)
+ 174:Src/freertos.c ****   {
+ 175:Src/freertos.c ****     HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 7
 
 
- 132 0004 00000000 		.word	StartDefaultTask
- 133 0008 0000     		.short	0
- 134 000a 0000     		.space	2
- 135 000c 00000000 		.word	0
- 136 0010 80000000 		.word	128
- 137              		.section	.rodata.str1.4,"aMS",%progbits,1
- 138              		.align	2
- 139              	.LC0:
- 140 0000 64656661 		.ascii	"defaultTask\000"
- 140      756C7454 
- 140      61736B00 
- 141              		.text
- 142              	.Letext0:
- 143              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 144              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
- 145              		.file 4 "Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
- 146              		.file 5 "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
- 147              		.file 6 "Inc/FreeRTOSConfig.h"
- 148              		.file 7 "Drivers/CMSIS/Include/core_cm4.h"
- 149              		.file 8 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
- 150              		.file 9 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
- 151              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
- 152              		.file 11 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
- 153              		.file 12 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\lib\\gcc\\arm-none-ea
- 154              		.file 13 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
- 155              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
- 156              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
- 157              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
- 158              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s 			page 7
+ 168              		.loc 1 175 0 discriminator 1
+ 169 00d0 4FF48071 		mov	r1, #256
+ 170 00d4 2548     		ldr	r0, .L5+36
+ 171 00d6 FFF7FEFF 		bl	HAL_GPIO_TogglePin
+ 172              	.LVL23:
+ 176:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, ++dutyCycle);
+ 173              		.loc 1 176 0 discriminator 1
+ 174 00da D9F80010 		ldr	r1, [r9]
+ 177:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim17, TIM_CHANNEL_1, ++dutyCycle);
+ 175              		.loc 1 177 0 discriminator 1
+ 176 00de D8F80020 		ldr	r2, [r8]
+ 178:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim15, TIM_CHANNEL_2, ++dutyCycle);
+ 177              		.loc 1 178 0 discriminator 1
+ 178 00e2 3B68     		ldr	r3, [r7]
+ 179:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim12, TIM_CHANNEL_1, ++dutyCycle);
+ 179              		.loc 1 179 0 discriminator 1
+ 180 00e4 D6F800C0 		ldr	ip, [r6]
+ 176:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim17, TIM_CHANNEL_1, ++dutyCycle);
+ 181              		.loc 1 176 0 discriminator 1
+ 182 00e8 0AF10100 		add	r0, r10, #1
+ 183 00ec 80B2     		uxth	r0, r0
+ 184 00ee 4863     		str	r0, [r1, #52]
+ 185              	.LVL24:
+ 177:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim15, TIM_CHANNEL_2, ++dutyCycle);
+ 186              		.loc 1 177 0 discriminator 1
+ 187 00f0 0AF10201 		add	r1, r10, #2
+ 188 00f4 89B2     		uxth	r1, r1
+ 189 00f6 5163     		str	r1, [r2, #52]
+ 190              	.LVL25:
+ 178:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim12, TIM_CHANNEL_1, ++dutyCycle);
+ 191              		.loc 1 178 0 discriminator 1
+ 192 00f8 0AF10302 		add	r2, r10, #3
+ 193 00fc 92B2     		uxth	r2, r2
+ 194 00fe 9A63     		str	r2, [r3, #56]
+ 195              	.LVL26:
+ 196              		.loc 1 179 0 discriminator 1
+ 197 0100 0AF10403 		add	r3, r10, #4
+ 198 0104 9BB2     		uxth	r3, r3
+ 199 0106 CCF83430 		str	r3, [ip, #52]
+ 180:Src/freertos.c ****     __HAL_TIM_SET_COMPARE(&htim12, TIM_CHANNEL_2, ++dutyCycle);
+ 200              		.loc 1 180 0 discriminator 1
+ 201 010a 0AF1050A 		add	r10, r10, #5
+ 202              	.LVL27:
+ 181:Src/freertos.c ****     encoderCount[0] = __HAL_TIM_GET_COUNTER(&htim2);
+ 182:Src/freertos.c ****     encoderCount[1] = __HAL_TIM_GET_COUNTER(&htim3);
+ 183:Src/freertos.c ****     encoderCount[2] = __HAL_TIM_GET_COUNTER(&htim4);
+ 203              		.loc 1 183 0 discriminator 1
+ 204 010e 124B     		ldr	r3, .L5+16
+ 181:Src/freertos.c ****     encoderCount[0] = __HAL_TIM_GET_COUNTER(&htim2);
+ 205              		.loc 1 181 0 discriminator 1
+ 206 0110 2968     		ldr	r1, [r5]
+ 184:Src/freertos.c ****     encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);
+ 207              		.loc 1 184 0 discriminator 1
+ 208 0112 124A     		ldr	r2, .L5+20
+ 183:Src/freertos.c ****     encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);
+ 209              		.loc 1 183 0 discriminator 1
+ 210 0114 1B68     		ldr	r3, [r3]
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 8
+
+
+ 182:Src/freertos.c ****     encoderCount[2] = __HAL_TIM_GET_COUNTER(&htim4);
+ 211              		.loc 1 182 0 discriminator 1
+ 212 0116 DBF80000 		ldr	r0, [fp]
+ 183:Src/freertos.c ****     encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);
+ 213              		.loc 1 183 0 discriminator 1
+ 214 011a 0193     		str	r3, [sp, #4]
+ 180:Src/freertos.c ****     encoderCount[0] = __HAL_TIM_GET_COUNTER(&htim2);
+ 215              		.loc 1 180 0 discriminator 1
+ 216 011c 1FFA8AFA 		uxth	r10, r10
+ 217              	.LVL28:
+ 218 0120 CCF838A0 		str	r10, [ip, #56]
+ 219              		.loc 1 184 0 discriminator 1
+ 220 0124 1368     		ldr	r3, [r2]
+ 181:Src/freertos.c ****     encoderCount[1] = __HAL_TIM_GET_COUNTER(&htim3);
+ 221              		.loc 1 181 0 discriminator 1
+ 222 0126 4A6A     		ldr	r2, [r1, #36]
+ 223 0128 2280     		strh	r2, [r4]	@ movhi
+ 185:Src/freertos.c ****     encoderCount[4] = __HAL_TIM_GET_COUNTER(&htim19);
+ 224              		.loc 1 185 0 discriminator 1
+ 225 012a 0D4A     		ldr	r2, .L5+24
+ 182:Src/freertos.c ****     encoderCount[2] = __HAL_TIM_GET_COUNTER(&htim4);
+ 226              		.loc 1 182 0 discriminator 1
+ 227 012c 416A     		ldr	r1, [r0, #36]
+ 183:Src/freertos.c ****     encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);
+ 228              		.loc 1 183 0 discriminator 1
+ 229 012e 0198     		ldr	r0, [sp, #4]
+ 230              		.loc 1 185 0 discriminator 1
+ 231 0130 1268     		ldr	r2, [r2]
+ 183:Src/freertos.c ****     encoderCount[3] = __HAL_TIM_GET_COUNTER(&htim5);
+ 232              		.loc 1 183 0 discriminator 1
+ 233 0132 406A     		ldr	r0, [r0, #36]
+ 234 0134 A080     		strh	r0, [r4, #4]	@ movhi
+ 184:Src/freertos.c ****     encoderCount[4] = __HAL_TIM_GET_COUNTER(&htim19);
+ 235              		.loc 1 184 0 discriminator 1
+ 236 0136 5B6A     		ldr	r3, [r3, #36]
+ 237              		.loc 1 185 0 discriminator 1
+ 238 0138 526A     		ldr	r2, [r2, #36]
+ 182:Src/freertos.c ****     encoderCount[2] = __HAL_TIM_GET_COUNTER(&htim4);
+ 239              		.loc 1 182 0 discriminator 1
+ 240 013a 6180     		strh	r1, [r4, #2]	@ movhi
+ 186:Src/freertos.c ****     osDelay(1);
+ 241              		.loc 1 186 0 discriminator 1
+ 242 013c 0120     		movs	r0, #1
+ 184:Src/freertos.c ****     encoderCount[4] = __HAL_TIM_GET_COUNTER(&htim19);
+ 243              		.loc 1 184 0 discriminator 1
+ 244 013e E380     		strh	r3, [r4, #6]	@ movhi
+ 185:Src/freertos.c ****     osDelay(1);
+ 245              		.loc 1 185 0 discriminator 1
+ 246 0140 2281     		strh	r2, [r4, #8]	@ movhi
+ 247              		.loc 1 186 0 discriminator 1
+ 248 0142 FFF7FEFF 		bl	osDelay
+ 249              	.LVL29:
+ 250 0146 C3E7     		b	.L2
+ 251              	.L6:
+ 252              		.align	2
+ 253              	.L5:
+ 254 0148 00000000 		.word	htim2
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 9
+
+
+ 255 014c 00000000 		.word	htim12
+ 256 0150 00000000 		.word	htim15
+ 257 0154 00000000 		.word	encoderCount
+ 258 0158 00000000 		.word	htim4
+ 259 015c 00000000 		.word	htim5
+ 260 0160 00000000 		.word	htim19
+ 261 0164 00080048 		.word	1207961600
+ 262 0168 00040048 		.word	1207960576
+ 263 016c 000C0048 		.word	1207962624
+ 264 0170 00000000 		.word	htim3
+ 265 0174 00000000 		.word	htim16
+ 266 0178 00000000 		.word	htim17
+ 267              		.cfi_endproc
+ 268              	.LFE132:
+ 270              		.section	.text.MX_FREERTOS_Init,"ax",%progbits
+ 271              		.align	1
+ 272              		.p2align 2,,3
+ 273              		.global	MX_FREERTOS_Init
+ 274              		.syntax unified
+ 275              		.thumb
+ 276              		.thumb_func
+ 277              		.fpu fpv4-sp-d16
+ 279              	MX_FREERTOS_Init:
+ 280              	.LFB131:
+ 107:Src/freertos.c ****   /* USER CODE BEGIN Init */
+ 281              		.loc 1 107 0
+ 282              		.cfi_startproc
+ 283              		@ args = 0, pretend = 0, frame = 24
+ 284              		@ frame_needed = 0, uses_anonymous_args = 0
+ 285 0000 30B5     		push	{r4, r5, lr}
+ 286              	.LCFI2:
+ 287              		.cfi_def_cfa_offset 12
+ 288              		.cfi_offset 4, -12
+ 289              		.cfi_offset 5, -8
+ 290              		.cfi_offset 14, -4
+ 126:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+ 291              		.loc 1 126 0
+ 292 0002 074D     		ldr	r5, .L9
+ 293 0004 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
+ 107:Src/freertos.c ****   /* USER CODE BEGIN Init */
+ 294              		.loc 1 107 0
+ 295 0006 87B0     		sub	sp, sp, #28
+ 296              	.LCFI3:
+ 297              		.cfi_def_cfa_offset 40
+ 126:Src/freertos.c ****   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+ 298              		.loc 1 126 0
+ 299 0008 01AC     		add	r4, sp, #4
+ 300 000a 0FC4     		stmia	r4!, {r0, r1, r2, r3}
+ 301 000c 2B68     		ldr	r3, [r5]
+ 302 000e 2360     		str	r3, [r4]
+ 127:Src/freertos.c **** 
+ 303              		.loc 1 127 0
+ 304 0010 0021     		movs	r1, #0
+ 305 0012 01A8     		add	r0, sp, #4
+ 306 0014 FFF7FEFF 		bl	osThreadCreate
+ 307              	.LVL30:
+ 308 0018 024B     		ldr	r3, .L9+4
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 10
+
+
+ 309 001a 1860     		str	r0, [r3]
+ 136:Src/freertos.c **** 
+ 310              		.loc 1 136 0
+ 311 001c 07B0     		add	sp, sp, #28
+ 312              	.LCFI4:
+ 313              		.cfi_def_cfa_offset 12
+ 314              		@ sp needed
+ 315 001e 30BD     		pop	{r4, r5, pc}
+ 316              	.L10:
+ 317              		.align	2
+ 318              	.L9:
+ 319 0020 00000000 		.word	.LANCHOR0
+ 320 0024 00000000 		.word	defaultTaskHandle
+ 321              		.cfi_endproc
+ 322              	.LFE131:
+ 324              		.comm	defaultTaskHandle,4,4
+ 325              		.comm	encoderCount,10,4
+ 326              		.section	.rodata
+ 327              		.align	2
+ 328              		.set	.LANCHOR0,. + 0
+ 329              	.LC2:
+ 330 0000 00000000 		.word	.LC0
+ 331 0004 00000000 		.word	StartDefaultTask
+ 332 0008 0000     		.short	0
+ 333 000a 0000     		.space	2
+ 334 000c 00000000 		.word	0
+ 335 0010 80000000 		.word	128
+ 336              		.section	.rodata.str1.4,"aMS",%progbits,1
+ 337              		.align	2
+ 338              	.LC0:
+ 339 0000 64656661 		.ascii	"defaultTask\000"
+ 339      756C7454 
+ 339      61736B00 
+ 340              		.text
+ 341              	.Letext0:
+ 342              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 343              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\include
+ 344              		.file 4 "Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
+ 345              		.file 5 "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
+ 346              		.file 6 "Inc/FreeRTOSConfig.h"
+ 347              		.file 7 "Drivers/CMSIS/Include/core_cm4.h"
+ 348              		.file 8 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
+ 349              		.file 9 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
+ 350              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
+ 351              		.file 11 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
+ 352              		.file 12 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\lib\\gcc\\arm-none-ea
+ 353              		.file 13 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
+ 354              		.file 14 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 355              		.file 15 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
+ 356              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+ 357              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
+ 358              		.file 18 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ARM GAS  C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 freertos.c
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:18     .text.StartDefaultTask:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:26     .text.StartDefaultTask:00000000 StartDefaultTask
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:65     .text.StartDefaultTask:0000001c $d
-                            *COM*:00000004 encoderCount
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:71     .text.MX_FREERTOS_Init:00000000 $t
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:79     .text.MX_FREERTOS_Init:00000000 MX_FREERTOS_Init
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:119    .text.MX_FREERTOS_Init:00000020 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:18     .text.StartDefaultTask:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:26     .text.StartDefaultTask:00000000 StartDefaultTask
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:254    .text.StartDefaultTask:00000148 $d
+                            *COM*:0000000a encoderCount
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:271    .text.MX_FREERTOS_Init:00000000 $t
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:279    .text.MX_FREERTOS_Init:00000000 MX_FREERTOS_Init
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:319    .text.MX_FREERTOS_Init:00000020 $d
                             *COM*:00000004 defaultTaskHandle
-                            *COM*:00000001 encoderDirection
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:128    .rodata:00000000 $d
-C:\Users\ALEX'S~1\AppData\Local\Temp\ccZyrH2y.s:138    .rodata.str1.4:00000000 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:327    .rodata:00000000 $d
+C:\Users\ALEX'S~1\AppData\Local\Temp\ccTzDJDy.s:337    .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_TIM_Encoder_Start
+HAL_TIM_PWM_Start
+HAL_GPIO_WritePin
+HAL_GPIO_TogglePin
 osDelay
+htim2
+htim12
+htim15
+htim4
+htim5
 htim19
+htim3
+htim16
+htim17
 osThreadCreate

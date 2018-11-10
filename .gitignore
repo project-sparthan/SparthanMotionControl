@@ -1,2 +1,7 @@
 
 build/
+*.lst
+*.lst
+*.o
+*.o
+build/main.o

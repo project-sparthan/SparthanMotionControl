@@ -1,32 +1,32 @@
 
-Breakpoint=main.c:175, State=BP_STATE_DISABLED
+Breakpoint=main.c:177, State=BP_STATE_DISABLED
 GraphedExpression="encoderCount", DisplayFormat=DISPLAY_FORMAT_DEC
+OpenDocument="main.c", FilePath="C:\GCC_STM\SparthanMotionControl\Src\main.c", Line=66
 OpenDocument="FreeRTOSConfig.h", FilePath="C:\GCC_STM\SparthanMotionControl\Inc\FreeRTOSConfig.h", Line=83
 OpenDocument="portmacro.h", FilePath="C:\GCC_STM\SparthanMotionControl\Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F\portmacro.h", Line=188
 OpenDocument="list.c", FilePath="C:\GCC_STM\SparthanMotionControl\Middlewares/Third_Party/FreeRTOS/Source\list.c", Line=93
 OpenDocument="freertos.c", FilePath="C:\GCC_STM\SparthanMotionControl\Src\freertos.c", Line=72
-OpenDocument="tasks.c", FilePath="C:\GCC_STM\SparthanMotionControl\Middlewares/Third_Party/FreeRTOS/Source\tasks.c", Line=3372
+OpenDocument="tasks.c", FilePath="C:\GCC_STM\SparthanMotionControl\Middlewares/Third_Party/FreeRTOS/Source\tasks.c", Line=2059
 OpenDocument="cmsis_os.c", FilePath="C:\GCC_STM\SparthanMotionControl\Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS\cmsis_os.c", Line=1389
 OpenDocument="stm32f3xx_it.c", FilePath="C:\GCC_STM\SparthanMotionControl\Src\stm32f3xx_it.c", Line=43
-OpenDocument="main.c", FilePath="C:\GCC_STM\SparthanMotionControl\Src\main.c", Line=65
 OpenDocument="port.c", FilePath="C:/GCC_STM/SparthanMotionControl/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c", Line=249
 OpenDocument="startup_stm32f373xc.s", FilePath="C:/GCC_STM/SparthanMotionControl/startup_stm32f373xc.s", Line=53
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=695, h=730, FilterBarShown=1
-OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=711, h=1476, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=695, h=731, FilterBarShown=1
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=711, h=765, FilterBarShown=0, ExecCountersShown=0
 OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ExecCountersShown=0
-OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=711, h=1476, FilterBarShown=1
-OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=711, h=1476, FilterBarShown=0
-OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=695, h=764, FilterBarShown=1
-OpenWindow="Memory Usage", DockArea=RIGHT, x=0, y=0, w=711, h=1476, FilterBarShown=0
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=711, h=765, FilterBarShown=1
+OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=1, w=711, h=710, FilterBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=695, h=763, FilterBarShown=1
+OpenWindow="Memory Usage", DockArea=RIGHT, x=0, y=0, w=711, h=765, FilterBarShown=0
 OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1570, h=503, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME
 OpenWindow="Tasks", DockArea=BOTTOM, x=1, y=0, w=1193, h=503, FilterBarShown=0
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type"], ColWidths=[105;114;114;66;291]
 TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type"], ColWidths=[114;114;114;66;91;212]
-TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type"], ColWidths=[105;114;114;66;100]
 TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[235;81;48;53;257]
 TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[178;61;53;57;325]
 TableHeader="DataGraphSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    ";" encoderCount"], ColWidths=[91;57;69]
 TableHeader="Data Graph", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[114;71;76;63;66;96;115;126;843]
-TableHeader="Tasks", SortCol="None", SortOrder="ASCENDING", VisibleCols=["ID";"Priority";"Name";"Status";"Timeout";"Notify Value";"Notify State";"Stack Info (Free / Size)";"Run Count";"Mutex Count"], ColWidths=[101;78;91;91;62;81;80;148;73;388]
 TableHeader="tableWidgetSamples", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Channel 0"], ColWidths=[108;153;162]
+TableHeader="Tasks", SortCol="None", SortOrder="ASCENDING", VisibleCols=["ID";"Priority";"Name";"Status";"Timeout";"Notify Value";"Notify State";"Stack Info (Free / Size)";"Run Count";"Mutex Count"], ColWidths=[101;78;91;91;62;81;80;148;73;388]
 WatchedExpression="encoderCount", RefreshRate=5
